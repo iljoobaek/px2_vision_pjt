@@ -12,6 +12,8 @@
 
 #include "display.h"
 
+#define LIVE_STREAM
+
 static NvU32
 _DisplayThreadFunc(void* data)
 {
@@ -32,6 +34,7 @@ _DisplayThreadFunc(void* data)
         }
 
         /* Display to screen */
+#if !defined(LIVE_STREAM)
         if (displayCtx->displayEnabled) {
             releaseList = &releaseFrames[0];
             status = NvMediaIDPFlip(displayCtx->idpCtx,
@@ -58,7 +61,7 @@ _DisplayThreadFunc(void* data)
             }
             image=NULL;
         }
-
+#endif
     loop_done:
         if (image) {
             if (NvQueuePut((NvQueue *)image->tag,

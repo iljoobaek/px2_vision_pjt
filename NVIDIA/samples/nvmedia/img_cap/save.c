@@ -38,6 +38,15 @@ enum PixelColor {
     NUM_PIXEL_COLORS
 };
 
+//#define TIME_MEASURE
+
+#ifdef TIME_MEASURE
+extern NvU64 tcapture;
+NvU64 taverage = 0;
+NvU64 preTend; 
+int nImage = 0;
+#endif
+
 static NvMediaStatus
 _ConvGetPixelOffsets(NvMediaRawPixelOrder pixelOrder,
                      NvU32 *xOffsets,
@@ -128,6 +137,27 @@ _ConvRawToRgba(NvMediaImage *imgSrc,
     }
 
     status = NvMediaImageGetBits(imgSrc, NULL, (void **)&pSrcBuff, &srcPitch);
+    //time measure
+#ifdef TIME_MEASURE
+    NvU64 tend; 
+    if (tend == preTend){
+        printf("One capture multiple images\n");
+    }
+    preTend = tend;
+    GetTimeMicroSec(&tend);
+    nImage += 1;
+    taverage += tend - tcapture;
+    if (nImage%20 == 0){
+        //printf("reset=========================\n");
+        printf("%lld\n", taverage/nImage);
+        taverage = 0;
+        nImage = 0;
+    }
+#endif
+    //send here
+    sendBuf(pSrcBuff, srcImageSize);
+    //printf("%d\n", srcImageSize);
+    
     NvMediaImageUnlock(imgSrc);
     if (status != NVMEDIA_STATUS_OK) {
         LOG_ERR("%s: NvMediaImageGetBits() failed\n", __func__);
