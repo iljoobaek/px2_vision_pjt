@@ -13,6 +13,7 @@
 #include "capture.h"
 #include "save.h"
 #include "composite.h"
+#include "client.h"
 
 #define CONV_GET_X_OFFSET(xoffsets, red, green1, green2, blue) \
             xoffsets[red] = 0;\
