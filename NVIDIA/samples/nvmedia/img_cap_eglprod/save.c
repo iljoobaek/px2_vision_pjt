@@ -59,6 +59,57 @@ _CreateOutputFileName(
 }
 
 static NvMediaStatus
+_CreateImageQueue(NvMediaDevice *device,
+                  NvQueue **queue,
+                  NvU32 queueSize,
+                  NvU32 width,
+                  NvU32 height,
+                  NvMediaSurfaceType surfType,
+                  NvMediaSurfAllocAttr *surfAllocAttrs,
+                  NvU32 numSurfAllocAttrs)
+{
+    NvU32 j = 0;
+    NvMediaImage *image = NULL;
+    NvMediaStatus status = NVMEDIA_STATUS_OK;
+
+    if (NvQueueCreate(queue,
+                      queueSize,
+                      sizeof(NvMediaImage *)) != NVMEDIA_STATUS_OK) {
+       LOG_ERR("%s: Failed to create image Queue \n", __func__);
+       goto failed;
+    }
+
+    for (j = 0; j < queueSize; j++) {
+        LOG_DBG("%s: NvMediaImageCreateNew\n", __func__);
+        image =  NvMediaImageCreateNew(device,           // device
+                                    surfType,           // NvMediaSurfaceType type
+                                    surfAllocAttrs,     // surf allocation attrs
+                                    numSurfAllocAttrs,  // num attrs
+                                    0);                 // flags
+        if (!image) {
+            LOG_ERR("%s: NvMediaImageCreate failed for image %d",
+                        __func__, j);
+            status = NVMEDIA_STATUS_ERROR;
+            goto failed;
+        }
+
+        image->tag = *queue;
+
+        if (IsFailed(NvQueuePut(*queue,
+                                (void *)&image,
+                                NV_TIMEOUT_INFINITE))) {
+            LOG_ERR("%s: Pushing image to image queue failed\n", __func__);
+            status = NVMEDIA_STATUS_ERROR;
+            goto failed;
+        }
+    }
+
+    return NVMEDIA_STATUS_OK;
+failed:
+    return status;
+}
+
+static NvMediaStatus
 _ConvGetPixelOffsets(NvMediaRawPixelOrder pixelOrder,
                      NvU32 *xOffsets,
                      NvU32 *yOffsets)
@@ -235,8 +286,7 @@ done:
 }
 
 static uint32_t
-_SaveThreadFunc(
-                void *data)
+_SaveThreadFunc(void *data)
 {
     SaveThreadCtx *threadCtx = (SaveThreadCtx *)data;
     NvMediaImage *image = NULL;
@@ -288,15 +338,47 @@ _SaveThreadFunc(
             goto loop_done;
         }
 
-        while (NvQueuePut(threadCtx->outputQueue,
-                        &image,
-                        SAVE_ENQUEUE_TIMEOUT) != NVMEDIA_STATUS_OK) {
-            LOG_DBG("%s: savethread output queue %d is full\n",
-                __func__, threadCtx->virtualGroupIndex);
-            if (*threadCtx->quit)
-                goto loop_done;
-        }
-        image=NULL;
+		if (attr[NVM_SURF_ATTR_SURF_TYPE].value == NVM_SURF_ATTR_SURF_TYPE_RAW) {
+			/* Acquire image for storing converting images */
+			while (NvQueueGet(threadCtx->conversionQueue,
+						(void *)&convertedImage,
+						SAVE_DEQUEUE_TIMEOUT) != NVMEDIA_STATUS_OK) {
+				LOG_ERR("%s: conversionQueue is empty\n", __func__);
+				if (*threadCtx->quit)
+					goto loop_done;
+			}
+
+			status = _ConvRawToRgba(image,
+					convertedImage,
+					threadCtx->rawBytesPerPixel,
+					threadCtx->pixelOrder);
+			if (status != NVMEDIA_STATUS_OK) {
+				LOG_ERR("%s: convRawToRgba failed for image %d in saveThread %d\n",
+						__func__, totalSavedFrames, threadCtx->virtualGroupIndex);
+				*threadCtx->quit = NVMEDIA_TRUE;
+				goto loop_done;
+			}
+
+			while (NvQueuePut(threadCtx->outputQueue,
+						&convertedImage,
+						SAVE_ENQUEUE_TIMEOUT) != NVMEDIA_STATUS_OK) {
+				LOG_DBG("%s: savethread output queue %d is full\n",
+						__func__, threadCtx->virtualGroupIndex);
+				if (*threadCtx->quit)
+					goto loop_done;
+			}
+			convertedImage = NULL;
+		} else {
+			while (NvQueuePut(threadCtx->outputQueue,
+						&image,
+						SAVE_ENQUEUE_TIMEOUT) != NVMEDIA_STATUS_OK) {
+				LOG_DBG("%s: savethread output queue %d is full\n",
+						__func__, threadCtx->virtualGroupIndex);
+				if (*threadCtx->quit)
+					goto loop_done;
+			}
+			image=NULL;
+		}
 
 
         if (threadCtx->numFramesToSave &&
@@ -338,6 +420,8 @@ SaveInit(
     NvCaptureContext   *captureCtx = NULL;
     TestArgs           *testArgs = mainCtx->testArgs;
     NvMediaStatus status = NVMEDIA_STATUS_ERROR;
+    NvMediaSurfAllocAttr surfAllocAttrs[8];
+    NvU32 numSurfAllocAttrs;
 
     /* allocating save context */
     mainCtx->ctxs[SAVE_ELEMENT]= malloc(sizeof(NvSaveContext));
@@ -381,10 +465,10 @@ SaveInit(
         LOG_ERR("%s:NvMediaSurfaceFormatGetAttrs failed\n", __func__);
         goto failed;
     }
-    saveCtx->threadCtx[i].width =  (attr[NVM_SURF_ATTR_SURF_TYPE].value == NVM_SURF_ATTR_SURF_TYPE_RAW )?
-                                       captureCtx->threadCtx[i].width/2 : captureCtx->threadCtx[i].width;
-    saveCtx->threadCtx[i].height = (attr[NVM_SURF_ATTR_SURF_TYPE].value == NVM_SURF_ATTR_SURF_TYPE_RAW )?
-                                       captureCtx->threadCtx[i].height/2 : captureCtx->threadCtx[i].height;
+    saveCtx->threadCtx.width =  (attr[NVM_SURF_ATTR_SURF_TYPE].value == NVM_SURF_ATTR_SURF_TYPE_RAW )?
+                                       captureCtx->threadCtx[0].width/2 : captureCtx->threadCtx[0].width;
+    saveCtx->threadCtx.height = (attr[NVM_SURF_ATTR_SURF_TYPE].value == NVM_SURF_ATTR_SURF_TYPE_RAW )?
+                                       captureCtx->threadCtx[0].height/2 : captureCtx->threadCtx[0].height;
     if (NvQueueCreate(&saveCtx->threadCtx.inputQueue,
                     SAVE_QUEUE_SIZE,
                     sizeof(NvMediaImage *)) != NVMEDIA_STATUS_OK) {
@@ -393,6 +477,38 @@ SaveInit(
         status = NVMEDIA_STATUS_ERROR;
         goto failed;
     }
+
+	if (attr[NVM_SURF_ATTR_SURF_TYPE].value == NVM_SURF_ATTR_SURF_TYPE_RAW ) {
+		/* For RAW images, create conversion queue for converting RAW to RGB images */
+
+		surfAllocAttrs[0].type = NVM_SURF_ATTR_WIDTH;
+		surfAllocAttrs[0].value = saveCtx->threadCtx.width;
+		surfAllocAttrs[1].type = NVM_SURF_ATTR_HEIGHT;
+		surfAllocAttrs[1].value = saveCtx->threadCtx.height;
+		surfAllocAttrs[2].type = NVM_SURF_ATTR_CPU_ACCESS;
+		surfAllocAttrs[2].value = NVM_SURF_ATTR_CPU_ACCESS_UNCACHED;
+		numSurfAllocAttrs = 3;
+
+		NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
+		NVM_SURF_FMT_SET_ATTR_RGBA(surfFormatAttrs,RGBA,UINT,8,PL);
+		status = _CreateImageQueue(saveCtx->device,
+				&saveCtx->threadCtx.conversionQueue,
+				SAVE_QUEUE_SIZE,
+				saveCtx->threadCtx.width,
+				saveCtx->threadCtx.height,
+				NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX),
+				surfAllocAttrs,
+				numSurfAllocAttrs);
+		if (status != NVMEDIA_STATUS_OK) {
+			LOG_ERR("%s: conversionQueue creation failed\n", __func__);
+			goto failed;
+		}
+
+		LOG_DBG("%s: Save Conversion Queue : %ux%u, images: %u \n",
+				__func__, saveCtx->threadCtx.width,
+				saveCtx->threadCtx.height,
+				SAVE_QUEUE_SIZE);
+	}
 
     return NVMEDIA_STATUS_OK;
 failed:
