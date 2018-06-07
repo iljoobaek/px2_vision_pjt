@@ -6,11 +6,13 @@
 # distribution of this software and related documentation without an express
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
 
+real_dir = ../../../../
+
 include ../../../make/nvdefs.mk
 
 TARGETS = nvm_eglstream
 
-CFLAGS   := $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) -I. -I../utils -Iwinintf
+CFLAGS   := $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) -I. -I$(real_dir)../utils -Iwinintf
 CPPFLAGS := $(NV_PLATFORM_SDK_INC) $(NV_PLATFORM_CPPFLAGS)
 LDFLAGS  := $(NV_PLATFORM_SDK_LIB) $(NV_PLATFORM_TARGET_LIB) $(NV_PLATFORM_LDFLAGS)
 
@@ -26,12 +28,12 @@ OBJS   += nvmimg_producer.o
 OBJS   += nvmvid_consumer.o
 OBJS   += nvmvid_encode.o
 OBJS   += nvmvid_producer.o
-OBJS   += ../utils/buffer_utils.o
-OBJS   += ../utils/config_parser.o
-OBJS   += ../utils/log_utils.o
-OBJS   += ../utils/misc_utils.o
-OBJS   += ../utils/surf_utils.o
-OBJS   += ../utils/thread_utils.o
+OBJS   += $(real_dir)../utils/buffer_utils.o
+OBJS   += $(real_dir)../utils/config_parser.o
+OBJS   += $(real_dir)../utils/log_utils.o
+OBJS   += $(real_dir)../utils/misc_utils.o
+OBJS   += $(real_dir)../utils/surf_utils.o
+OBJS   += $(real_dir)../utils/thread_utils.o
 OBJS   += winintf/egl_utils.o
 OBJS   += testmain.o
 OBJS   += cuda_producer.o
@@ -57,7 +59,7 @@ ifeq ($(NV_PLATFORM_OS), QNX)
   CFLAGS += -DNVMEDIA_QNX
 endif
 
-LDLIBS := -L ../utils
+LDLIBS := -L $(real_dir)../utils
 LDLIBS := -lnvmedia
 LDLIBS += -lnvtvmr
 LDLIBS += -lEGL
