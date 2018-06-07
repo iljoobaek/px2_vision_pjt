@@ -8,7 +8,7 @@
 
 real_dir = ../../../../
 
-include ../../../make/nvdefs.mk
+include $(real_dir)../../../make/nvdefs.mk
 
 TARGETS = nvm_eglstream
 
