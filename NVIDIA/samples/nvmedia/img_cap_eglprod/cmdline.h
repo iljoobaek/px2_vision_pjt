@@ -62,6 +62,7 @@ typedef struct {
     uint32_t                    isRgba;
     NvMediaBool                 useVirtualChannels;
     NvU32                       numSensors;
+    NvU32                       numLinks;
     NvU32                       numVirtualChannels;
     NvMediaBool                 useAggregationFlag;
 } TestArgs;

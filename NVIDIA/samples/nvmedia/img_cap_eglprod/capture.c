@@ -17,18 +17,13 @@ _SetExtImgDevParameters(NvCaptureContext *ctx,
 {
     unsigned int i;
 
-    LOG_ERR("%s: %d %p %p\n", __func__, __LINE__, configParam, captureParams);
     configParam->desAddr = captureParams->desAddr;
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     configParam->brdcstSerAddr = captureParams->brdcstSerAddr;
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     configParam->brdcstSensorAddr = captureParams->brdcstSensorAddr;
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     for (i = 0; i < ctx->numSensors; i++) {
         configParam->serAddr[i] = captureParams->serAddr[i];
         configParam->sensorAddr[i] = captureParams->sensorAddr[i];
     }
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     configParam->i2cDevice = captureParams->i2cDevice;
     configParam->moduleName = captureParams->inputDevice;
     configParam->board = captureParams->board;
@@ -40,7 +35,6 @@ _SetExtImgDevParameters(NvCaptureContext *ctx,
     configParam->enableEmbLines =
         (captureParams->embeddedDataLinesTop || captureParams->embeddedDataLinesBottom) ?
             NVMEDIA_TRUE : NVMEDIA_FALSE;
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     configParam->initialized = NVMEDIA_FALSE;
     configParam->enableSimulator = NVMEDIA_FALSE;
     configParam->slave = ctx->testArgs->slaveTegra;
@@ -50,7 +44,6 @@ _SetExtImgDevParameters(NvCaptureContext *ctx,
         ((ctx->testArgs->dutyRatio <= 0.0) || (ctx->testArgs->dutyRatio >= 1.0)) ?
             0.25 : ctx->testArgs->dutyRatio;
 
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     return NVMEDIA_STATUS_OK;
 }
 
@@ -352,12 +345,10 @@ CaptureInit(NvMainContext *mainCtx)
     captureCtx->numVirtualChannels = testArgs->numVirtualChannels;
     extImgDevParam = &captureCtx->extImgDevParam;
 
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
     for (i = 0; i < captureCtx->numVirtualChannels; i++) {
         captureCtx->captureParams[i] = &testArgs->captureConfigCollection[
                             testArgs->config[i].uIntValue];
     }
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
 
     /* TBD: Currently, all cameras created using same ISC configuration.
        Need to change this once HW supports capture with various camera
@@ -368,7 +359,6 @@ CaptureInit(NvMainContext *mainCtx)
             break;
         }
     }
-    LOG_ERR("%s: %d, defaultCaptureSet = %d, captureCtx->numVirtualChannels = %d\n", __func__, __LINE__, defaultCaptureSet, captureCtx->numVirtualChannels);
 
     /* Set ExtImgDev params */
     status = _SetExtImgDevParameters(captureCtx,
@@ -377,7 +367,6 @@ CaptureInit(NvMainContext *mainCtx)
         LOG_ERR("%s: Failed to set ISC device parameters\n", __func__);
         goto failed;
     }
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
 
     /* Create ExtImgDev object */
     captureCtx->extImgDevice = ExtImgDevInit(extImgDevParam);
@@ -386,7 +375,6 @@ CaptureInit(NvMainContext *mainCtx)
         status = NVMEDIA_STATUS_ERROR;
         goto failed;
     }
-    LOG_ERR("%s: %d\n", __func__, __LINE__);
 
     /* Create NvMedia Device */
     captureCtx->device = NvMediaDeviceCreate();
@@ -400,8 +388,6 @@ CaptureInit(NvMainContext *mainCtx)
     captureCtx->icpSettingsEx.numVirtualGroups = captureCtx->numVirtualChannels;
     captureCtx->icpSettingsEx.interfaceType = captureCtx->extImgDevice->property.interface;
     captureCtx->icpSettingsEx.interfaceLanes = captureCtx->captureParams[defaultCaptureSet]->csiLanes;
-
-    LOG_ERR("%s: icpSettingsEx.numVirtualGroups %d\n", __func__, captureCtx->icpSettingsEx.numVirtualGroups);
 
     for (i = 0; i < captureCtx->icpSettingsEx.numVirtualGroups; i++) {
         status = _SetICPSettings(&captureCtx->threadCtx[i],

@@ -66,6 +66,8 @@ PrintUsage(
     LOG_MSG("-c [name]         Parameters set name to be used for capture configuration.\n");
     LOG_MSG("                  Only Supported configuration is ref_max9286_9271_ov10635\n");
     LOG_MSG("-lc               List all available config sets.\n");
+    LOG_MSG("--aggregate [n]   Capture images from n camera sensors\n");
+    LOG_MSG("                  Default: n = 1\n");
     LOG_MSG("-cross            set 0 for cross-partition producer\n");
     LOG_MSG("                  set 1 for cross-process producer\n");
     LOG_MSG("                  default = 0\n");
@@ -90,10 +92,12 @@ ParseArgs(
     int i = 0;
     uint32_t bLastArg = NVMEDIA_FALSE;
     uint32_t bDataAvailable = NVMEDIA_FALSE;
+	NvU32 j;
 
     /* Default parameters */
     // krammer add
     allArgs->numSensors = 1;
+    allArgs->numLinks = 0;
     allArgs->numVirtualChannels = 1;
     allArgs->camMap.enable = CAM_ENABLE_DEFAULT;
     allArgs->camMap.mask   = CAM_MASK_DEFAULT;
@@ -136,18 +140,7 @@ ParseArgs(
                     }
                 }
                 SetLogLevel((enum LogLevel)allArgs->logLevel);
-            } else if (!strcasecmp(argv[i], "--aggregate")) {
-                allArgs->useAggregationFlag = NVMEDIA_TRUE;
-                if (bDataAvailable) {
-                    if ((sscanf(argv[++i], "%u", &allArgs->numSensors) != 1)) {
-                        LOG_ERR("Bad siblings number: %s\n", argv[i]);
-                        return NVMEDIA_STATUS_ERROR;
-                    }   
-                } else {
-                    LOG_ERR("--aggregate must be followed by number of images to aggregate\n");
-                    return NVMEDIA_STATUS_ERROR;
-                }
-            } else if (!strcasecmp(argv[i], "-cf")) {
+           } else if (!strcasecmp(argv[i], "-cf")) {
                 if (argv[i + 1] && argv[i + 1][0] != '-') {
                     strncpy(allArgs->configFile.stringValue, argv[++i],
                             MAX_STRING_SIZE);
@@ -244,6 +237,17 @@ ParseArgs(
                     LOG_ERR("Taking default value as rgba\n");
                     allArgs->isRgba = NVMEDIA_TRUE;
                 }
+			} else if (!strcasecmp(argv[i], "--aggregate")) {
+				allArgs->useAggregationFlag = NVMEDIA_TRUE;
+				if (bDataAvailable) {
+					if ((sscanf(argv[++i], "%u", &allArgs->numSensors) != 1)) {
+						LOG_ERR("Bad siblings number: %s\n", argv[i]);
+						return NVMEDIA_STATUS_ERROR;
+					}   
+				} else {
+					LOG_ERR("--aggregate must be followed by number of images to aggregate\n");
+					return NVMEDIA_STATUS_ERROR;
+				}
             } else if (!strcasecmp(argv[i], "-flip")) {
                 allArgs->flipY = NV_TRUE;
             } else if (!strcmp(argv[i], "-cross")) {
@@ -293,5 +297,30 @@ ParseArgs(
         }
     }
 
+	if (allArgs->numSensors > NVMEDIA_MAX_AGGREGATE_IMAGES) {
+        LOG_WARN("Max aggregate images is: %u\n",
+                 NVMEDIA_MAX_AGGREGATE_IMAGES);
+        allArgs->numSensors = NVMEDIA_MAX_AGGREGATE_IMAGES;
+    }
+
+    if (allArgs->numLinks > 0) {
+        if (allArgs->numLinks > allArgs->numSensors) {
+            LOG_ERR("The number of enabled links with cam_enable option can't be larger than the number with aggregate option\n");
+            return NVMEDIA_STATUS_ERROR;
+        }
+        allArgs->numSensors = allArgs->numLinks;
+    } else {
+        allArgs->camMap.enable = EXTIMGDEV_MAP_N_TO_ENABLE(allArgs->numSensors);
+    }
+
+    // Set the same capture set for all virtual channels
+    // TBD: Add unique capture set for each vc once there is hw support
+    if (allArgs->useVirtualChannels) {
+        allArgs->numVirtualChannels = allArgs->numSensors;
+        for (j = 0; j < allArgs->numSensors; j++) {
+            allArgs->config[j].isUsed = NVMEDIA_TRUE;
+            allArgs->config[j].uIntValue = allArgs->config[0].uIntValue;
+        }
+    }
     return NVMEDIA_STATUS_OK;
 }

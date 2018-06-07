@@ -12,7 +12,7 @@ include $(real_dir)../../../make/nvdefs.mk
 
 TARGETS = nvm_imgcap_eglprod
 
-CFLAGS   = $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS)
+CFLAGS   = $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) 
 CFLAGS  += -I.
 CFLAGS  += -I$(real_dir)../utils
 CPPFLAGS = $(NV_PLATFORM_SDK_INC) $(NV_PLATFORM_CPPFLAGS)
