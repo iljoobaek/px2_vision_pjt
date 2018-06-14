@@ -131,9 +131,12 @@ typedef struct {
     NvThread                    *ProducerThread;
     uint32_t                    exitedFlag;
     EGLStreamKHR                eglStream;
+    EGLStreamKHR                eglStream1;
     EGLDisplay                  eglDisplay;
+    EGLDisplay                  eglDisplay1;
     EGLint                      streamState;
     NvMediaEGLStreamProducer    *eglProducer;
+    NvMediaEGLStreamProducer    *eglProducer1;
 } NvEglStreamContext;
 
 NvMediaStatus

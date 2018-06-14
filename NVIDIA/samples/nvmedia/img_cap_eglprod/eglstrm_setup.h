@@ -34,6 +34,7 @@
 
 #define MAX_STRING_SIZE     256
 #define SOCK_PATH           "/tmp/nvmedia_egl_socket"
+#define SOCK_PATH1           "/tmp/nvmedia_egl_socket1"
 
 
 /* -----  Extension pointers  ---------*/
@@ -75,7 +76,7 @@ void EGLDefaultDisplayDeinit(EGLDisplay eglDisplay);
 
 int eglSetupExtensions(void);
 EGLStreamKHR EGLStreamInit(EGLDisplay display,
-                            TestArgs *args);
+                            TestArgs *args, const char* sock_path);
 void EGLStreamFini(EGLDisplay display,
                         EGLStreamKHR eglStream);
 

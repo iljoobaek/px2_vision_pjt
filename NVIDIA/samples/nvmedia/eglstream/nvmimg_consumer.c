@@ -20,6 +20,8 @@
 #define IMAGE_BUFFERS_POOL_SIZE      4
 #define BUFFER_POOL_TIMEOUT          100
 
+#define DISPLAY_ENABLED 0
+
 #if defined(EXTENSION_LIST)
 EXTENSION_LIST(EXTLST_EXTERN)
 #endif
@@ -70,6 +72,7 @@ procThreadFunc (
             goto done;
         }
 
+		LOG_DBG("%s %d\n", __func__, __LINE__);
 #ifdef EGL_NV_stream_metadata
         //Query the metaData
         if(display->metadataEnable && image) {
@@ -109,6 +112,7 @@ procThreadFunc (
 #endif //EGL_NV_stream_metadata
 
         if (image) {
+#if DISPLAY_ENABLED
             ImageBuffer *outputImageBuffer = NULL;
             char *env;
 
@@ -187,8 +191,9 @@ procThreadFunc (
                 LOG_ERR("%s:  output image NvMedia2DBlitEx failed \n",__func__);
                 goto done;
             }
-
+#endif
             if (display->encodeEnable) {
+#if DISPLAY_ENABLED
                 if (!display->imageInputParams.h264Encoder) {
                     LOG_DBG("Nvmedia image consumer - InitEncoder\n");
                     status = ImageEncoderInit(&display->imageInputParams,
@@ -214,16 +219,18 @@ procThreadFunc (
 
                 BufferPool_ReleaseBuffer(display->outputBuffersPool,
                                          outputImageBuffer);
+#endif
             } else {
+				LOG_DBG("%s %d\n", __func__, __LINE__);
                 releaseList = &releaseFrames[0];
-
+#if DISPLAY_ENABLED
                 NvMediaIDPFlip(display->imageDisplay,    // display
                                outputImageBuffer->image, // image
                                NULL,                     // source rectangle
                                NULL,                     // destination rectangle
                                releaseList,              // release list
                                &timeStamp);              // time stamp
-
+#endif
                 while (*releaseList) {
                     ImageBuffer *buffer;
                     buffer = (*releaseList)->tag;
@@ -270,7 +277,7 @@ int image_display_init(volatile NvBool *consumerDone,
     display->eglStream = eglStream;
     display->encodeEnable = args->nvmediaEncoder;
     display->yInvert = (args->producerType == GL_PRODUCER) ? NV_TRUE : NV_FALSE;
-
+#if DISPLAY_ENABLED
     LOG_DBG("image_display_init: NvMediaDeviceCreate\n");
     display->device = NvMediaDeviceCreate();
     if (!display->device) {
@@ -344,7 +351,7 @@ int image_display_init(volatile NvBool *consumerDone,
             display->blitParams->validFields = 0;
         }
     }
-
+#endif
     display->outputBuffersPool = NULL;
     display->consumer = NvMediaEglStreamConsumerCreate(
         display->device,

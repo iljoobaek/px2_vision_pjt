@@ -347,7 +347,8 @@ EGLStreamReceivefd(
 EGLStreamKHR
 EGLStreamInit(
     EGLDisplay display,
-    TestArgs *args)
+    TestArgs *args,
+	const char* sock_path)
 {
     EGLStreamKHR eglStream=EGL_NO_STREAM_KHR;
 #ifdef EGL_NV_stream_metadata
@@ -385,7 +386,7 @@ EGLStreamInit(
         /* Get the file descriptor of the stream from the consumer process
          * and re-create the EGL stream from it.
          */
-        file_descriptor = EGLStreamReceivefd(SOCK_PATH);
+        file_descriptor = EGLStreamReceivefd(sock_path);
         if(file_descriptor == -1) {
             LOG_ERR("EGLStreamInit: Cannot receive EGL file descriptor to socket: %s\n", SOCK_PATH);
             return 0;
