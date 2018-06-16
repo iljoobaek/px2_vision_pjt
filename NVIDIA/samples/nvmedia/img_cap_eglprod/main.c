@@ -143,7 +143,7 @@ main(
         LOG_ERR("%s: ProducerProc Failed\n", __func__);
         goto done;
     }
-
+#ifdef MULTI_EGL_STREAM
 	//multiple eglstream
 	if (EglProducerInit(&mainCtx) != NVMEDIA_STATUS_OK) {
         LOG_ERR("%s: Failed to Initialize Producer\n", __func__);
@@ -153,7 +153,7 @@ main(
         LOG_ERR("%s: ProducerProc Failed\n", __func__);
         goto done;
     }
-	//end
+#endif
 
     if (CaptureProc(&mainCtx) != NVMEDIA_STATUS_OK) {
         LOG_ERR("%s: CaptureProc Failed\n", __func__);

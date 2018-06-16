@@ -35,6 +35,7 @@ _ProducerThreadFunc(
     NvMediaImage *image = NULL;
     NvMediaImage *releaseImage = NULL;
     NvMediaStatus status;
+	//NvU64 td;
 
     while (!(*producerCtx->quit)) {
 
@@ -45,11 +46,13 @@ _ProducerThreadFunc(
 			if (*producerCtx->quit)
 				goto loop_done;
 		}
-
+#ifdef MULTI_EGL_STREAM
 		uint32_t* pTag = (uint32_t*)(&image->tag);
 		//use the last two bits to indicate whether this buffer is still used by other application or not (right now only two applications)
 		*pTag += 2;
-
+#endif
+        //GetTimeMicroSec(&td);
+		//LOG_ERR("1 %u\n", td);
 		/* Post outputImage to egl-stream */
         status = NvMediaEglStreamProducerPostImage(producerCtx->eglProducer,
                         image,
@@ -59,7 +62,9 @@ _ProducerThreadFunc(
             LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed\n", __func__);
             goto loop_done;
         }
-
+#ifdef MULTI_EGL_STREAM
+        //GetTimeMicroSec(&td);
+		//LOG_ERR("2 %u\n", td);
         /* Post outputImage to egl-stream */
         status = NvMediaEglStreamProducerPostImage(producerCtx->eglProducer1,
                         image,
@@ -69,7 +74,7 @@ _ProducerThreadFunc(
             LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed\n", __func__);
             goto loop_done;
         }
-
+#endif
 
         /* Get back from the egl-stream */
         status = NvMediaEglStreamProducerGetImage(producerCtx->eglProducer,
@@ -78,6 +83,7 @@ _ProducerThreadFunc(
 
 
 		if (status == NVMEDIA_STATUS_OK) {
+#ifdef MULTI_EGL_STREAM
 			LOG_DBG("%s %d: %p\n", __func__, __LINE__, releaseImage->tag);
 			pTag = (uint32_t*)(&releaseImage->tag);
 			*pTag -= 1;
@@ -91,11 +97,21 @@ _ProducerThreadFunc(
 					goto loop_done;
 				}
 			}
+#else
+			/* Return the image back to the bufferpool */
+			if (NvQueuePut((NvQueue *)releaseImage->tag,
+						(void *)&releaseImage,
+						0) != NVMEDIA_STATUS_OK) {
+				LOG_ERR("%s: Failed to put image back in queue\n", __func__);
+				*producerCtx->quit = NVMEDIA_TRUE;
+				goto loop_done;
+			}
+#endif
 		} else {
 			LOG_DBG ("%s: NvMediaEglStreamProducerGetImage waiting\n", __func__);
 			continue;
 		}
-
+#ifdef MULTI_EGL_STREAM
 		/* Get back from the egl-stream */
         status = NvMediaEglStreamProducerGetImage(producerCtx->eglProducer1,
                                     &releaseImage,
@@ -119,7 +135,7 @@ _ProducerThreadFunc(
 			LOG_DBG ("%s: NvMediaEglStreamProducerGetImage waiting\n", __func__);
 			continue;
 		}
-
+#endif
         image = NULL;
         releaseImage = NULL;
     }
@@ -291,15 +307,30 @@ EglProducerProc(
 			goto fail;
 		}
 
+		//use the same queue
+		ProducerCtx->inputQueue = compCtx->outputQueue;
+
+#ifdef MULTI_EGL_STREAM
 		//set multiSend according to NV's document
 		NvMediaEglStreamProducerAttributes producerAttributes = { .multiSend = NVMEDIA_TRUE};
 		NvMediaEglStreamProducerSetAttributes(ProducerCtx->eglProducer, NVMEDIA_EGL_STREAM_PRODUCER_ATTRIBUTE_MULTISEND, &producerAttributes);
 
-		//use the same queue
-		ProducerCtx->inputQueue = compCtx->outputQueue;
-
 		first_time++;
-
+#else
+		//create thread when we connect two eglstreams
+		/* Create thread for EGL producer Stream */
+		status = NvThreadCreate(&ProducerCtx->ProducerThread,
+				&_ProducerThreadFunc,
+				(void *)ProducerCtx,
+				NV_THREAD_PRIORITY_NORMAL);
+		if (status != NVMEDIA_STATUS_OK) {
+			LOG_ERR("%s: Failed to create producer Thread\n",
+					__func__);
+			ProducerCtx->exitedFlag = NVMEDIA_TRUE;
+			status = NVMEDIA_STATUS_ERROR;
+			goto fail;
+		}
+#endif
 	} else {
 		LOG_DBG("%s %d: producer1\n", __func__, __LINE__);
 		TestArgs *testArgs = mainCtx->testArgs;
