@@ -33,9 +33,7 @@ procThreadFunc (
     test_nvmedia_consumer_display_s *display = (test_nvmedia_consumer_display_s *)data;
     NvMediaTime timeStamp;
     NvMediaImage *image = NULL;
-    NvMediaImage *releaseFrames[IMAGE_BUFFERS_POOL_SIZE] = {0};
-    NvMediaImage **releaseList = &releaseFrames[0];
-	NvU64 td;
+	//NvU64 td;
 
     if(!display) {
         LOG_ERR("%s: Bad parameter\n", __func__);
@@ -72,70 +70,15 @@ procThreadFunc (
             display->quit = NV_TRUE;
             goto done;
         }
-		GetTimeMicroSec(&td);
-		LOG_ERR("%u\n", td);
+		//GetTimeMicroSec(&td);
+		//LOG_ERR("%u\n", td);
 
 		LOG_DBG("%s %d\n", __func__, __LINE__);
-#ifdef EGL_NV_stream_metadata
-        //Query the metaData
-        if(display->metadataEnable && image) {
-            unsigned char buf[256] = {0};
-            static unsigned char frameId = 0;
-            int blockIdx = 0;
-            NvMediaStatus status;
 
-            for (blockIdx=0; blockIdx<4; blockIdx++) {
-                memset(buf, 0xff, 256);
-
-                status = NvMediaEglStreamConsumerAcquireMetaData(
-                               display->consumer,
-                               blockIdx,            //blockIdx
-                               (void *)buf,         //dataBuf
-                               blockIdx*16,         //offset
-                               256);                //size
-                if(status != NVMEDIA_STATUS_OK) {
-                    LOG_ERR("%s: NvMediaEglStreamConsumerAcquireMetaData failed, blockIdx %d\n", __func__, blockIdx);
-                    display->quit = NV_TRUE;
-                    goto done;
-                }
-
-                //Matching the metaData frameId
-                if (buf[0] != frameId) {
-                    LOG_ERR("%s: NvMediaEglStreamConsumerAcquireMetaData frameId %d, expected %d\n", __func__, buf[0], frameId);
-                } else if (buf[1] != blockIdx) {
-                    LOG_ERR("%s: NvMediaEglStreamConsumerAcquireMetaData blockIdx %d, expected %d\n", __func__, buf[1], blockIdx);
-                } else {
-                    LOG_DBG("Nvmedia image Consumer: metaData frame matching\n");
-                }
-            }
-            frameId ++;
-            if (frameId == 255)
-                frameId =0;
-        }
-#endif //EGL_NV_stream_metadata
-
-        if (image) {
-#if DISPLAY_ENABLED
-#endif
-            if (display->encodeEnable) {
-#if DISPLAY_ENABLED
-#endif
-            } else {
-				LOG_DBG("%s %d\n", __func__, __LINE__);
-                releaseList = &releaseFrames[0];
-#if DISPLAY_ENABLED
-#endif
-                while (*releaseList) {
-                    ImageBuffer *buffer;
-                    buffer = (*releaseList)->tag;
-                    BufferPool_ReleaseBuffer(buffer->bufferPool, buffer);
-                    *releaseList = NULL;
-                    releaseList++;
-                }
-            }
-
-            NvMediaEglStreamConsumerReleaseImage(display->consumer, image);
-        }
+		if (image) {
+			LOG_DBG("%s %d\n", __func__, __LINE__);
+			NvMediaEglStreamConsumerReleaseImage(display->consumer, image);
+		}
     }
 done:
     display->procThreadExited = NV_TRUE;
