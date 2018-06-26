@@ -243,7 +243,8 @@ CompositeInit(
         surfAllocAttrs[1].type = NVM_SURF_ATTR_HEIGHT;
         surfAllocAttrs[1].value = height;
         surfAllocAttrs[2].type = NVM_SURF_ATTR_CPU_ACCESS;
-        surfAllocAttrs[2].value = NVM_SURF_ATTR_CPU_ACCESS_UNCACHED;
+        //surfAllocAttrs[2].value = NVM_SURF_ATTR_CPU_ACCESS_UNCACHED;
+        surfAllocAttrs[2].value = NVM_SURF_ATTR_CPU_ACCESS_CACHED;
         surfAllocAttrs[3].type = NVM_SURF_ATTR_ALLOC_TYPE;
         surfAllocAttrs[3].value = NVM_SURF_ATTR_ALLOC_ISOCHRONOUS;
         numSurfAllocAttrs = 4;

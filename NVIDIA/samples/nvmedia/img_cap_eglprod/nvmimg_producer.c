@@ -51,9 +51,6 @@ _ProducerThreadFunc(
 		//use the last two bits to indicate whether this buffer is still used by other application or not (right now only two applications)
 		*pTag += 2;
 #endif
-        //GetTimeMicroSec(&td);
-		//LOG_ERR("1 %u\n", td);
-		/* Post outputImage to egl-stream */
         status = NvMediaEglStreamProducerPostImage(producerCtx->eglProducer,
                         image,
                         NULL);
@@ -62,6 +59,7 @@ _ProducerThreadFunc(
             LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed\n", __func__);
             goto loop_done;
         }
+
 #ifdef MULTI_EGL_STREAM
         //GetTimeMicroSec(&td);
 		//LOG_ERR("2 %u\n", td);
