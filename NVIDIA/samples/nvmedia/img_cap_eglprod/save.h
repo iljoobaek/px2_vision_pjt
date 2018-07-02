@@ -20,7 +20,7 @@ extern "C" {
 #include "surf_utils.h"
 
 /* min no. of buffers to be in circulation at any point */
-#define SAVE_QUEUE_SIZE                 3
+#define SAVE_QUEUE_SIZE                 8
 #define SAVE_DEQUEUE_TIMEOUT            1000
 #define SAVE_ENQUEUE_TIMEOUT            100
 

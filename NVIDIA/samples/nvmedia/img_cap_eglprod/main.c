@@ -146,11 +146,11 @@ main(
 #ifdef MULTI_EGL_STREAM
 	//multiple eglstream
 	if (EglProducerInit(&mainCtx) != NVMEDIA_STATUS_OK) {
-        LOG_ERR("%s: Failed to Initialize Producer\n", __func__);
+        LOG_ERR("%s: Failed to Initialize Producer1\n", __func__);
         goto done;
     }
 	 if (EglProducerProc(&mainCtx) != NVMEDIA_STATUS_OK) {
-        LOG_ERR("%s: ProducerProc Failed\n", __func__);
+        LOG_ERR("%s: ProducerProc1 Failed\n", __func__);
         goto done;
     }
 #endif

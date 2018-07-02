@@ -20,7 +20,7 @@ extern "C" {
 #include "nvmedia_2d.h"
 
 /* min no. of buffers to be in circulation at any point */
-#define COMPOSITE_QUEUE_SIZE                 3
+#define COMPOSITE_QUEUE_SIZE                 8
 
 #define COMPOSITE_DEQUEUE_TIMEOUT            1000
 #define COMPOSITE_ENQUEUE_TIMEOUT            100
