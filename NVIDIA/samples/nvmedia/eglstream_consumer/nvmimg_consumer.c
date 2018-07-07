@@ -33,6 +33,7 @@ procThreadFunc (
     test_nvmedia_consumer_display_s *display = (test_nvmedia_consumer_display_s *)data;
     NvMediaTime timeStamp;
     NvMediaImage *image = NULL;
+    int i = 0;
 	//NvU64 td;
 
     if(!display) {
@@ -40,45 +41,51 @@ procThreadFunc (
         return 0;
     }
 
-    LOG_DBG("NVMedia image consumer thread is active\n");
+    LOG_ERR("NVMedia image consumer thread is active\n");
 
     while(!display->quit) {
-        EGLint streamState = 0;
-        if(!eglQueryStreamKHR(
-                display->eglDisplay,
-                display->eglStream,
-                EGL_STREAM_STATE_KHR,
-                &streamState)) {
-            LOG_ERR("Nvmedia image consumer, eglQueryStreamKHR EGL_STREAM_STATE_KHR failed\n");
+        for (i=0; i<4; i++) {
+            LOG_ERR("%s %d %d\n", __func__, __LINE__, i);
+            EGLint streamState = 0;
+            if(!eglQueryStreamKHR(
+                        display->eglDisplay,
+                        display->eglStream[i],
+                        EGL_STREAM_STATE_KHR,
+                        &streamState)) {
+                LOG_ERR("Nvmedia image consumer, eglQueryStreamKHR EGL_STREAM_STATE_KHR failed\n");
+            }
+            LOG_ERR("%s %d\n", __func__, __LINE__);
+
+            if(streamState == EGL_STREAM_STATE_DISCONNECTED_KHR) {
+                LOG_ERR("Nvmedia image Consumer: - EGL_STREAM_STATE_DISCONNECTED_KHR received\n");
+                display->quit = NV_TRUE;
+                goto done;
+            }
+            LOG_ERR("%s %d\n", __func__, __LINE__);
+            if(streamState != EGL_STREAM_STATE_NEW_FRAME_AVAILABLE_KHR) {
+                usleep(1000);
+                continue;
+            }
+            LOG_ERR("%s %d\n", __func__, __LINE__);
+
+            //usleep(200000);
+
+            if(NVMEDIA_STATUS_OK !=
+                    NvMediaEglStreamConsumerAcquireImage(display->consumer[i], &image, NVMEDIA_EGL_STREAM_TIMEOUT_INFINITE, &timeStamp)) {
+                LOG_ERR("Nvmedia image Consumer: - image acquire failed\n");
+                display->quit = NV_TRUE;
+                goto done;
+            }
+            //GetTimeMicroSec(&td);
+            //LOG_ERR("%u\n", td);
+
+            LOG_ERR("%s %d\n", __func__, __LINE__);
+
+            if (image) {
+                LOG_ERR("%s %d\n", __func__, __LINE__);
+                NvMediaEglStreamConsumerReleaseImage(display->consumer[i], image);
+            }
         }
-
-        if(streamState == EGL_STREAM_STATE_DISCONNECTED_KHR) {
-            LOG_DBG("Nvmedia image Consumer: - EGL_STREAM_STATE_DISCONNECTED_KHR received\n");
-            display->quit = NV_TRUE;
-            goto done;
-        }
-        if(streamState != EGL_STREAM_STATE_NEW_FRAME_AVAILABLE_KHR) {
-            usleep(1000);
-            continue;
-        }
-
-		//usleep(200000);
-
-        if(NVMEDIA_STATUS_OK !=
-                NvMediaEglStreamConsumerAcquireImage(display->consumer, &image, 16, &timeStamp)) {
-            LOG_DBG("Nvmedia image Consumer: - image acquire failed\n");
-            display->quit = NV_TRUE;
-            goto done;
-        }
-		//GetTimeMicroSec(&td);
-		//LOG_ERR("%u\n", td);
-
-		LOG_DBG("%s %d\n", __func__, __LINE__);
-
-		if (image) {
-			LOG_DBG("%s %d\n", __func__, __LINE__);
-			NvMediaEglStreamConsumerReleaseImage(display->consumer, image);
-		}
     }
 done:
     display->procThreadExited = NV_TRUE;
@@ -88,36 +95,40 @@ done:
 
 //Image display init
 int image_display_init(volatile NvBool *consumerDone,
-                       test_nvmedia_consumer_display_s *display,
-                       EGLDisplay eglDisplay, EGLStreamKHR eglStream
-                       )
+        test_nvmedia_consumer_display_s *display,
+        EGLDisplay eglDisplay, EGLStreamKHR eglStream,
+        NvU32 eglNum
+        )
 {
     display->consumerDone = consumerDone;
     display->metadataEnable = NV_FALSE;
     display->eglDisplay = eglDisplay;
-    display->eglStream = eglStream;
+    display->eglStream[eglNum] = eglStream;
     display->encodeEnable = NV_FALSE;
     display->outputBuffersPool = NULL;
-    display->consumer = NvMediaEglStreamConsumerCreate(
+    display->consumer[eglNum] = NvMediaEglStreamConsumerCreate(
         display->device,
         display->eglDisplay,
-        display->eglStream,
-        0x89);
+        display->eglStream[eglNum],
+        0x21);
     if(!display->consumer) {
         LOG_DBG("image_display_init: Unable to create consumer\n");
         return NV_FALSE;
     }
 
-    if (IsFailed(NvThreadCreate(&display->procThread, &procThreadFunc, (void *)display, NV_THREAD_PRIORITY_NORMAL))) {
-        LOG_ERR("Nvmedia image consumer init: Unable to create process thread\n");
-        display->procThreadExited = NV_TRUE;
-        return NV_FALSE;
+    if (eglNum == 3) {
+        if (IsFailed(NvThreadCreate(&display->procThread, &procThreadFunc, (void *)display, NV_THREAD_PRIORITY_NORMAL))) {
+            LOG_ERR("Nvmedia image consumer init: Unable to create process thread\n");
+            display->procThreadExited = NV_TRUE;
+            return NV_FALSE;
+        }
     }
     return NV_TRUE;
 }
 
 void image_display_Deinit(test_nvmedia_consumer_display_s *display)
 {
+    NvU32 i;
     LOG_DBG("image_display_Deinit: start\n");
     display->quit = NV_TRUE;
 
@@ -140,7 +151,9 @@ void image_display_Deinit(test_nvmedia_consumer_display_s *display)
 
     if(display->consumer) {
         NvMediaEglStreamConsumerDestroy(display->consumer);
-        display->consumer = NULL;
+        for (i=0; i<4; i++) {
+            display->consumer[i] = NULL;
+        }
     }
 
     LOG_DBG("image_display_Deinit: consumer destroy\n");

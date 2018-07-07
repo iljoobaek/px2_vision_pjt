@@ -32,9 +32,9 @@ typedef struct _test_nvmedia_consumer_display_s
 {
 
     NvMediaDevice *device;
-    EGLStreamKHR eglStream;
+    EGLStreamKHR eglStream[NVMEDIA_MAX_AGGREGATE_IMAGES];
     EGLDisplay eglDisplay;
-    NvMediaEGLStreamConsumer *consumer;
+    NvMediaEGLStreamConsumer *consumer[NVMEDIA_MAX_AGGREGATE_IMAGES];
 
     NvMediaVideoOutput *output;
     NvMediaSurfaceType surfaceType;
@@ -67,7 +67,8 @@ void video_display_Flush(test_nvmedia_consumer_display_s *display);
 /* --- image consumer ---- */
 int image_display_init(volatile NvBool *consumerDone,
                        test_nvmedia_consumer_display_s *display,
-                       EGLDisplay eglDisplay, EGLStreamKHR eglStream
+                       EGLDisplay eglDisplay, EGLStreamKHR eglStream,
+                        NvU32 eglNum
                        );
 void image_display_Deinit(test_nvmedia_consumer_display_s *display);
 

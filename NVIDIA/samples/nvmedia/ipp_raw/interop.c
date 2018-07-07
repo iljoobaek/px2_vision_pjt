@@ -30,6 +30,7 @@ InteropInit (
     TestArgs *testArgs)
 {
     NvMediaStatus status = NVMEDIA_STATUS_ERROR;
+    EglUtilState *state = NULL;
     NvU32 i;
 
     if (!interopCtx || !ippCtx) {
@@ -62,11 +63,23 @@ InteropInit (
     options.windowSize[0]   = 0;
     options.windowSize[1]   = 0;
     options.displayId       = ippCtx->displayId;
+#if 0
     interopCtx->eglUtil = EGLUtilInit(&options);
     if(!interopCtx->eglUtil) {
         LOG_ERR("%s: failed to initialize egl \n");
         goto end_init;
     }
+#endif
+    state = malloc(sizeof(EglUtilState));
+    if (!state) {
+        goto end_init;
+    }
+
+    memset(state, 0, sizeof(EglUtilState));
+    state->display = EGL_NO_DISPLAY;
+    state->surface = EGL_NO_SURFACE;
+    interopCtx->eglUtil = state;
+    state->display = EGLDefaultDisplayInit();
 
     // Stream Init
     EglUtilState *eglUtil = interopCtx->eglUtil;
@@ -103,7 +116,7 @@ NvMediaStatus InteropProc (void* data)
     interopCtx = data;
     interopCtx->consumerInitDone = NVMEDIA_FALSE;
     interopCtx->consumerExited = NVMEDIA_FALSE;
-
+#if 0
     interopCtx->consumerCtx = GlConsumerInit(&interopCtx->consumerExited,
                                              interopCtx->eglStrmCtx,
                                              interopCtx->eglUtil,
@@ -112,7 +125,7 @@ NvMediaStatus InteropProc (void* data)
         LOG_ERR("%s: Failed to Init glConsumer", __func__);
         goto failed;
     }
-
+#endif
     interopCtx->producerExited = NVMEDIA_FALSE;
     NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
     NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,BL);
@@ -127,16 +140,16 @@ NvMediaStatus InteropProc (void* data)
         LOG_ERR("%s: Failed to Init Image Producer", __func__);
         goto failed;
     }
-
+#if 0
     while (!(*interopCtx->quit) && !(interopCtx->consumerInitDone)) {
         usleep(1000);
         LOG_DBG("Waiting for consumer init to happen\n");
     }
-
+#endif
     if(IsFailed(NvThreadCreate(&interopCtx->getOutputThread,
-                               (void *)&ImageProducerProc,
-                               (void *)interopCtx->producerCtx,
-                               NV_THREAD_PRIORITY_NORMAL))) {
+                    (void *)&ImageProducerProc,
+                    (void *)interopCtx->producerCtx,
+                    NV_THREAD_PRIORITY_NORMAL))) {
         interopCtx->producerExited = NVMEDIA_TRUE;
         goto failed;
     }
@@ -165,7 +178,7 @@ InteropFini (
         LOG_DBG("%s: Waiting for threads to quit\n", __func__);
         usleep(100);
     }
-
+#if 0
     // Gl Consumer Fini
     if(interopCtx->consumerCtx) {
         GlConsumerStop(interopCtx->consumerCtx);
@@ -174,7 +187,7 @@ InteropFini (
             LOG_ERR("%s: GlConsumerFini failed \n", __func__);
         }
     }
-
+#endif
     // Image Producer Fini
     if(interopCtx->producerCtx) {
         if(IsFailed(ImageProducerFini(interopCtx->producerCtx))) {
@@ -190,8 +203,9 @@ InteropFini (
             LOG_ERR("%s: EGLStreamFini failed \n", __func__);
         }
     }
-
+#if 0
     EGLUtilDeinit(interopCtx->eglUtil);
+#endif
     if(interopCtx->getOutputThread) {
         NvThreadDestroy(interopCtx->getOutputThread);
     }

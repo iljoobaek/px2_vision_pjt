@@ -129,6 +129,7 @@ int main(int argc, char **argv)
     EGLDisplay eglDisplay = EGL_NO_DISPLAY;
     volatile NvBool producerDone = 0;
     volatile NvBool consumerDone = 0;
+    NvU32 i;
 
     test_nvmedia_consumer_display_s video_display;
 
@@ -151,17 +152,20 @@ int main(int argc, char **argv)
 	}
 	eglDisplay = eglUtil->display;
 
-    eglStream = EGLStreamInit(eglDisplay);
-    if(!eglStream) {
-        goto done;
-    }
+    for (i=0; i<4; i++) {
 
-	//Init consumer
-	LOG_DBG("main - image_display_init\n");
-	if(!image_display_init(&consumerDone, &video_display, eglDisplay, eglStream)) {
-		LOG_ERR("main: image Display init failed\n");
-		goto done;
-	}
+        eglStream = EGLStreamInit(eglDisplay);
+        if(!eglStream) {
+            goto done;
+        }
+
+        //Init consumer
+        LOG_DBG("main - image_display_init\n");
+        if(!image_display_init(&consumerDone, &video_display, eglDisplay, eglStream, i)) {
+            LOG_ERR("main: image Display init failed\n");
+            goto done;
+        }
+    }
 
     // wait for signal_stop or producer done
     while(!signal_stop && !producerDone && !consumerDone) {

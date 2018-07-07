@@ -12,7 +12,7 @@ include $(real_dir)../../../make/nvdefs.mk
 
 TARGETS = nvm_eglstream
 
-CFLAGS   := $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) -I. -I$(real_dir)../utils -Iwinintf
+CFLAGS   := $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) -I. -I$(real_dir)../utils -Iwinintf -ggdb
 CPPFLAGS := $(NV_PLATFORM_SDK_INC) $(NV_PLATFORM_CPPFLAGS)
 LDFLAGS  := $(NV_PLATFORM_SDK_LIB) $(NV_PLATFORM_TARGET_LIB) $(NV_PLATFORM_LDFLAGS)
 

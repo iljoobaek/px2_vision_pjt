@@ -9,10 +9,11 @@
 real_dir = ../../../../
 
 include $(real_dir)../../../make/nvdefs.mk
+NV_WINSYS = egldevice
 
 TARGETS = nvmipp_raw
 
-CFLAGS   = $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS)
+CFLAGS   = $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) -ggdb
 CFLAGS  += -I.
 CFLAGS  += -I$(real_dir)../utils
 CFLAGS  += -Iwinintf
@@ -20,21 +21,21 @@ CPPFLAGS = $(NV_PLATFORM_SDK_INC) $(NV_PLATFORM_CPPFLAGS)
 LDFLAGS  = $(NV_PLATFORM_SDK_LIB) $(NV_PLATFORM_TARGET_LIB) $(NV_PLATFORM_LDFLAGS)
 
 OBJS   += eglstrm_setup.o
-OBJS   += gl_consumer.o
+#OBJS   += gl_consumer.o
 OBJS   += ipp_raw.o
 OBJS   += ipp_component.o
 OBJS   += img_producer.o
 OBJS   += interop.o
 OBJS   += cmdline.o
 OBJS   += main.o
-OBJS   += winintf/egl_utils.o
+#OBJS   += winintf/egl_utils.o
 OBJS   += $(real_dir)../utils/config_parser.o
 OBJS   += $(real_dir)../utils/log_utils.o
 OBJS   += $(real_dir)../utils/misc_utils.o
 OBJS   += $(real_dir)../utils/thread_utils.o
 
 ifeq ($(NV_WINSYS), egldevice)
-  OBJS   += winintf/win_egldevice.o
+  #OBJS   += winintf/win_egldevice.o
 else ifeq ($(NV_WINSYS), x11)
   OBJS   += winintf/win_x11.o
 else ifeq ($(NV_WINSYS), wayland)

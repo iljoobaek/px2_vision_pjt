@@ -1,0 +1,4 @@
+*.o
+tags
+*.swp
+x11/nvmipp_raw

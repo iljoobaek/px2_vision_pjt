@@ -102,7 +102,7 @@ SendIPPHumanVisionOutToEglStream(
 
     eglStrmProducerCtx = ctx;
 
-    LOG_DBG("%s: EGL producer: Post image %p\n", __func__, output->image);
+    LOG_ERR("%s: EGL producer: Post image %p %d\n", __func__, output->image, ippNum);
     if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
                                                   output->image,
                                                   NULL))) {
@@ -158,7 +158,7 @@ ImageProducerProc (
         return;
     }
 
-    LOG_INFO("Get IPP output thread is active, ippNum=%d\n", ctx->ippNum);
+    LOG_ERR("Get IPP output thread is active, ippNum=%d\n", ctx->ippNum);
     while(!(*ctx->quit)) {
         for(i = 0; i < ctx->ippNum; i++) {
             NvMediaIPPComponentOutput output;
@@ -184,7 +184,6 @@ ImageProducerProc (
                 if(ctx->showMetadataFlag) {
                     PrintMetadataInfo(ctx->outputComponent[i], &output);
                 }
-
                 status = SendIPPHumanVisionOutToEglStream(ctx,i,&output);
 
                 if(status != NVMEDIA_STATUS_OK) {
@@ -236,7 +235,7 @@ ImageProducerInit(NvMediaDevice *device,
         EGLint streamState = 0;
         client->eglStream[i]   = streamClient->eglStream[i];
         while(streamState != EGL_STREAM_STATE_CONNECTING_KHR) {
-           if(!eglQueryStreamKHR(streamClient->display,
+           if(!eglQueryStreamKHRfp(streamClient->display,
                                  streamClient->eglStream[i],
                                  EGL_STREAM_STATE_KHR,
                                  &streamState)) {
@@ -244,6 +243,7 @@ ImageProducerInit(NvMediaDevice *device,
             }
         }
 
+        LOG_ERR("%d %d %x\n", client->width, client->height, client->surfaceType);
         client->eglProducer[i] = NvMediaEglStreamProducerCreate(client->device,
                                                                 client->eglDisplay,
                                                                 client->eglStream[i],
