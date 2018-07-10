@@ -144,6 +144,7 @@ EglUtilState *EGLUtilInit(EglUtilOptions *options)
     if(options) {
         if(options->windowSize[0])
             state->width = options->windowSize[0];
+        printf("width %d\n", state->width);
         if(options->windowSize[1])
             state->height = options->windowSize[1];
         state->xoffset = options->windowOffset[0];

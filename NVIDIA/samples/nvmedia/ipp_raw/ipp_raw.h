@@ -33,7 +33,7 @@ extern "C" {
 #include "surf_utils.h"
 #include "thread_utils.h"
 #include "img_dev.h"
-#include "egl_utils.h"
+//#include "egl_utils.h"
 #include "eglstrm_setup.h"
 //#define DEBUG
 

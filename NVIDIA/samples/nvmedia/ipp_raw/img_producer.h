@@ -36,8 +36,8 @@ typedef struct {
     NvMediaIPPComponent        *outputComponent[NVMEDIA_MAX_AGGREGATE_IMAGES];
     NvMediaBool                 eglProducerGetImageFlag[NVMEDIA_MAX_AGGREGATE_IMAGES];
     //EGL params
-    NvMediaEGLStreamProducer   *eglProducer[NVMEDIA_MAX_AGGREGATE_IMAGES];
-    EGLStreamKHR                eglStream[NVMEDIA_MAX_AGGREGATE_IMAGES];
+    NvMediaEGLStreamProducer   *eglProducer[8];
+    EGLStreamKHR                eglStream[8];
     EGLDisplay                  eglDisplay;
     NvMediaBool                *producerExited;
     NvMediaBool                *quit;

@@ -45,7 +45,6 @@ procThreadFunc (
 
     while(!display->quit) {
         for (i=0; i<4; i++) {
-            LOG_ERR("%s %d %d\n", __func__, __LINE__, i);
             EGLint streamState = 0;
             if(!eglQueryStreamKHR(
                         display->eglDisplay,
@@ -54,19 +53,19 @@ procThreadFunc (
                         &streamState)) {
                 LOG_ERR("Nvmedia image consumer, eglQueryStreamKHR EGL_STREAM_STATE_KHR failed\n");
             }
-            LOG_ERR("%s %d\n", __func__, __LINE__);
 
+                LOG_ERR("%s %d\n", __func__, __LINE__);
             if(streamState == EGL_STREAM_STATE_DISCONNECTED_KHR) {
                 LOG_ERR("Nvmedia image Consumer: - EGL_STREAM_STATE_DISCONNECTED_KHR received\n");
                 display->quit = NV_TRUE;
                 goto done;
             }
-            LOG_ERR("%s %d\n", __func__, __LINE__);
+                LOG_ERR("%s %d\n", __func__, __LINE__);
             if(streamState != EGL_STREAM_STATE_NEW_FRAME_AVAILABLE_KHR) {
                 usleep(1000);
                 continue;
             }
-            LOG_ERR("%s %d\n", __func__, __LINE__);
+                LOG_ERR("%s %d\n", __func__, __LINE__);
 
             //usleep(200000);
 
@@ -76,10 +75,9 @@ procThreadFunc (
                 display->quit = NV_TRUE;
                 goto done;
             }
+                LOG_ERR("%s %d\n", __func__, __LINE__);
             //GetTimeMicroSec(&td);
             //LOG_ERR("%u\n", td);
-
-            LOG_ERR("%s %d\n", __func__, __LINE__);
 
             if (image) {
                 LOG_ERR("%s %d\n", __func__, __LINE__);
@@ -110,7 +108,7 @@ int image_display_init(volatile NvBool *consumerDone,
         display->device,
         display->eglDisplay,
         display->eglStream[eglNum],
-        0x21);
+        0x8a);
     if(!display->consumer) {
         LOG_DBG("image_display_init: Unable to create consumer\n");
         return NV_FALSE;

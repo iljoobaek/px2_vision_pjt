@@ -451,6 +451,7 @@ static NvMediaStatus IPPAddComponentsToPipeline(IPPCtx *ctx)
                goto failed;
             }
         }
+#if 1
         if(ctx->ippIspComponents[i] && ctx->ippControlAlgorithmComponents[i]) {
             status = NvMediaIPPComponentAttach(ctx->ipp[i],                     //ippPipeline
                                       ctx->ippIspComponents[i],                 //srcComponent,
@@ -475,6 +476,7 @@ static NvMediaStatus IPPAddComponentsToPipeline(IPPCtx *ctx)
                goto failed;
             }
         }
+#endif
     }
 
     return NVMEDIA_STATUS_OK;
@@ -505,14 +507,14 @@ NvMediaStatus IPPCreateRawPipeline(IPPCtx*ctx) {
     memset(ctx->ippComponents, 0, sizeof(ctx->ippComponents));
     memset(ctx->componentNum, 0, sizeof(ctx->componentNum));
 
-
+#if 1
     // Create Sensor Control Component
     status = IPPCreateSensorControlComponent(ctx);
     if(status != NVMEDIA_STATUS_OK) {
         LOG_ERR("%s: Failed to create Sensor Control Component \n", __func__);
         goto failed;
     }
-
+#endif
     // Create Capture component
     if(ctx->useVirtualChannels) {
         status = IPPCreateCaptureComponentEx(ctx);
@@ -531,14 +533,14 @@ NvMediaStatus IPPCreateRawPipeline(IPPCtx*ctx) {
         LOG_ERR("%s: Failed to create ISP Component \n", __func__);
         goto failed;
     }
-
+#if 1
     // Create Control Algorithm Component
     status = IPPCreateControlAlgorithmComponent(ctx);
     if(status != NVMEDIA_STATUS_OK) {
         LOG_ERR("%s: Failed to create Control algorithm Component \n", __func__);
         goto failed;
     }
-
+#endif
     // Create Output component
     status = IPPCreateOutputComponent(ctx);
     if(status != NVMEDIA_STATUS_OK) {

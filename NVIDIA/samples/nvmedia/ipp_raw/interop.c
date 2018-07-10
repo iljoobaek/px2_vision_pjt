@@ -93,7 +93,9 @@ InteropInit (
     }
 
     NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
-    NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,BL);
+    //NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,BL);
+    NVM_SURF_FMT_SET_ATTR_RGBA(surfFormatAttrs,RGBA,UINT,8,PL);
+    LOG_ERR("0x%x\n", surfFormatAttrs);
     interopCtx->eglProdSurfaceType = NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
     for(i = 0; i < interopCtx->ippNum; i++) {
         interopCtx->outputComponent[i] = ippCtx->outputComponent[i];
@@ -128,7 +130,8 @@ NvMediaStatus InteropProc (void* data)
 #endif
     interopCtx->producerExited = NVMEDIA_FALSE;
     NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
-    NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,BL);
+    //NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,BL);
+    NVM_SURF_FMT_SET_ATTR_RGBA(surfFormatAttrs,RGBA,UINT,8,PL);
     interopCtx->eglProdSurfaceType = NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
     interopCtx->producerCtx = ImageProducerInit(interopCtx->device,
                                                 interopCtx->eglStrmCtx,

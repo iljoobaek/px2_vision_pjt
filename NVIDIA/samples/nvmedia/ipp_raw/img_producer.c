@@ -102,6 +102,80 @@ SendIPPHumanVisionOutToEglStream(
 
     eglStrmProducerCtx = ctx;
 
+#ifdef MULTI_EGL_STREAM
+	output->image->tag = 2;
+    LOG_ERR("%p %p %d\n", eglStrmProducerCtx->eglProducer[ippNum], output->image, ippNum);
+    status = NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
+                                                  output->image,
+                                                  NULL);
+    //if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
+    //                                              output->image,
+    //                                              NULL))) {
+    if(IsFailed(status)) {
+        LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed, %d\n", __func__, status);
+        return  status;
+    }
+    if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum+4],
+                                                  output->image,
+                                                  NULL))) {
+        LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed\n", __func__);
+        return  status;
+    }
+    // The first ProducerGetImage() has to happen
+    // after the second ProducerPostImage()
+    if(!ctx->eglProducerGetImageFlag[ippNum]) {
+        ctx->eglProducerGetImageFlag[ippNum] = NVMEDIA_TRUE;
+        return status;
+    }
+
+    status = NvMediaEglStreamProducerGetImage(eglStrmProducerCtx->eglProducer[ippNum],
+                                                  &retImage,
+                                                  timeoutMS);
+
+    if(status == NVMEDIA_STATUS_OK) {
+        LOG_DBG("%s: EGL producer # %d: Got image %p %d %d\n", __func__, ippNum, retImage, retImage->height, retImage->width);
+        output->image->tag--;
+        if (output->image->tag == 0) {       
+            LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
+            retOutput.image = retImage;
+            // Return processed image to IPP
+            status = NvMediaIPPComponentReturnOutput(ctx->outputComponent[ippNum], //component
+                    &retOutput);                //output image
+            if (status != NVMEDIA_STATUS_OK) {
+                LOG_ERR("%s: NvMediaIPPComponentReturnOutput failed %d", __func__, ippNum);
+                *ctx->quit = NVMEDIA_TRUE;
+                return status;
+            }
+        }
+    }
+    else {
+        LOG_DBG("NvMediaEglStreamProducerGetImage waiting\n");
+    }
+    status = NvMediaEglStreamProducerGetImage(eglStrmProducerCtx->eglProducer[ippNum+4],
+                                                  &retImage,
+                                                  timeoutMS);
+
+    if(status == NVMEDIA_STATUS_OK) {
+        LOG_DBG("%s: EGL producer # %d: Got image %p\n", __func__, ippNum, retImage);
+        output->image->tag--;
+        if (output->image->tag == 0) {
+            LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
+            retOutput.image = retImage;
+            // Return processed image to IPP
+            status = NvMediaIPPComponentReturnOutput(ctx->outputComponent[ippNum], //component
+                    &retOutput);                //output image
+            if (status != NVMEDIA_STATUS_OK) {
+                LOG_ERR("%s: NvMediaIPPComponentReturnOutput failed %d", __func__, ippNum);
+                *ctx->quit = NVMEDIA_TRUE;
+                return status;
+            }
+        }
+    }
+    else {
+        LOG_DBG("NvMediaEglStreamProducerGetImage waiting\n");
+    }
+#else
+
     LOG_ERR("%s: EGL producer: Post image %p %d\n", __func__, output->image, ippNum);
     if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
                                                   output->image,
@@ -142,6 +216,7 @@ SendIPPHumanVisionOutToEglStream(
         *ctx->quit = NVMEDIA_TRUE;
         status = NVMEDIA_STATUS_ERROR;
     }
+#endif
     return status;
 }
 
@@ -203,7 +278,7 @@ ImageProducerInit(NvMediaDevice *device,
                   NvU32 width, NvU32 height,
                   InteropContext *interopCtx)
 {
-    NvU32 i;
+    NvU32 i,j;
     ImageProducerCtx *client = NULL;
 
     if(!device) {
@@ -228,7 +303,39 @@ ImageProducerInit(NvMediaDevice *device,
     client->quit = interopCtx->quit;
     client->showTimeStamp = interopCtx->showTimeStamp;
     client->showMetadataFlag = interopCtx->showMetadataFlag;
+#ifdef MULTI_EGL_STREAM
+    for(j=0; j< interopCtx->ippNum; j++) {
+        client->outputComponent[j] = interopCtx->outputComponent[j];
+        for(i=j; i<j+8; i+=4) {
+            // Create EGL stream producer
+            EGLint streamState = 0;
+            client->eglStream[i]   = streamClient->eglStream[i];
+            while(streamState != EGL_STREAM_STATE_CONNECTING_KHR) {
+                if(!eglQueryStreamKHRfp(streamClient->display,
+                            streamClient->eglStream[i],
+                            EGL_STREAM_STATE_KHR,
+                            &streamState)) {
+                    LOG_ERR("eglQueryStreamKHR EGL_STREAM_STATE_KHR failed\n");
+                }
+            }
 
+            LOG_ERR("%d %d 0x%x\n", client->width, client->height, client->surfaceType);
+            client->eglProducer[i] = NvMediaEglStreamProducerCreate(client->device,
+                    client->eglDisplay,
+                    client->eglStream[i],
+                    client->surfaceType,
+                    client->width,
+                    client->height);
+            if(!client->eglProducer[i]) {
+                LOG_ERR("%s: Failed to create EGL producer\n", __func__);
+                goto fail;
+            }
+            //set multiSend according to NV's document
+            NvMediaEglStreamProducerAttributes producerAttributes = { .multiSend = NVMEDIA_TRUE};
+            NvMediaEglStreamProducerSetAttributes(client->eglProducer[i], NVMEDIA_EGL_STREAM_PRODUCER_ATTRIBUTE_MULTISEND, &producerAttributes);
+        }
+    }
+#else
     for(i=0; i< interopCtx->ippNum; i++) {
         client->outputComponent[i] = interopCtx->outputComponent[i];
         // Create EGL stream producer
@@ -255,6 +362,7 @@ ImageProducerInit(NvMediaDevice *device,
             goto fail;
         }
     }
+#endif
     return client;
 fail:
     ImageProducerFini(client);

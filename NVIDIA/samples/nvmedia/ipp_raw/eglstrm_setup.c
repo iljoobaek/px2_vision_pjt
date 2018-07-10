@@ -333,7 +333,21 @@ EGLStreamInit(EGLDisplay display,
     client->numofStream = numOfStreams;
     client->display = display;
     client->fifoMode = fifoMode;
+#ifdef MULTI_EGL_STREAM
+    for(i=0; i< numOfStreams*2; i++) {
+        // Create with FIFO mode
+        client->eglStream[i] = _EGLStreamInit(display, SOCK_PATH);
 
+        if(!eglStreamAttribKHRfp(client->display, client->eglStream[i], EGL_CONSUMER_LATENCY_USEC_KHR, 16000)) {
+            LOG_ERR("EGLStreamSetAttr: eglStreamAttribKHR EGL_CONSUMER_LATENCY_USEC_KHR failed\n");
+            goto fail;
+        }
+        if(!eglStreamAttribKHRfp(client->display, client->eglStream[i], EGL_CONSUMER_ACQUIRE_TIMEOUT_USEC_KHR, 16000)) {
+            LOG_ERR("EGLStreamSetAttr: eglStreamAttribKHR EGL_CONSUMER_ACQUIRE_TIMEOUT_USEC_KHR failed\n");
+            goto fail;
+        }
+    }
+#else
     for(i=0; i< numOfStreams; i++) {
         // Create with FIFO mode
         client->eglStream[i] = _EGLStreamInit(display, SOCK_PATH);
@@ -347,6 +361,7 @@ EGLStreamInit(EGLDisplay display,
             goto fail;
         }
     }
+#endif
     return client;
 fail:
     EGLStreamFini(client);

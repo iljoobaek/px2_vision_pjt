@@ -17,6 +17,7 @@ CFLAGS   = $(NV_PLATFORM_OPT) $(NV_PLATFORM_CFLAGS) -ggdb
 CFLAGS  += -I.
 CFLAGS  += -I$(real_dir)../utils
 CFLAGS  += -Iwinintf
+CFLAGS  += -DMULTI_EGL_STREAM
 CPPFLAGS = $(NV_PLATFORM_SDK_INC) $(NV_PLATFORM_CPPFLAGS)
 LDFLAGS  = $(NV_PLATFORM_SDK_LIB) $(NV_PLATFORM_TARGET_LIB) $(NV_PLATFORM_LDFLAGS)
 
@@ -25,6 +26,7 @@ OBJS   += eglstrm_setup.o
 OBJS   += ipp_raw.o
 OBJS   += ipp_component.o
 OBJS   += img_producer.o
+OBJS   += process2d.o
 OBJS   += interop.o
 OBJS   += cmdline.o
 OBJS   += main.o

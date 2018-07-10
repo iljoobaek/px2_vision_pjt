@@ -15,7 +15,9 @@
 
 #include "nvmedia_eglstream.h"
 #include "nvmedia_ipp.h"
-#include "egl_utils.h"
+#include "nvmedia_core.h"
+#include "nvcommon.h"
+//#include "egl_utils.h"
 #include <EGL/egl.h>
 #include <EGL/eglext.h>
 
@@ -60,7 +62,7 @@ extern "C" {
 /* struct members are read-only to client */
 typedef struct _EglStreamClient {
     EGLDisplay   display;
-    EGLStreamKHR eglStream[NVMEDIA_MAX_AGGREGATE_IMAGES];
+    EGLStreamKHR eglStream[8]; // currently we only support 2 consumers with 4 cameras aggregate
     NvBool       fifoMode;
     NvU32        numofStream;
 } EglStreamClient;
