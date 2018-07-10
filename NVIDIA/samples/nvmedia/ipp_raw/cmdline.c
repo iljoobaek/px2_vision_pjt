@@ -280,8 +280,8 @@ ParseArgs (
     NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
     NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,BL);
     //NVM_SURF_FMT_SET_ATTR_RGBA(surfFormatAttrs,RGBA,UINT,8,PL);
-    NVM_SURF_FMT_DEFINE_ATTR(rgbaSurfFormatAttrs);
-    NVM_SURF_FMT_SET_ATTR_RGBA(rgbaSurfFormatAttrs,RGBA,UINT,8,PL);
+    //NVM_SURF_FMT_DEFINE_ATTR(rgbaSurfFormatAttrs);
+    //NVM_SURF_FMT_SET_ATTR_RGBA(rgbaSurfFormatAttrs,RGBA,UINT,8,PL);
 
     args->imagesNum = 1;
     args->linksNum = 0;
@@ -289,7 +289,7 @@ ParseArgs (
     args->outputHeight = 0;
     args->outputSurfType = NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
     args->ispSelect = NVMEDIA_ISP_SELECT_ISP_A;
-    args->ispOutType = NvMediaSurfaceFormatGetType(rgbaSurfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
+    args->ispOutType = NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
     args->fifoMode = NVMEDIA_TRUE;
     args->camMap.enable = CAM_ENABLE_DEFAULT;
     args->camMap.mask = CAM_MASK_DEFAULT;

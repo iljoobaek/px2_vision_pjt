@@ -42,10 +42,9 @@ SetProcess2DParams (
     return NVMEDIA_STATUS_OK;
 }
 
-NvMediaStatus Process2DInit (NvMainContext *mainCtx)
+NvMediaStatus Process2DInit (IPPCtx *ippCtx)
 {
     NvProcess2DContext *proc2DCtx  = NULL;
-    NvCaptureContext   *captureCtx = NULL;
     NvMediaImage *image = NULL;
     NvU32 i;
     char *env;
@@ -59,13 +58,12 @@ NvMediaStatus Process2DInit (NvMainContext *mainCtx)
 
     proc2DCtx = mainCtx->ctxs[PROCESS_2D];
     memset(proc2DCtx,0,sizeof(NvProcess2DContext));
-    captureCtx = mainCtx->ctxs[USB_CAPTURE];
 
     /* initialize context */
     proc2DCtx->width = mainCtx->width;
     proc2DCtx->height = mainCtx->height;
-    proc2DCtx->quit =  &mainCtx->threadsExited[USB_CAPTURE];
-    proc2DCtx->device = captureCtx->device;
+    interopCtx->quit   = &ippCtx->quit;
+    proc2DCtx->device = ippCtx->device;
 
     NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
     /* set output surface formats */

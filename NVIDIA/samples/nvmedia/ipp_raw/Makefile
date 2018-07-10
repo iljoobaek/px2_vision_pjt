@@ -26,7 +26,7 @@ OBJS   += eglstrm_setup.o
 OBJS   += ipp_raw.o
 OBJS   += ipp_component.o
 OBJS   += img_producer.o
-OBJS   += process2d.o
+#OBJS   += process2d.o
 OBJS   += interop.o
 OBJS   += cmdline.o
 OBJS   += main.o
@@ -35,6 +35,7 @@ OBJS   += $(real_dir)../utils/config_parser.o
 OBJS   += $(real_dir)../utils/log_utils.o
 OBJS   += $(real_dir)../utils/misc_utils.o
 OBJS   += $(real_dir)../utils/thread_utils.o
+OBJS   += $(real_dir)../utils/buffer_utils.o
 
 ifeq ($(NV_WINSYS), egldevice)
   #OBJS   += winintf/win_egldevice.o

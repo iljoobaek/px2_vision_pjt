@@ -43,6 +43,14 @@ typedef struct {
     NvMediaBool                *quit;
     NvMediaBool                 showTimeStamp;
     NvMediaBool                 showMetadataFlag;
+    // I2D for blit aggregated image to display
+    BufferPool                 *bufferPool[NVMEDIA_MAX_AGGREGATE_IMAGES];
+    NvMedia2D                  *i2d;
+    NvMediaRect                 dstRect;
+    NvMediaRect                 srcRect;
+    NvMedia2DBlitParameters    *blitParams;
+    NvMutex                    *processorMutex;
+
 
 } ImageProducerCtx;
 

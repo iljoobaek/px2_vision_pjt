@@ -86,6 +86,50 @@ static void PrintMetadataInfo(
     }
 }
 
+static NvMediaStatus
+img2DBlitFunc(ImageProducerCtx *ctx,
+               NvMediaImage *input,
+               NvMediaImage *output)
+{
+    NvMediaImageSurfaceMap surfaceMap;
+
+    if(!ctx || !input || !output) {
+        LOG_ERR("%s: Bad parameters\n", __func__);
+        return NVMEDIA_STATUS_BAD_PARAMETER;
+    }
+
+    // Make sure the image processing finished on this buffer
+    if(IsSucceed(NvMediaImageLock(input,
+                                  NVMEDIA_IMAGE_ACCESS_WRITE,
+                                  &surfaceMap))) {
+       NvMediaImageUnlock(input);
+    }
+
+    NvMutexAcquire(ctx->processorMutex);
+    if(IsFailed(NvMedia2DBlitEx(ctx->i2d,
+                                output,
+                                NULL,
+                                input,
+                                NULL,
+                                ctx->blitParams,
+                                NULL))) {
+        LOG_ERR("%s: NvMedia2DBlitEx failed\n", __func__);
+        NvMutexRelease(ctx->processorMutex);
+        return NVMEDIA_STATUS_ERROR;
+    }
+
+    NvMutexRelease(ctx->processorMutex);
+
+    // Make sure the image processing finished on this buffer
+    if(IsSucceed(NvMediaImageLock(output,
+                                  NVMEDIA_IMAGE_ACCESS_WRITE,
+                                  &surfaceMap))) {
+       NvMediaImageUnlock(output);
+    }
+
+    return NVMEDIA_STATUS_OK;
+}
+
 // RAW Pipeline
 static NvMediaStatus
 SendIPPHumanVisionOutToEglStream(
@@ -94,29 +138,51 @@ SendIPPHumanVisionOutToEglStream(
     NvMediaIPPComponentOutput *output)
 {
     NvMediaImage *retImage = NULL;
+    ImageBuffer *eglBuffer = NULL, *retBuffer = NULL;
     NvMediaStatus status = NVMEDIA_STATUS_OK;
     NvU32 timeoutMS = EGL_PRODUCER_TIMEOUT_MS * ctx->ippNum;
     int retry = EGL_PRODUCER_GET_IMAGE_MAX_RETRIES;
-    NvMediaIPPComponentOutput retOutput;
     ImageProducerCtx*   eglStrmProducerCtx;
 
     eglStrmProducerCtx = ctx;
 
+    if(IsFailed(BufferPool_AcquireBuffer(ctx->bufferPool[ippNum],
+                                          (void *)&eglBuffer))) {
+        return status;
+    }
+
+    // 2D blit
+    status = img2DBlitFunc(ctx,
+                    output->image, // input
+                    eglBuffer->image); // output
+    if (status != NVMEDIA_STATUS_OK) {
+        LOG_ERR("%s: img2DblockFunc for IPP %d", __func__, ippNum);
+        *ctx->quit = NVMEDIA_TRUE;
+        return status;
+    }
+
+    // Return processed image to IPP
+    status = NvMediaIPPComponentReturnOutput(ctx->outputComponent[ippNum], //component
+                                             output);                //output image
+    if (status != NVMEDIA_STATUS_OK) {
+        LOG_ERR("%s: NvMediaIPPComponentReturnOutput failed for IPP %d", __func__, ippNum);
+        *ctx->quit = NVMEDIA_TRUE;
+        return status;
+    }
+
+
 #ifdef MULTI_EGL_STREAM
-	output->image->tag = 2;
-    LOG_ERR("%p %p %d\n", eglStrmProducerCtx->eglProducer[ippNum], output->image, ippNum);
+	eglBuffer->image->tag += 2;
+    LOG_ERR("%p %p %d\n", eglStrmProducerCtx->eglProducer[ippNum], eglBuffer->image, ippNum);
     status = NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
-                                                  output->image,
+                                                  eglBuffer->image,
                                                   NULL);
-    //if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
-    //                                              output->image,
-    //                                              NULL))) {
     if(IsFailed(status)) {
         LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed, %d\n", __func__, status);
         return  status;
     }
     if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum+4],
-                                                  output->image,
+                                                  eglBuffer->image,
                                                   NULL))) {
         LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed\n", __func__);
         return  status;
@@ -134,18 +200,11 @@ SendIPPHumanVisionOutToEglStream(
 
     if(status == NVMEDIA_STATUS_OK) {
         LOG_DBG("%s: EGL producer # %d: Got image %p %d %d\n", __func__, ippNum, retImage, retImage->height, retImage->width);
-        output->image->tag--;
-        if (output->image->tag == 0) {       
+        retImage->image->tag--;
+        if (eglBuffer->image->tag == 0) {       
             LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
-            retOutput.image = retImage;
-            // Return processed image to IPP
-            status = NvMediaIPPComponentReturnOutput(ctx->outputComponent[ippNum], //component
-                    &retOutput);                //output image
-            if (status != NVMEDIA_STATUS_OK) {
-                LOG_ERR("%s: NvMediaIPPComponentReturnOutput failed %d", __func__, ippNum);
-                *ctx->quit = NVMEDIA_TRUE;
-                return status;
-            }
+            retBuffer = (ImageBuffer *)retImage->tag;
+            BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
         }
     }
     else {
@@ -157,18 +216,11 @@ SendIPPHumanVisionOutToEglStream(
 
     if(status == NVMEDIA_STATUS_OK) {
         LOG_DBG("%s: EGL producer # %d: Got image %p\n", __func__, ippNum, retImage);
-        output->image->tag--;
-        if (output->image->tag == 0) {
+        retImage->image->tag--;
+        if (eglBuffer->image->tag == 0) {       
             LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
-            retOutput.image = retImage;
-            // Return processed image to IPP
-            status = NvMediaIPPComponentReturnOutput(ctx->outputComponent[ippNum], //component
-                    &retOutput);                //output image
-            if (status != NVMEDIA_STATUS_OK) {
-                LOG_ERR("%s: NvMediaIPPComponentReturnOutput failed %d", __func__, ippNum);
-                *ctx->quit = NVMEDIA_TRUE;
-                return status;
-            }
+            retBuffer = (ImageBuffer *)retImage->tag;
+            BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
         }
     }
     else {
@@ -272,6 +324,45 @@ ImageProducerProc (
     *ctx->producerExited = NVMEDIA_TRUE;
 }
 
+static NvMediaStatus
+Set2DProcessingParams (
+    ImageProducerCtx *ctx,
+    NvMediaBool aggregateFlag)
+{
+    NvMedia2DBlitParameters *params = ctx->blitParams;
+    NvU32 width;
+
+    params->validFields = 0;
+    params->flags = 0;
+    params->filter = 1;
+    params->dstTransform = 0;
+    params->validFields = 0;
+    params->colorStandard = 0;
+
+    if(aggregateFlag)
+        width = ctx->width/ctx->ippNum;
+    else
+        width = ctx->width;
+
+    // Default values in the config file for full resolution
+    if(ctx->srcRect.x0 == 0 &&
+       ctx->srcRect.y0 == 0 &&
+       ctx->srcRect.x1 == 0 &&
+       ctx->srcRect.y1 == 0) {
+        SetRect(&ctx->srcRect, 0, 0, width, ctx->height);
+    }
+
+    // Default values in the config file for full resolution
+    if(ctx->dstRect.x0 == 0 &&
+       ctx->dstRect.y0 == 0 &&
+       ctx->dstRect.x1 == 0 &&
+       ctx->dstRect.y1 == 0) {
+        SetRect(&ctx->dstRect, 0, 0, width, ctx->height);
+    }
+
+    return NVMEDIA_STATUS_OK;
+}
+
 ImageProducerCtx*
 ImageProducerInit(NvMediaDevice *device,
                   EglStreamClient *streamClient,
@@ -279,6 +370,7 @@ ImageProducerInit(NvMediaDevice *device,
                   InteropContext *interopCtx)
 {
     NvU32 i,j;
+    ImageBufferPoolConfigNew poolConfig;
     ImageProducerCtx *client = NULL;
 
     if(!device) {
@@ -303,6 +395,56 @@ ImageProducerInit(NvMediaDevice *device,
     client->quit = interopCtx->quit;
     client->showTimeStamp = interopCtx->showTimeStamp;
     client->showMetadataFlag = interopCtx->showMetadataFlag;
+    // Create 2D for blit, surface format conversion
+    {
+        client->i2d = NvMedia2DCreate(interopCtx->device);
+        if(!client->i2d) {
+            LOG_ERR("%s: Failed to create NvMedia 2D i2d\n", __func__);
+            goto fail;
+        }
+
+        client->blitParams = calloc(1, sizeof(NvMedia2DBlitParameters));
+        if(!client->blitParams) {
+            LOG_ERR("%s: Out of memory", __func__);
+            goto fail;
+        }
+
+        if(IsFailed(Set2DProcessingParams(client, 0))) {//interopCtx->aggregateFlag))) {
+            goto fail;
+        }
+    }
+
+    // Create 2D/display buffers, queues and threads
+    if(IsFailed(NvMutexCreate(&client->processorMutex))) {
+        goto fail;
+    }
+    NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
+    NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,PL);
+    memset(&poolConfig, 0, sizeof(ImageBufferPoolConfigNew));
+    poolConfig.surfType = NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
+    poolConfig.device = interopCtx->device;
+    poolConfig.surfAllocAttrs[0].type = NVM_SURF_ATTR_WIDTH;
+    poolConfig.surfAllocAttrs[0].value = interopCtx->width / interopCtx->ippNum;
+    poolConfig.surfAllocAttrs[1].type = NVM_SURF_ATTR_HEIGHT;
+    poolConfig.surfAllocAttrs[1].value = interopCtx->height;
+    poolConfig.numSurfAllocAttrs = 2;
+    for(i=0; i < interopCtx->ippNum; i++) {
+        if(client->bufferPool[i]) {
+            BufferPool_Destroy(client->bufferPool[i]);
+        }
+
+        if(IsFailed(BufferPool_Create_New(&client->bufferPool[i],// Buffer pool
+                                  IMAGE_BUFFERS_POOL_SIZE,  // Capacity
+                                  BUFFER_POOL_TIMEOUT,      // Timeout
+                                  IMAGE_BUFFER_POOL,        // Pool type
+                                  &poolConfig))) {          // Config
+            LOG_ERR("%s: BufferPool_Create_New failed", __func__);
+            goto fail;
+        }
+
+        LOG_DBG("%s: BufferPool_Create_New: eglStep.bufferPool: %ux%u\n",
+                __func__, (interopCtx->width / interopCtx->ippNum), interopCtx->height);
+    }
 #ifdef MULTI_EGL_STREAM
     for(j=0; j< interopCtx->ippNum; j++) {
         client->outputComponent[j] = interopCtx->outputComponent[j];
@@ -368,14 +510,18 @@ fail:
     ImageProducerFini(client);
     return NULL;
 }
-
-NvMediaStatus ImageProducerFini(ImageProducerCtx *ctx)
-{
+NvMediaStatus ImageProducerFini(ImageProducerCtx *ctx) {
     NvU32 i;
     NvMediaImage *retImage = NULL;
-    NvMediaIPPComponentOutput output;
+    ImageBuffer *retBuffer = NULL;
     LOG_DBG("ImageProducerFini: start\n");
-    if(ctx) {
+
+    if(ctx != NULL) {
+
+        if(ctx->processorMutex != NULL) {
+            NvMutexDestroy(ctx->processorMutex);
+        }
+
         for(i = 0; i < ctx->ippNum; i++) {
             // Finalize
             do {
@@ -385,19 +531,30 @@ NvMediaStatus ImageProducerFini(ImageProducerCtx *ctx)
                                                  0);
                 if(retImage) {
                     LOG_DBG("%s: EGL producer: Got image %p\n", __func__, retImage);
-                    output.image = retImage;
-                    NvMediaIPPComponentReturnOutput(ctx->outputComponent[i], //component
-                                                        &output);                //output image
+                    retBuffer = (ImageBuffer *)retImage->tag;
+                    BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
                 }
             } while(retImage);
+        }
+
+        for(i=0; i < ctx->ippNum; i++) {
+            BufferPool_Destroy(ctx->bufferPool[i]);
         }
 
         for(i=0; i<ctx->ippNum; i++) {
             if(ctx->eglProducer[i])
                 NvMediaEglStreamProducerDestroy(ctx->eglProducer[i]);
         }
+
+        if(ctx->i2d)
+            NvMedia2DDestroy(ctx->i2d);
+        if(ctx->blitParams)
+            free(ctx->blitParams);
+
         free(ctx);
     }
+
     LOG_DBG("ImageProducerFini: end\n");
     return NVMEDIA_STATUS_OK;
 }
+
