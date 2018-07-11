@@ -141,7 +141,7 @@ SendIPPHumanVisionOutToEglStream(
     ImageBuffer *eglBuffer = NULL, *retBuffer = NULL;
     NvMediaStatus status = NVMEDIA_STATUS_OK;
     NvU32 timeoutMS = EGL_PRODUCER_TIMEOUT_MS * ctx->ippNum;
-    int retry = EGL_PRODUCER_GET_IMAGE_MAX_RETRIES;
+    //int retry = EGL_PRODUCER_GET_IMAGE_MAX_RETRIES;
     ImageProducerCtx*   eglStrmProducerCtx;
 
     eglStrmProducerCtx = ctx;
@@ -200,8 +200,8 @@ SendIPPHumanVisionOutToEglStream(
 
     if(status == NVMEDIA_STATUS_OK) {
         LOG_DBG("%s: EGL producer # %d: Got image %p %d %d\n", __func__, ippNum, retImage, retImage->height, retImage->width);
-        retImage->image->tag--;
-        if (eglBuffer->image->tag == 0) {       
+        retImage->tag--;
+        if (((uint64_t)retImage->tag & 0x01) == 0) {       
             LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
             retBuffer = (ImageBuffer *)retImage->tag;
             BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
@@ -216,8 +216,8 @@ SendIPPHumanVisionOutToEglStream(
 
     if(status == NVMEDIA_STATUS_OK) {
         LOG_DBG("%s: EGL producer # %d: Got image %p\n", __func__, ippNum, retImage);
-        retImage->image->tag--;
-        if (eglBuffer->image->tag == 0) {       
+        retImage->tag--;
+        if (((uint64_t)retImage->tag & 0x01) == 0) {       
             LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
             retBuffer = (ImageBuffer *)retImage->tag;
             BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
@@ -419,12 +419,14 @@ ImageProducerInit(NvMediaDevice *device,
         goto fail;
     }
     NVM_SURF_FMT_DEFINE_ATTR(surfFormatAttrs);
-    NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,PL);
+    //NVM_SURF_FMT_SET_ATTR_YUV(surfFormatAttrs,YUV,420,SEMI_PLANAR,UINT,8,PL);
+    NVM_SURF_FMT_SET_ATTR_RGBA(surfFormatAttrs,RGBA,UINT,8,PL);
     memset(&poolConfig, 0, sizeof(ImageBufferPoolConfigNew));
     poolConfig.surfType = NvMediaSurfaceFormatGetType(surfFormatAttrs, NVM_SURF_FMT_ATTR_MAX);
     poolConfig.device = interopCtx->device;
     poolConfig.surfAllocAttrs[0].type = NVM_SURF_ATTR_WIDTH;
-    poolConfig.surfAllocAttrs[0].value = interopCtx->width / interopCtx->ippNum;
+    //poolConfig.surfAllocAttrs[0].value = interopCtx->width / interopCtx->ippNum;
+    poolConfig.surfAllocAttrs[0].value = interopCtx->width;
     poolConfig.surfAllocAttrs[1].type = NVM_SURF_ATTR_HEIGHT;
     poolConfig.surfAllocAttrs[1].value = interopCtx->height;
     poolConfig.numSurfAllocAttrs = 2;
