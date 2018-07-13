@@ -37,8 +37,8 @@ extern "C" {
 #include "eglstrm_setup.h"
 //#define DEBUG
 
-#define IMAGE_BUFFERS_POOL_SIZE        3
-#define STATS_BUFFERS_POOL_SIZE        3
+#define IMAGE_BUFFERS_POOL_SIZE        8
+#define STATS_BUFFERS_POOL_SIZE        8
 #define SENSOR_BUFFERS_POOL_SIZE       3
 #define MAX_CAPTURE_BUFFERS            2
 

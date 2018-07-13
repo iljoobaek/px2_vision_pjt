@@ -172,8 +172,9 @@ SendIPPHumanVisionOutToEglStream(
 
 
 #ifdef MULTI_EGL_STREAM
-	eglBuffer->image->tag += 2;
-    LOG_ERR("%p %p %d\n", eglStrmProducerCtx->eglProducer[ippNum], eglBuffer->image, ippNum);
+    uint32_t* pTag = (uint32_t*)&(eglBuffer->image->tag);
+    *pTag += 2;
+    //LOG_ERR("%p %p %d %d %d\n", eglStrmProducerCtx->eglProducer[ippNum], eglBuffer->image, ippNum, eglBuffer->image->width, eglBuffer->image->height);
     status = NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
                                                   eglBuffer->image,
                                                   NULL);
@@ -200,9 +201,10 @@ SendIPPHumanVisionOutToEglStream(
 
     if(status == NVMEDIA_STATUS_OK) {
         LOG_DBG("%s: EGL producer # %d: Got image %p %d %d\n", __func__, ippNum, retImage, retImage->height, retImage->width);
-        retImage->tag--;
-        if (((uint64_t)retImage->tag & 0x01) == 0) {       
-            LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
+        pTag = (uint32_t*)&retImage->tag;
+        *pTag -= 1;
+        if ((*pTag & 0x01) == 0) {       
+            //LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
             retBuffer = (ImageBuffer *)retImage->tag;
             BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
         }
@@ -210,15 +212,17 @@ SendIPPHumanVisionOutToEglStream(
     else {
         LOG_DBG("NvMediaEglStreamProducerGetImage waiting\n");
     }
+    LOG_DBG("%s %d\n", __func__, __LINE__);
     status = NvMediaEglStreamProducerGetImage(eglStrmProducerCtx->eglProducer[ippNum+4],
                                                   &retImage,
                                                   timeoutMS);
 
     if(status == NVMEDIA_STATUS_OK) {
-        LOG_DBG("%s: EGL producer # %d: Got image %p\n", __func__, ippNum, retImage);
-        retImage->tag--;
-        if (((uint64_t)retImage->tag & 0x01) == 0) {       
-            LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum, retImage);
+        LOG_DBG("%s: EGL producer # %d: Got image %p %d %d\n", __func__, ippNum+4, retImage, retImage->height, retImage->width);
+        pTag = (uint32_t*)&retImage->tag;
+        *pTag -= 1;
+        if ((*pTag & 0x01) == 0) {       
+            //LOG_ERR("%s: EGL producer # %d: Got image %p and return\n", __func__, ippNum+4, retImage);
             retBuffer = (ImageBuffer *)retImage->tag;
             BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
         }
@@ -312,11 +316,12 @@ ImageProducerProc (
                     PrintMetadataInfo(ctx->outputComponent[i], &output);
                 }
                 status = SendIPPHumanVisionOutToEglStream(ctx,i,&output);
-
+#if 0
                 if(status != NVMEDIA_STATUS_OK) {
                     *ctx->quit = NVMEDIA_TRUE;
                     break;
                 }
+#endif
             }
         } // for loop
     } // while loop
@@ -385,6 +390,12 @@ ImageProducerInit(NvMediaDevice *device,
     }
     memset(client, 0, sizeof(ImageProducerCtx));
 
+    //make sure the dimesion are all the same
+    width = interopCtx->width;
+    width /= 2;
+    height = interopCtx->height;
+    height /= 2;
+
     client->device = device;
     client->width = width;
     client->height = height;
@@ -426,10 +437,12 @@ ImageProducerInit(NvMediaDevice *device,
     poolConfig.device = interopCtx->device;
     poolConfig.surfAllocAttrs[0].type = NVM_SURF_ATTR_WIDTH;
     //poolConfig.surfAllocAttrs[0].value = interopCtx->width / interopCtx->ippNum;
-    poolConfig.surfAllocAttrs[0].value = interopCtx->width;
+    poolConfig.surfAllocAttrs[0].value = width;
     poolConfig.surfAllocAttrs[1].type = NVM_SURF_ATTR_HEIGHT;
-    poolConfig.surfAllocAttrs[1].value = interopCtx->height;
-    poolConfig.numSurfAllocAttrs = 2;
+    poolConfig.surfAllocAttrs[1].value = height;
+    poolConfig.surfAllocAttrs[2].type = NVM_SURF_ATTR_CPU_ACCESS;
+    poolConfig.surfAllocAttrs[2].value = NVM_SURF_ATTR_CPU_ACCESS_CACHED;
+    poolConfig.numSurfAllocAttrs = 3;
     for(i=0; i < interopCtx->ippNum; i++) {
         if(client->bufferPool[i]) {
             BufferPool_Destroy(client->bufferPool[i]);
@@ -445,7 +458,7 @@ ImageProducerInit(NvMediaDevice *device,
         }
 
         LOG_DBG("%s: BufferPool_Create_New: eglStep.bufferPool: %ux%u\n",
-                __func__, (interopCtx->width / interopCtx->ippNum), interopCtx->height);
+                __func__, (interopCtx->width), interopCtx->height);
     }
 #ifdef MULTI_EGL_STREAM
     for(j=0; j< interopCtx->ippNum; j++) {
