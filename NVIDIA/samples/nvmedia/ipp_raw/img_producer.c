@@ -143,6 +143,8 @@ SendIPPHumanVisionOutToEglStream(
     NvU32 timeoutMS = EGL_PRODUCER_TIMEOUT_MS * ctx->ippNum;
     //int retry = EGL_PRODUCER_GET_IMAGE_MAX_RETRIES;
     ImageProducerCtx*   eglStrmProducerCtx;
+	NvU64 td;
+	NvU64 te;
 
     eglStrmProducerCtx = ctx;
 
@@ -151,10 +153,13 @@ SendIPPHumanVisionOutToEglStream(
         return status;
     }
 
+    //GetTimeMicroSec(&td);
     // 2D blit
     status = img2DBlitFunc(ctx,
                     output->image, // input
                     eglBuffer->image); // output
+    //GetTimeMicroSec(&te);
+    //LOG_ERR("%d\n", te-td);
     if (status != NVMEDIA_STATUS_OK) {
         LOG_ERR("%s: img2DblockFunc for IPP %d", __func__, ippNum);
         *ctx->quit = NVMEDIA_TRUE;
@@ -182,6 +187,9 @@ SendIPPHumanVisionOutToEglStream(
         LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed, %d\n", __func__, status);
         return  status;
     }
+
+    //GetTimeMicroSec(&td);
+    //LOG_ERR("%d\n", td);
     if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum+4],
                                                   eglBuffer->image,
                                                   NULL))) {
@@ -231,10 +239,11 @@ SendIPPHumanVisionOutToEglStream(
         LOG_DBG("NvMediaEglStreamProducerGetImage waiting\n");
     }
 #else
-
-    LOG_ERR("%s: EGL producer: Post image %p %d\n", __func__, output->image, ippNum);
+    //GetTimeMicroSec(&td);
+    //LOG_ERR("%u ippNum %d\n", td, ippNum);
+    //LOG_ERR("%s: EGL producer: Post image %p %d\n", __func__, output->image, ippNum);
     if(IsFailed(NvMediaEglStreamProducerPostImage(eglStrmProducerCtx->eglProducer[ippNum],
-                                                  output->image,
+                                                  eglBuffer->image,
                                                   NULL))) {
         LOG_ERR("%s: NvMediaEglStreamProducerPostImage failed\n", __func__);
         return  status;
@@ -248,29 +257,17 @@ SendIPPHumanVisionOutToEglStream(
     }
 
     // get image from eglstream and release it
-    do {
-        status = NvMediaEglStreamProducerGetImage(eglStrmProducerCtx->eglProducer[ippNum],
+    status = NvMediaEglStreamProducerGetImage(eglStrmProducerCtx->eglProducer[ippNum],
                                                   &retImage,
                                                   timeoutMS);
-        retry--;
-    } while(retry >= 0 && !retImage && !(*(ctx->quit)));
 
     if(retImage && status == NVMEDIA_STATUS_OK) {
         LOG_DBG("%s: EGL producer # %d: Got image %p\n", __func__, ippNum, retImage);
-        retOutput.image = retImage;
-        // Return processed image to IPP
-        status = NvMediaIPPComponentReturnOutput(ctx->outputComponent[ippNum], //component
-                                                 &retOutput);                //output image
-        if (status != NVMEDIA_STATUS_OK) {
-            LOG_ERR("%s: NvMediaIPPComponentReturnOutput failed %d", __func__, ippNum);
-            *ctx->quit = NVMEDIA_TRUE;
-            return status;
-        }
+        retBuffer = (ImageBuffer *)retImage->tag;
+        BufferPool_ReleaseBuffer(retBuffer->bufferPool, retBuffer);
     }
     else {
         LOG_DBG("%s: EGL producer: no return image\n", __func__);
-        *ctx->quit = NVMEDIA_TRUE;
-        status = NVMEDIA_STATUS_ERROR;
     }
 #endif
     return status;
