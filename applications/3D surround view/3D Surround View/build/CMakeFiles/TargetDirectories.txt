@@ -1,0 +1,3 @@
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/3D Surround View/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/3D Surround View/build/CMakeFiles/edit_cache.dir
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/3D Surround View/build/CMakeFiles/surround_view.dir

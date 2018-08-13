@@ -1,0 +1,10 @@
+- cadillac used in original size looks small
+- strike a balance between car model and real world car sizes from video
+
+meshes
+----------
+
+- flat all around with flat base
+- elliptical base, vertical curve
+- hemisphere squished in z
+- elliptical shape by squishing in x, the above hemisphere

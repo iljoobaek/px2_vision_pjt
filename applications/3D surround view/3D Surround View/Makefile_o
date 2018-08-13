@@ -1,0 +1,19 @@
+CC=g++
+CFLAGS=-Wall -fpermissive -I. -L/home/nvidia/opencv-2.4.12/lib -L/home/nvidia/Desktop/glm/glm/ -L/usr/local/lib -L/usr/include/x86-64-linux-gnu/  
+DEPS = shader.hpp texture.hpp objloader.hpp 
+OBJ = surround_view.o shader.o texture.o objloader.o 
+TARGET = surround_view
+
+LIBS= -lGL -lGLEW -lGLU -lGLEW -lGLESv2 -lglfw -lglut -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core -lavcodec -lavformat -lswscale -lavutil
+
+.PHONY = clean
+
+%.o: %.cpp $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+$(TARGET): $(OBJ)
+	g++ -o $@ $^ $(CFLAGS) $(LIBS)
+	-rm *.o
+
+clean:
+	-rm $(TARGET)
