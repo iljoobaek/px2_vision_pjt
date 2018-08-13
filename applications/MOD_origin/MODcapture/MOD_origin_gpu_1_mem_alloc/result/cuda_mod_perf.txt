@@ -1,0 +1,1286 @@
+GPU features are supported for this platform!
+Started Initialization
+Started
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+585 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 18.00 ms, per: 5.66%
+time for wise mul: 2.00 ms, per: 0.63%
+time for ORB: 26.00 ms, per: 8.18%
+time for find moving obj: 272.00 ms, per: 85.53%
+  -> time for opticalflow sparse : 35.00 ms, per: 11.01%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 318.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+815 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 21.00 ms, per: 16.54%
+time for wise mul: 1.00 ms, per: 0.79%
+time for ORB: 31.00 ms, per: 24.41%
+time for find moving obj: 74.00 ms, per: 58.27%
+  -> time for opticalflow sparse : 70.00 ms, per: 55.12%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 127.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+972 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 24.00 ms, per: 17.52%
+time for wise mul: 1.00 ms, per: 0.73%
+time for ORB: 28.00 ms, per: 20.44%
+time for find moving obj: 84.00 ms, per: 61.31%
+  -> time for opticalflow sparse : 80.00 ms, per: 58.39%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 137.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1041 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 11.81%
+time for wise mul: 1.00 ms, per: 0.79%
+time for ORB: 29.00 ms, per: 22.83%
+time for find moving obj: 82.00 ms, per: 64.57%
+  -> time for opticalflow sparse : 78.00 ms, per: 61.42%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 127.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1105 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 11.63%
+time for wise mul: 1.00 ms, per: 0.78%
+time for ORB: 30.00 ms, per: 23.26%
+time for find moving obj: 83.00 ms, per: 64.34%
+  -> time for opticalflow sparse : 77.00 ms, per: 59.69%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 2.00 ms, per: 1.55%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 129.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1044 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 10.00 ms, per: 10.64%
+time for wise mul: 1.00 ms, per: 1.06%
+time for ORB: 29.00 ms, per: 30.85%
+time for find moving obj: 54.00 ms, per: 57.45%
+  -> time for opticalflow sparse : 50.00 ms, per: 53.19%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 94.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1057 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 14.94%
+time for wise mul: 1.00 ms, per: 1.15%
+time for ORB: 29.00 ms, per: 33.33%
+time for find moving obj: 44.00 ms, per: 50.57%
+  -> time for opticalflow sparse : 41.00 ms, per: 47.13%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 87.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1019 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 11.32%
+time for wise mul: 1.00 ms, per: 0.94%
+time for ORB: 29.00 ms, per: 27.36%
+time for find moving obj: 64.00 ms, per: 60.38%
+  -> time for opticalflow sparse : 60.00 ms, per: 56.60%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 106.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1204 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 10.94%
+time for wise mul: 1.00 ms, per: 0.78%
+time for ORB: 31.00 ms, per: 24.22%
+time for find moving obj: 82.00 ms, per: 64.06%
+  -> time for opticalflow sparse : 77.00 ms, per: 60.16%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 128.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1314 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 12.87%
+time for wise mul: 1.00 ms, per: 0.99%
+time for ORB: 34.00 ms, per: 33.66%
+time for find moving obj: 53.00 ms, per: 52.48%
+  -> time for opticalflow sparse : 50.00 ms, per: 49.50%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 101.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1386 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.42%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 36.00 ms, per: 26.09%
+time for find moving obj: 88.00 ms, per: 63.77%
+  -> time for opticalflow sparse : 84.00 ms, per: 60.87%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1510 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.22%
+time for wise mul: 1.00 ms, per: 0.71%
+time for ORB: 37.00 ms, per: 26.24%
+time for find moving obj: 90.00 ms, per: 63.83%
+  -> time for opticalflow sparse : 86.00 ms, per: 60.99%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 141.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1500 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.42%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 38.00 ms, per: 27.54%
+time for find moving obj: 86.00 ms, per: 62.32%
+  -> time for opticalflow sparse : 82.00 ms, per: 59.42%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1537 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.42%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 35.00 ms, per: 25.36%
+time for find moving obj: 89.00 ms, per: 64.49%
+  -> time for opticalflow sparse : 85.00 ms, per: 61.59%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1591 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.72%
+time for wise mul: 1.00 ms, per: 0.67%
+time for ORB: 35.00 ms, per: 23.49%
+time for find moving obj: 100.00 ms, per: 67.11%
+  -> time for opticalflow sparse : 96.00 ms, per: 64.43%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 149.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1567 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.03%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 34.00 ms, per: 23.61%
+time for find moving obj: 96.00 ms, per: 66.67%
+  -> time for opticalflow sparse : 92.00 ms, per: 63.89%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 144.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1584 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.78%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 34.00 ms, per: 22.97%
+time for find moving obj: 100.00 ms, per: 67.57%
+  -> time for opticalflow sparse : 96.00 ms, per: 64.86%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 148.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1577 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.15%
+time for wise mul: 1.00 ms, per: 0.70%
+time for ORB: 34.00 ms, per: 23.94%
+time for find moving obj: 94.00 ms, per: 66.20%
+  -> time for opticalflow sparse : 90.00 ms, per: 63.38%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.70%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 142.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1583 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.66%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 34.00 ms, per: 23.45%
+time for find moving obj: 96.00 ms, per: 66.21%
+  -> time for opticalflow sparse : 92.00 ms, per: 63.45%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 145.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1622 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.77%
+time for wise mul: 1.00 ms, per: 0.75%
+time for ORB: 36.00 ms, per: 27.07%
+time for find moving obj: 83.00 ms, per: 62.41%
+  -> time for opticalflow sparse : 79.00 ms, per: 59.40%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 133.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1651 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 10.42%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 35.00 ms, per: 24.31%
+time for find moving obj: 93.00 ms, per: 64.58%
+  -> time for opticalflow sparse : 89.00 ms, per: 61.81%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 144.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1675 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 8.57%
+time for wise mul: 2.00 ms, per: 1.43%
+time for ORB: 35.00 ms, per: 25.00%
+time for find moving obj: 91.00 ms, per: 65.00%
+  -> time for opticalflow sparse : 86.00 ms, per: 61.43%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 140.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1671 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.61%
+time for wise mul: 1.00 ms, per: 0.66%
+time for ORB: 35.00 ms, per: 23.18%
+time for find moving obj: 102.00 ms, per: 67.55%
+  -> time for opticalflow sparse : 97.00 ms, per: 64.24%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 151.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1680 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.93%
+time for wise mul: 1.00 ms, per: 0.71%
+time for ORB: 35.00 ms, per: 24.82%
+time for find moving obj: 91.00 ms, per: 64.54%
+  -> time for opticalflow sparse : 87.00 ms, per: 61.70%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 141.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1679 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.86%
+time for wise mul: 1.00 ms, per: 0.70%
+time for ORB: 35.00 ms, per: 24.65%
+time for find moving obj: 92.00 ms, per: 64.79%
+  -> time for opticalflow sparse : 88.00 ms, per: 61.97%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 142.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1691 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.03%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 36.00 ms, per: 25.00%
+time for find moving obj: 94.00 ms, per: 65.28%
+  -> time for opticalflow sparse : 90.00 ms, per: 62.50%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 144.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1663 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 11.03%
+time for wise mul: 1.00 ms, per: 0.74%
+time for ORB: 35.00 ms, per: 25.74%
+time for find moving obj: 85.00 ms, per: 62.50%
+  -> time for opticalflow sparse : 80.00 ms, per: 58.82%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.74%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 136.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1660 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 8.97%
+time for wise mul: 1.00 ms, per: 0.64%
+time for ORB: 35.00 ms, per: 22.44%
+time for find moving obj: 106.00 ms, per: 67.95%
+  -> time for opticalflow sparse : 102.00 ms, per: 65.38%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 156.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1727 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 10.92%
+time for wise mul: 1.00 ms, per: 0.84%
+time for ORB: 36.00 ms, per: 30.25%
+time for find moving obj: 69.00 ms, per: 57.98%
+  -> time for opticalflow sparse : 65.00 ms, per: 54.62%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 119.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1686 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.78%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 36.00 ms, per: 24.32%
+time for find moving obj: 98.00 ms, per: 66.22%
+  -> time for opticalflow sparse : 94.00 ms, per: 63.51%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 148.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1674 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 16.00 ms, per: 10.96%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 36.00 ms, per: 24.66%
+time for find moving obj: 93.00 ms, per: 63.70%
+  -> time for opticalflow sparse : 88.00 ms, per: 60.27%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 146.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1707 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 9.45%
+time for wise mul: 1.00 ms, per: 0.79%
+time for ORB: 36.00 ms, per: 28.35%
+time for find moving obj: 78.00 ms, per: 61.42%
+  -> time for opticalflow sparse : 74.00 ms, per: 58.27%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 127.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1688 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.97%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 36.00 ms, per: 24.83%
+time for find moving obj: 95.00 ms, per: 65.52%
+  -> time for opticalflow sparse : 91.00 ms, per: 62.76%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 145.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1669 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 8.70%
+time for wise mul: 1.00 ms, per: 0.62%
+time for ORB: 38.00 ms, per: 23.60%
+time for find moving obj: 108.00 ms, per: 67.08%
+  -> time for opticalflow sparse : 104.00 ms, per: 64.60%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 161.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1718 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.72%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 36.00 ms, per: 25.00%
+time for find moving obj: 93.00 ms, per: 64.58%
+  -> time for opticalflow sparse : 89.00 ms, per: 61.81%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 144.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1677 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.56%
+time for wise mul: 1.00 ms, per: 0.74%
+time for ORB: 40.00 ms, per: 29.41%
+time for find moving obj: 82.00 ms, per: 60.29%
+  -> time for opticalflow sparse : 78.00 ms, per: 57.35%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 136.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1700 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.46%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 36.00 ms, per: 24.32%
+time for find moving obj: 97.00 ms, per: 65.54%
+  -> time for opticalflow sparse : 93.00 ms, per: 62.84%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 148.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1732 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 17.00 ms, per: 11.04%
+time for wise mul: 1.00 ms, per: 0.65%
+time for ORB: 40.00 ms, per: 25.97%
+time for find moving obj: 96.00 ms, per: 62.34%
+  -> time for opticalflow sparse : 92.00 ms, per: 59.74%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 154.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1762 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 8.39%
+time for wise mul: 1.00 ms, per: 0.70%
+time for ORB: 40.00 ms, per: 27.97%
+time for find moving obj: 90.00 ms, per: 62.94%
+  -> time for opticalflow sparse : 86.00 ms, per: 60.14%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 143.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1738 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 9.87%
+time for wise mul: 1.00 ms, per: 0.66%
+time for ORB: 39.00 ms, per: 25.66%
+time for find moving obj: 97.00 ms, per: 63.82%
+  -> time for opticalflow sparse : 92.00 ms, per: 60.53%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 152.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1784 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.70%
+time for wise mul: 1.00 ms, per: 0.75%
+time for ORB: 39.00 ms, per: 29.10%
+time for find moving obj: 81.00 ms, per: 60.45%
+  -> time for opticalflow sparse : 77.00 ms, per: 57.46%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 134.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1813 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 8.22%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 40.00 ms, per: 27.40%
+time for find moving obj: 93.00 ms, per: 63.70%
+  -> time for opticalflow sparse : 89.00 ms, per: 60.96%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 146.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1755 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 20.00 ms, per: 13.70%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 40.00 ms, per: 27.40%
+time for find moving obj: 85.00 ms, per: 58.22%
+  -> time for opticalflow sparse : 81.00 ms, per: 55.48%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 146.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1764 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.46%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 41.00 ms, per: 27.70%
+time for find moving obj: 92.00 ms, per: 62.16%
+  -> time for opticalflow sparse : 88.00 ms, per: 59.46%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 148.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1788 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.78%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 40.00 ms, per: 27.03%
+time for find moving obj: 94.00 ms, per: 63.51%
+  -> time for opticalflow sparse : 90.00 ms, per: 60.81%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 148.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1802 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 21.00 ms, per: 13.91%
+time for wise mul: 1.00 ms, per: 0.66%
+time for ORB: 38.00 ms, per: 25.17%
+time for find moving obj: 91.00 ms, per: 60.26%
+  -> time for opticalflow sparse : 87.00 ms, per: 57.62%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 151.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1741 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.63%
+time for wise mul: 1.00 ms, per: 0.74%
+time for ORB: 39.00 ms, per: 28.89%
+time for find moving obj: 82.00 ms, per: 60.74%
+  -> time for opticalflow sparse : 78.00 ms, per: 57.78%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 135.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1791 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.22%
+time for wise mul: 1.00 ms, per: 0.71%
+time for ORB: 41.00 ms, per: 29.08%
+time for find moving obj: 86.00 ms, per: 60.99%
+  -> time for opticalflow sparse : 81.00 ms, per: 57.45%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 141.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1737 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.52%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 40.00 ms, per: 27.21%
+time for find moving obj: 92.00 ms, per: 62.59%
+  -> time for opticalflow sparse : 87.00 ms, per: 59.18%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 147.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1751 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 10.87%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 40.00 ms, per: 28.99%
+time for find moving obj: 82.00 ms, per: 59.42%
+  -> time for opticalflow sparse : 78.00 ms, per: 56.52%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1771 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.18%
+time for wise mul: 1.00 ms, per: 0.63%
+time for ORB: 48.00 ms, per: 30.19%
+time for find moving obj: 97.00 ms, per: 61.01%
+  -> time for opticalflow sparse : 93.00 ms, per: 58.49%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 1.00 ms, per: 0.63%
+total time for one frame: 159.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1769 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 10.24%
+time for wise mul: 1.00 ms, per: 0.79%
+time for ORB: 41.00 ms, per: 32.28%
+time for find moving obj: 72.00 ms, per: 56.69%
+  -> time for opticalflow sparse : 68.00 ms, per: 53.54%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 127.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1740 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.63%
+time for wise mul: 1.00 ms, per: 0.74%
+time for ORB: 41.00 ms, per: 30.37%
+time for find moving obj: 80.00 ms, per: 59.26%
+  -> time for opticalflow sparse : 76.00 ms, per: 56.30%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 135.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1766 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.42%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 40.00 ms, per: 28.99%
+time for find moving obj: 84.00 ms, per: 60.87%
+  -> time for opticalflow sparse : 80.00 ms, per: 57.97%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1755 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.72%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 39.00 ms, per: 27.08%
+time for find moving obj: 90.00 ms, per: 62.50%
+  -> time for opticalflow sparse : 86.00 ms, per: 59.72%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 144.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1791 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 9.02%
+time for wise mul: 1.00 ms, per: 0.75%
+time for ORB: 40.00 ms, per: 30.08%
+time for find moving obj: 80.00 ms, per: 60.15%
+  -> time for opticalflow sparse : 76.00 ms, per: 57.14%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 133.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1779 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.50%
+time for wise mul: 1.00 ms, per: 0.65%
+time for ORB: 39.00 ms, per: 25.49%
+time for find moving obj: 100.00 ms, per: 65.36%
+  -> time for opticalflow sparse : 96.00 ms, per: 62.75%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 153.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1779 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 18.00 ms, per: 13.43%
+time for wise mul: 1.00 ms, per: 0.75%
+time for ORB: 42.00 ms, per: 31.34%
+time for find moving obj: 73.00 ms, per: 54.48%
+  -> time for opticalflow sparse : 69.00 ms, per: 51.49%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 134.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1762 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 16.00 ms, per: 10.96%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 39.00 ms, per: 26.71%
+time for find moving obj: 90.00 ms, per: 61.64%
+  -> time for opticalflow sparse : 86.00 ms, per: 58.90%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 146.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1766 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.03%
+time for wise mul: 2.00 ms, per: 1.29%
+time for ORB: 39.00 ms, per: 25.16%
+time for find moving obj: 100.00 ms, per: 64.52%
+  -> time for opticalflow sparse : 96.00 ms, per: 61.94%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 155.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1762 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.85%
+time for wise mul: 1.00 ms, per: 0.76%
+time for ORB: 37.00 ms, per: 28.03%
+time for find moving obj: 81.00 ms, per: 61.36%
+  -> time for opticalflow sparse : 77.00 ms, per: 58.33%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 132.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1759 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 10.85%
+time for wise mul: 1.00 ms, per: 0.78%
+time for ORB: 40.00 ms, per: 31.01%
+time for find moving obj: 74.00 ms, per: 57.36%
+  -> time for opticalflow sparse : 70.00 ms, per: 54.26%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 129.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1781 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 10.14%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 41.00 ms, per: 29.71%
+time for find moving obj: 82.00 ms, per: 59.42%
+  -> time for opticalflow sparse : 78.00 ms, per: 56.52%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1765 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 8.97%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 36.00 ms, per: 24.83%
+time for find moving obj: 95.00 ms, per: 65.52%
+  -> time for opticalflow sparse : 91.00 ms, per: 62.76%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 145.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1752 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 14.00 ms, per: 9.46%
+time for wise mul: 1.00 ms, per: 0.68%
+time for ORB: 39.00 ms, per: 26.35%
+time for find moving obj: 94.00 ms, per: 63.51%
+  -> time for opticalflow sparse : 90.00 ms, per: 60.81%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 148.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1718 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 10.07%
+time for wise mul: 1.00 ms, per: 0.67%
+time for ORB: 40.00 ms, per: 26.85%
+time for find moving obj: 93.00 ms, per: 62.42%
+  -> time for opticalflow sparse : 89.00 ms, per: 59.73%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 149.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1743 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.03%
+time for wise mul: 1.00 ms, per: 0.69%
+time for ORB: 39.00 ms, per: 27.08%
+time for find moving obj: 91.00 ms, per: 63.19%
+  -> time for opticalflow sparse : 87.00 ms, per: 60.42%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 144.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1762 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 13.00 ms, per: 9.42%
+time for wise mul: 1.00 ms, per: 0.72%
+time for ORB: 40.00 ms, per: 28.99%
+time for find moving obj: 84.00 ms, per: 60.87%
+  -> time for opticalflow sparse : 80.00 ms, per: 57.97%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 138.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1763 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 16.00 ms, per: 10.74%
+time for wise mul: 1.00 ms, per: 0.67%
+time for ORB: 37.00 ms, per: 24.83%
+time for find moving obj: 95.00 ms, per: 63.76%
+  -> time for opticalflow sparse : 90.00 ms, per: 60.40%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 149.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1751 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 15.00 ms, per: 10.49%
+time for wise mul: 1.00 ms, per: 0.70%
+time for ORB: 36.00 ms, per: 25.17%
+time for find moving obj: 91.00 ms, per: 63.64%
+  -> time for opticalflow sparse : 87.00 ms, per: 60.84%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 143.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1764 0
+The size of the images passed are[1280 x 720] [1280 x 720]
+Computed sparse optical flow features
+Located obstacles
+Wrote into the video
+time for diff and binary image: 12.00 ms, per: 8.96%
+time for wise mul: 1.00 ms, per: 0.75%
+time for ORB: 37.00 ms, per: 27.61%
+time for find moving obj: 84.00 ms, per: 62.69%
+  -> time for opticalflow sparse : 80.00 ms, per: 59.70%
+  -> time for upload & download overhead : 0.00 ms, per: 0.00%
+  -> time for drawopticalflow sparse: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+total time for one frame: 134.00 ms
+
+Calculated Binary image
+Completed element wise multiplication
+Computed ORB features[1280 x 720] [1280 x 720]
+1758 0
+The size of the images passed are[1280 x 720] [1280 x 720]

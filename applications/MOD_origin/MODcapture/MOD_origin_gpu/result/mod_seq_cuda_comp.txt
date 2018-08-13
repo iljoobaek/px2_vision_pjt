@@ -1,0 +1,4406 @@
+GPU features are supported for this platform!
+Started Initialization
+Started
+SEQ: total time for one frame: 58.00 ms
+time for diff and binary image: 3.00 ms, per: 5.17%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 27.00 ms, per: 46.55%
+  -> time for opticalflow sparse: 26.00 ms, per: 44.83%
+  -> time for drawopticalflow: 1.00 ms, per: 1.72%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 77.00 ms
+time for diff and binary image: 8.00 ms, per: 10.39%
+time for wise mul: 2.00 ms, per: 2.60%
+time for ORB: 32.00 ms, per: 41.56%
+time for find moving obj: 35.00 ms, per: 45.45%
+  -> time for opticalflow sparse: 32.00 ms, per: 41.56%
+  -> time for drawopticalflow sparse: 3.00 ms, per: 3.90%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 59.00 ms
+time for diff and binary image: 5.00 ms, per: 8.47%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 34.00 ms, per: 57.63%
+time for find moving obj: 19.00 ms, per: 32.20%
+  -> time for opticalflow sparse: 18.00 ms, per: 30.51%
+  -> time for drawopticalflow: 1.00 ms, per: 1.69%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 85.00 ms
+time for diff and binary image: 8.00 ms, per: 9.41%
+time for wise mul: 3.00 ms, per: 3.53%
+time for ORB: 25.00 ms, per: 29.41%
+time for find moving obj: 49.00 ms, per: 57.65%
+  -> time for opticalflow sparse: 45.00 ms, per: 52.94%
+  -> time for drawopticalflow sparse: 4.00 ms, per: 4.71%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 58.00%
+time for find moving obj: 17.00 ms, per: 34.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 88.00 ms
+time for diff and binary image: 11.00 ms, per: 12.50%
+time for wise mul: 3.00 ms, per: 3.41%
+time for ORB: 23.00 ms, per: 26.14%
+time for find moving obj: 51.00 ms, per: 57.95%
+  -> time for opticalflow sparse: 50.00 ms, per: 56.82%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.14%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.09%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 86.00 ms
+time for diff and binary image: 12.00 ms, per: 13.95%
+time for wise mul: 3.00 ms, per: 3.49%
+time for ORB: 23.00 ms, per: 26.74%
+time for find moving obj: 48.00 ms, per: 55.81%
+  -> time for opticalflow sparse: 47.00 ms, per: 54.65%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.16%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 54.90%
+time for find moving obj: 19.00 ms, per: 37.25%
+  -> time for opticalflow sparse: 18.00 ms, per: 35.29%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 77.00 ms
+time for diff and binary image: 12.00 ms, per: 15.58%
+time for wise mul: 3.00 ms, per: 3.90%
+time for ORB: 26.00 ms, per: 33.77%
+time for find moving obj: 36.00 ms, per: 46.75%
+  -> time for opticalflow sparse: 35.00 ms, per: 45.45%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.30%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 5.00 ms, per: 9.62%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 27.00 ms, per: 51.92%
+time for find moving obj: 19.00 ms, per: 36.54%
+  -> time for opticalflow sparse: 18.00 ms, per: 34.62%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 6.00 ms, per: 8.11%
+time for wise mul: 2.00 ms, per: 2.70%
+time for ORB: 25.00 ms, per: 33.78%
+time for find moving obj: 41.00 ms, per: 55.41%
+  -> time for opticalflow sparse: 40.00 ms, per: 54.05%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 55.10%
+time for find moving obj: 19.00 ms, per: 38.78%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 87.00 ms
+time for diff and binary image: 7.00 ms, per: 8.05%
+time for wise mul: 2.00 ms, per: 2.30%
+time for ORB: 26.00 ms, per: 29.89%
+time for find moving obj: 52.00 ms, per: 59.77%
+  -> time for opticalflow sparse: 51.00 ms, per: 58.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.15%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 59.57%
+time for find moving obj: 15.00 ms, per: 31.91%
+  -> time for opticalflow sparse: 15.00 ms, per: 31.91%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 10.00 ms, per: 12.35%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 24.00 ms, per: 29.63%
+time for find moving obj: 44.00 ms, per: 54.32%
+  -> time for opticalflow sparse: 43.00 ms, per: 53.09%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 55.56%
+time for find moving obj: 16.00 ms, per: 35.56%
+  -> time for opticalflow sparse: 16.00 ms, per: 35.56%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 6.00 ms, per: 8.96%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 24.00 ms, per: 35.82%
+time for find moving obj: 35.00 ms, per: 52.24%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 57.00 ms
+time for diff and binary image: 4.00 ms, per: 7.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 50.88%
+time for find moving obj: 24.00 ms, per: 42.11%
+  -> time for opticalflow sparse: 22.00 ms, per: 38.60%
+  -> time for drawopticalflow: 2.00 ms, per: 3.51%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 102.00 ms
+time for diff and binary image: 8.00 ms, per: 7.84%
+time for wise mul: 2.00 ms, per: 1.96%
+time for ORB: 28.00 ms, per: 27.45%
+time for find moving obj: 64.00 ms, per: 62.75%
+  -> time for opticalflow sparse: 63.00 ms, per: 61.76%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.98%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 5.00 ms, per: 10.20%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 59.18%
+time for find moving obj: 15.00 ms, per: 30.61%
+  -> time for opticalflow sparse: 15.00 ms, per: 30.61%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 65.00 ms
+time for diff and binary image: 8.00 ms, per: 12.31%
+time for wise mul: 2.00 ms, per: 3.08%
+time for ORB: 23.00 ms, per: 35.38%
+time for find moving obj: 32.00 ms, per: 49.23%
+  -> time for opticalflow sparse: 31.00 ms, per: 47.69%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.54%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 1.00 ms, per: 2.04%
+time for ORB: 27.00 ms, per: 55.10%
+time for find moving obj: 17.00 ms, per: 34.69%
+  -> time for opticalflow sparse: 16.00 ms, per: 32.65%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 8.00 ms, per: 11.59%
+time for wise mul: 2.00 ms, per: 2.90%
+time for ORB: 27.00 ms, per: 39.13%
+time for find moving obj: 32.00 ms, per: 46.38%
+  -> time for opticalflow sparse: 31.00 ms, per: 44.93%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 4.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 55.77%
+time for find moving obj: 19.00 ms, per: 36.54%
+  -> time for opticalflow sparse: 18.00 ms, per: 34.62%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 82.00 ms
+time for diff and binary image: 10.00 ms, per: 12.20%
+time for wise mul: 3.00 ms, per: 3.66%
+time for ORB: 25.00 ms, per: 30.49%
+time for find moving obj: 44.00 ms, per: 53.66%
+  -> time for opticalflow sparse: 43.00 ms, per: 52.44%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 18.00 ms, per: 39.13%
+  -> time for opticalflow sparse: 18.00 ms, per: 39.13%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 8.00 ms, per: 12.50%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 24.00 ms, per: 37.50%
+time for find moving obj: 30.00 ms, per: 46.88%
+  -> time for opticalflow sparse: 29.00 ms, per: 45.31%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.04%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 8.00 ms, per: 11.94%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 24.00 ms, per: 35.82%
+time for find moving obj: 33.00 ms, per: 49.25%
+  -> time for opticalflow sparse: 32.00 ms, per: 47.76%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 56.52%
+time for find moving obj: 17.00 ms, per: 36.96%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.96%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 6.00 ms, per: 8.22%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 25.00 ms, per: 34.25%
+time for find moving obj: 40.00 ms, per: 54.79%
+  -> time for opticalflow sparse: 39.00 ms, per: 53.42%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 4.00 ms, per: 7.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 56.60%
+time for find moving obj: 19.00 ms, per: 35.85%
+  -> time for opticalflow sparse: 18.00 ms, per: 33.96%
+  -> time for drawopticalflow: 1.00 ms, per: 1.89%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 7.00 ms, per: 10.29%
+time for wise mul: 2.00 ms, per: 2.94%
+time for ORB: 25.00 ms, per: 36.76%
+time for find moving obj: 34.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 33.00 ms, per: 48.53%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 56.00 ms
+time for diff and binary image: 3.00 ms, per: 5.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 32.00 ms, per: 57.14%
+time for find moving obj: 21.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 20.00 ms, per: 35.71%
+  -> time for drawopticalflow: 1.00 ms, per: 1.79%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 94.00 ms
+time for diff and binary image: 7.00 ms, per: 7.45%
+time for wise mul: 2.00 ms, per: 2.13%
+time for ORB: 24.00 ms, per: 25.53%
+time for find moving obj: 61.00 ms, per: 64.89%
+  -> time for opticalflow sparse: 60.00 ms, per: 63.83%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.06%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 17.00 ms, per: 38.64%
+  -> time for opticalflow sparse: 17.00 ms, per: 38.64%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 79.00 ms
+time for diff and binary image: 10.00 ms, per: 12.66%
+time for wise mul: 3.00 ms, per: 3.80%
+time for ORB: 24.00 ms, per: 30.38%
+time for find moving obj: 42.00 ms, per: 53.16%
+  -> time for opticalflow sparse: 41.00 ms, per: 51.90%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 3.00 ms, per: 5.45%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 36.00 ms, per: 65.45%
+time for find moving obj: 16.00 ms, per: 29.09%
+  -> time for opticalflow sparse: 16.00 ms, per: 29.09%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 85.00 ms
+time for diff and binary image: 8.00 ms, per: 9.41%
+time for wise mul: 2.00 ms, per: 2.35%
+time for ORB: 24.00 ms, per: 28.24%
+time for find moving obj: 51.00 ms, per: 60.00%
+  -> time for opticalflow sparse: 50.00 ms, per: 58.82%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.18%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 2.00 ms, per: 4.76%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 16.00 ms, per: 38.10%
+  -> time for opticalflow sparse: 15.00 ms, per: 35.71%
+  -> time for drawopticalflow: 1.00 ms, per: 2.38%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 89.00 ms
+time for diff and binary image: 11.00 ms, per: 12.36%
+time for wise mul: 3.00 ms, per: 3.37%
+time for ORB: 24.00 ms, per: 26.97%
+time for find moving obj: 51.00 ms, per: 57.30%
+  -> time for opticalflow sparse: 50.00 ms, per: 56.18%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.12%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 4.00 ms, per: 7.27%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 23.00 ms, per: 41.82%
+  -> time for opticalflow sparse: 22.00 ms, per: 40.00%
+  -> time for drawopticalflow: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 85.00 ms
+time for diff and binary image: 7.00 ms, per: 8.24%
+time for wise mul: 2.00 ms, per: 2.35%
+time for ORB: 27.00 ms, per: 31.76%
+time for find moving obj: 49.00 ms, per: 57.65%
+  -> time for opticalflow sparse: 48.00 ms, per: 56.47%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.18%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 57.00 ms
+time for diff and binary image: 6.00 ms, per: 10.53%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 22.00 ms, per: 38.60%
+  -> time for opticalflow sparse: 21.00 ms, per: 36.84%
+  -> time for drawopticalflow: 1.00 ms, per: 1.75%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 24.00 ms, per: 29.63%
+time for find moving obj: 43.00 ms, per: 53.09%
+  -> time for opticalflow sparse: 42.00 ms, per: 51.85%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 6.00 ms, per: 11.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 53.70%
+time for find moving obj: 19.00 ms, per: 35.19%
+  -> time for opticalflow sparse: 18.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 1.85%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 86.00 ms
+time for diff and binary image: 7.00 ms, per: 8.14%
+time for wise mul: 2.00 ms, per: 2.33%
+time for ORB: 23.00 ms, per: 26.74%
+time for find moving obj: 54.00 ms, per: 62.79%
+  -> time for opticalflow sparse: 53.00 ms, per: 61.63%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.16%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 55.10%
+time for find moving obj: 18.00 ms, per: 36.73%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.69%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 7.00 ms, per: 10.94%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 23.00 ms, per: 35.94%
+time for find moving obj: 32.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 31.00 ms, per: 48.44%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 3.00 ms, per: 5.77%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 55.77%
+time for find moving obj: 20.00 ms, per: 38.46%
+  -> time for opticalflow sparse: 19.00 ms, per: 36.54%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 7.00 ms, per: 9.46%
+time for wise mul: 2.00 ms, per: 2.70%
+time for ORB: 25.00 ms, per: 33.78%
+time for find moving obj: 40.00 ms, per: 54.05%
+  -> time for opticalflow sparse: 39.00 ms, per: 52.70%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 5.00 ms, per: 10.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 8.00 ms, per: 12.12%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 24.00 ms, per: 36.36%
+time for find moving obj: 32.00 ms, per: 48.48%
+  -> time for opticalflow sparse: 31.00 ms, per: 46.97%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 4.00 ms, per: 7.27%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 22.00 ms, per: 40.00%
+  -> time for opticalflow sparse: 22.00 ms, per: 40.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 89.00 ms
+time for diff and binary image: 8.00 ms, per: 8.99%
+time for wise mul: 2.00 ms, per: 2.25%
+time for ORB: 24.00 ms, per: 26.97%
+time for find moving obj: 55.00 ms, per: 61.80%
+  -> time for opticalflow sparse: 54.00 ms, per: 60.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.12%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 7.00 ms, per: 10.14%
+time for wise mul: 2.00 ms, per: 2.90%
+time for ORB: 24.00 ms, per: 34.78%
+time for find moving obj: 36.00 ms, per: 52.17%
+  -> time for opticalflow sparse: 35.00 ms, per: 50.72%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 55.56%
+time for find moving obj: 17.00 ms, per: 37.78%
+  -> time for opticalflow sparse: 16.00 ms, per: 35.56%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 7.00 ms, per: 9.86%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 38.00 ms, per: 53.52%
+  -> time for opticalflow sparse: 37.00 ms, per: 52.11%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 3.00 ms, per: 6.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 19.00 ms, per: 38.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 25.00 ms, per: 34.72%
+time for find moving obj: 38.00 ms, per: 52.78%
+  -> time for opticalflow sparse: 37.00 ms, per: 51.39%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 5.00 ms, per: 10.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 8.00 ms, per: 11.11%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 24.00 ms, per: 33.33%
+time for find moving obj: 38.00 ms, per: 52.78%
+  -> time for opticalflow sparse: 37.00 ms, per: 51.39%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 5.00 ms, per: 10.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 17.00 ms, per: 34.00%
+  -> time for opticalflow sparse: 16.00 ms, per: 32.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 8.00 ms, per: 11.27%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 37.00 ms, per: 52.11%
+  -> time for opticalflow sparse: 36.00 ms, per: 50.70%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 57.00 ms
+time for diff and binary image: 4.00 ms, per: 7.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 50.88%
+time for find moving obj: 24.00 ms, per: 42.11%
+  -> time for opticalflow sparse: 23.00 ms, per: 40.35%
+  -> time for drawopticalflow: 1.00 ms, per: 1.75%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 7.00 ms, per: 10.14%
+time for wise mul: 2.00 ms, per: 2.90%
+time for ORB: 24.00 ms, per: 34.78%
+time for find moving obj: 36.00 ms, per: 52.17%
+  -> time for opticalflow sparse: 35.00 ms, per: 50.72%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 6.00 ms, per: 11.76%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 56.86%
+time for find moving obj: 16.00 ms, per: 31.37%
+  -> time for opticalflow sparse: 16.00 ms, per: 31.37%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 23.00 ms, per: 28.40%
+time for find moving obj: 44.00 ms, per: 54.32%
+  -> time for opticalflow sparse: 43.00 ms, per: 53.09%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 8.00 ms, per: 11.27%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 37.00 ms, per: 52.11%
+  -> time for opticalflow sparse: 36.00 ms, per: 50.70%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 16.00 ms, per: 37.21%
+  -> time for opticalflow sparse: 16.00 ms, per: 37.21%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 80.00 ms
+time for diff and binary image: 8.00 ms, per: 10.00%
+time for wise mul: 2.00 ms, per: 2.50%
+time for ORB: 24.00 ms, per: 30.00%
+time for find moving obj: 46.00 ms, per: 57.50%
+  -> time for opticalflow sparse: 45.00 ms, per: 56.25%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.25%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 8.00 ms, per: 11.43%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 23.00 ms, per: 32.86%
+time for find moving obj: 37.00 ms, per: 52.86%
+  -> time for opticalflow sparse: 36.00 ms, per: 51.43%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 18.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 18.00 ms, per: 37.50%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 24.00 ms, per: 33.33%
+time for find moving obj: 39.00 ms, per: 54.17%
+  -> time for opticalflow sparse: 38.00 ms, per: 52.78%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 18.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 17.00 ms, per: 35.42%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 7.00 ms, per: 10.61%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 24.00 ms, per: 36.36%
+time for find moving obj: 33.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 32.00 ms, per: 48.48%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.17%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 7.00 ms, per: 10.45%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 24.00 ms, per: 35.82%
+time for find moving obj: 34.00 ms, per: 50.75%
+  -> time for opticalflow sparse: 33.00 ms, per: 49.25%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 56.00 ms
+time for diff and binary image: 5.00 ms, per: 8.93%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 23.00 ms, per: 41.07%
+  -> time for opticalflow sparse: 23.00 ms, per: 41.07%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 102.00 ms
+time for diff and binary image: 8.00 ms, per: 7.84%
+time for wise mul: 2.00 ms, per: 1.96%
+time for ORB: 25.00 ms, per: 24.51%
+time for find moving obj: 67.00 ms, per: 65.69%
+  -> time for opticalflow sparse: 66.00 ms, per: 64.71%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.98%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 57.00 ms
+time for diff and binary image: 4.00 ms, per: 7.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 25.00 ms, per: 43.86%
+  -> time for opticalflow sparse: 24.00 ms, per: 42.11%
+  -> time for drawopticalflow: 1.00 ms, per: 1.75%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 100.00 ms
+time for diff and binary image: 8.00 ms, per: 8.00%
+time for wise mul: 2.00 ms, per: 2.00%
+time for ORB: 28.00 ms, per: 28.00%
+time for find moving obj: 62.00 ms, per: 62.00%
+  -> time for opticalflow sparse: 61.00 ms, per: 61.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 4.00 ms, per: 7.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 53.70%
+time for find moving obj: 21.00 ms, per: 38.89%
+  -> time for opticalflow sparse: 21.00 ms, per: 38.89%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 8.00 ms, per: 11.94%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 25.00 ms, per: 37.31%
+time for find moving obj: 32.00 ms, per: 47.76%
+  -> time for opticalflow sparse: 31.00 ms, per: 46.27%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 58.00 ms
+time for diff and binary image: 5.00 ms, per: 8.62%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 50.00%
+time for find moving obj: 24.00 ms, per: 41.38%
+  -> time for opticalflow sparse: 23.00 ms, per: 39.66%
+  -> time for drawopticalflow: 1.00 ms, per: 1.72%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 101.00 ms
+time for diff and binary image: 9.00 ms, per: 8.91%
+time for wise mul: 2.00 ms, per: 1.98%
+time for ORB: 29.00 ms, per: 28.71%
+time for find moving obj: 61.00 ms, per: 60.40%
+  -> time for opticalflow sparse: 60.00 ms, per: 59.41%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.99%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 4.00 ms, per: 7.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 23.00 ms, per: 42.59%
+  -> time for opticalflow sparse: 23.00 ms, per: 42.59%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 8.00 ms, per: 11.94%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 24.00 ms, per: 35.82%
+time for find moving obj: 33.00 ms, per: 49.25%
+  -> time for opticalflow sparse: 32.00 ms, per: 47.76%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 16.00 ms, per: 37.21%
+  -> time for opticalflow sparse: 16.00 ms, per: 37.21%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 6.00 ms, per: 8.57%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 24.00 ms, per: 34.29%
+time for find moving obj: 38.00 ms, per: 54.29%
+  -> time for opticalflow sparse: 37.00 ms, per: 52.86%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 20.00 ms, per: 40.82%
+  -> time for opticalflow sparse: 20.00 ms, per: 40.82%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 6.00 ms, per: 9.09%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 24.00 ms, per: 36.36%
+time for find moving obj: 34.00 ms, per: 51.52%
+  -> time for opticalflow sparse: 33.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 4.00 ms, per: 7.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 55.56%
+time for find moving obj: 20.00 ms, per: 37.04%
+  -> time for opticalflow sparse: 19.00 ms, per: 35.19%
+  -> time for drawopticalflow: 1.00 ms, per: 1.85%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 99.00 ms
+time for diff and binary image: 7.00 ms, per: 7.07%
+time for wise mul: 2.00 ms, per: 2.02%
+time for ORB: 25.00 ms, per: 25.25%
+time for find moving obj: 65.00 ms, per: 65.66%
+  -> time for opticalflow sparse: 64.00 ms, per: 64.65%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.01%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 3.00 ms, per: 6.00%
+time for wise mul: 1.00 ms, per: 2.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 7.00 ms, per: 9.59%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 24.00 ms, per: 32.88%
+time for find moving obj: 40.00 ms, per: 54.79%
+  -> time for opticalflow sparse: 39.00 ms, per: 53.42%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 59.00 ms
+time for diff and binary image: 5.00 ms, per: 8.47%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 33.00 ms, per: 55.93%
+time for find moving obj: 20.00 ms, per: 33.90%
+  -> time for opticalflow sparse: 20.00 ms, per: 33.90%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 108.00 ms
+time for diff and binary image: 8.00 ms, per: 7.41%
+time for wise mul: 2.00 ms, per: 1.85%
+time for ORB: 25.00 ms, per: 23.15%
+time for find moving obj: 73.00 ms, per: 67.59%
+  -> time for opticalflow sparse: 72.00 ms, per: 66.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.93%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 19.00 ms, per: 38.78%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 13.00 ms, per: 16.05%
+time for wise mul: 2.00 ms, per: 2.47%
+time for ORB: 25.00 ms, per: 30.86%
+time for find moving obj: 41.00 ms, per: 50.62%
+  -> time for opticalflow sparse: 40.00 ms, per: 49.38%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 3.00 ms, per: 5.77%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 53.85%
+time for find moving obj: 21.00 ms, per: 40.38%
+  -> time for opticalflow sparse: 20.00 ms, per: 38.46%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 65.00 ms
+time for diff and binary image: 7.00 ms, per: 10.77%
+time for wise mul: 2.00 ms, per: 3.08%
+time for ORB: 28.00 ms, per: 43.08%
+time for find moving obj: 28.00 ms, per: 43.08%
+  -> time for opticalflow sparse: 27.00 ms, per: 41.54%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.54%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 61.00 ms
+time for diff and binary image: 5.00 ms, per: 8.20%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 50.82%
+time for find moving obj: 25.00 ms, per: 40.98%
+  -> time for opticalflow sparse: 24.00 ms, per: 39.34%
+  -> time for drawopticalflow: 1.00 ms, per: 1.64%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 115.00 ms
+time for diff and binary image: 9.00 ms, per: 7.83%
+time for wise mul: 2.00 ms, per: 1.74%
+time for ORB: 25.00 ms, per: 21.74%
+time for find moving obj: 79.00 ms, per: 68.70%
+  -> time for opticalflow sparse: 78.00 ms, per: 67.83%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.87%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 53.19%
+time for find moving obj: 19.00 ms, per: 40.43%
+  -> time for opticalflow sparse: 19.00 ms, per: 40.43%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 7.00 ms, per: 9.86%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 25.00 ms, per: 35.21%
+time for find moving obj: 37.00 ms, per: 52.11%
+  -> time for opticalflow sparse: 36.00 ms, per: 50.70%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 1.00 ms, per: 2.13%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.17%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 101.00 ms
+time for diff and binary image: 7.00 ms, per: 6.93%
+time for wise mul: 2.00 ms, per: 1.98%
+time for ORB: 25.00 ms, per: 24.75%
+time for find moving obj: 67.00 ms, per: 66.34%
+  -> time for opticalflow sparse: 66.00 ms, per: 65.35%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 0.99%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 3.00 ms, per: 5.77%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 53.85%
+time for find moving obj: 21.00 ms, per: 40.38%
+  -> time for opticalflow sparse: 20.00 ms, per: 38.46%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 8.00 ms, per: 10.26%
+time for wise mul: 2.00 ms, per: 2.56%
+time for ORB: 27.00 ms, per: 34.62%
+time for find moving obj: 41.00 ms, per: 52.56%
+  -> time for opticalflow sparse: 40.00 ms, per: 51.28%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 2.00 ms, per: 4.35%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 19.00 ms, per: 41.30%
+  -> time for opticalflow sparse: 18.00 ms, per: 39.13%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 7.00 ms, per: 10.29%
+time for wise mul: 2.00 ms, per: 2.94%
+time for ORB: 25.00 ms, per: 36.76%
+time for find moving obj: 34.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 33.00 ms, per: 48.53%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 20.00 ms, per: 40.82%
+  -> time for opticalflow sparse: 20.00 ms, per: 40.82%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 8.00 ms, per: 11.43%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 25.00 ms, per: 35.71%
+time for find moving obj: 35.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 34.00 ms, per: 48.57%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 18.00 ms, per: 39.13%
+  -> time for opticalflow sparse: 18.00 ms, per: 39.13%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 7.00 ms, per: 10.61%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 25.00 ms, per: 37.88%
+time for find moving obj: 32.00 ms, per: 48.48%
+  -> time for opticalflow sparse: 31.00 ms, per: 46.97%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 19.00 ms, per: 39.58%
+  -> time for opticalflow sparse: 18.00 ms, per: 37.50%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 7.00 ms, per: 9.86%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 38.00 ms, per: 53.52%
+  -> time for opticalflow sparse: 37.00 ms, per: 52.11%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 19.00 ms, per: 39.58%
+  -> time for opticalflow sparse: 19.00 ms, per: 39.58%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 25.00 ms, per: 34.72%
+time for find moving obj: 38.00 ms, per: 52.78%
+  -> time for opticalflow sparse: 37.00 ms, per: 51.39%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 4.00 ms, per: 7.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 22.00 ms, per: 40.74%
+  -> time for opticalflow sparse: 21.00 ms, per: 38.89%
+  -> time for drawopticalflow: 1.00 ms, per: 1.85%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 6.00 ms, per: 8.57%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 24.00 ms, per: 34.29%
+time for find moving obj: 38.00 ms, per: 54.29%
+  -> time for opticalflow sparse: 37.00 ms, per: 52.86%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 4.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 53.85%
+time for find moving obj: 20.00 ms, per: 38.46%
+  -> time for opticalflow sparse: 19.00 ms, per: 36.54%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 7.00 ms, per: 9.86%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 38.00 ms, per: 53.52%
+  -> time for opticalflow sparse: 37.00 ms, per: 52.11%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 18.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 17.00 ms, per: 35.42%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 7.00 ms, per: 10.29%
+time for wise mul: 2.00 ms, per: 2.94%
+time for ORB: 25.00 ms, per: 36.76%
+time for find moving obj: 34.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 33.00 ms, per: 48.53%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 4.00 ms, per: 7.27%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 56.36%
+time for find moving obj: 20.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 19.00 ms, per: 34.55%
+  -> time for drawopticalflow: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 98.00 ms
+time for diff and binary image: 7.00 ms, per: 7.14%
+time for wise mul: 2.00 ms, per: 2.04%
+time for ORB: 25.00 ms, per: 25.51%
+time for find moving obj: 64.00 ms, per: 65.31%
+  -> time for opticalflow sparse: 63.00 ms, per: 64.29%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.02%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 5.00 ms, per: 10.42%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 50.00%
+time for find moving obj: 19.00 ms, per: 39.58%
+  -> time for opticalflow sparse: 18.00 ms, per: 37.50%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 9.00 ms, per: 12.68%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 25.00 ms, per: 35.21%
+time for find moving obj: 35.00 ms, per: 49.30%
+  -> time for opticalflow sparse: 34.00 ms, per: 47.89%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 5.00 ms, per: 9.80%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 20.00 ms, per: 39.22%
+  -> time for opticalflow sparse: 19.00 ms, per: 37.25%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 8.00 ms, per: 10.81%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 25.00 ms, per: 33.78%
+time for find moving obj: 38.00 ms, per: 51.35%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 53.19%
+time for find moving obj: 19.00 ms, per: 40.43%
+  -> time for opticalflow sparse: 18.00 ms, per: 38.30%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 87.00 ms
+time for diff and binary image: 8.00 ms, per: 9.20%
+time for wise mul: 2.00 ms, per: 2.30%
+time for ORB: 24.00 ms, per: 27.59%
+time for find moving obj: 53.00 ms, per: 60.92%
+  -> time for opticalflow sparse: 52.00 ms, per: 59.77%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.15%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 3.00 ms, per: 6.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 6.00 ms, per: 8.70%
+time for wise mul: 2.00 ms, per: 2.90%
+time for ORB: 24.00 ms, per: 34.78%
+time for find moving obj: 37.00 ms, per: 53.62%
+  -> time for opticalflow sparse: 36.00 ms, per: 52.17%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 17.00 ms, per: 38.64%
+  -> time for opticalflow sparse: 16.00 ms, per: 36.36%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 6.00 ms, per: 8.57%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 24.00 ms, per: 34.29%
+time for find moving obj: 38.00 ms, per: 54.29%
+  -> time for opticalflow sparse: 37.00 ms, per: 52.86%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 18.00 ms, per: 39.13%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.96%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 6.00 ms, per: 8.45%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 39.00 ms, per: 54.93%
+  -> time for opticalflow sparse: 38.00 ms, per: 53.52%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 2.00 ms, per: 4.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 18.00 ms, per: 40.91%
+  -> time for opticalflow sparse: 17.00 ms, per: 38.64%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 7.00 ms, per: 9.59%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 24.00 ms, per: 32.88%
+time for find moving obj: 40.00 ms, per: 54.79%
+  -> time for opticalflow sparse: 39.00 ms, per: 53.42%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 3.00 ms, per: 5.66%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 21.00 ms, per: 39.62%
+  -> time for opticalflow sparse: 20.00 ms, per: 37.74%
+  -> time for drawopticalflow: 1.00 ms, per: 1.89%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 7.00 ms, per: 9.33%
+time for wise mul: 2.00 ms, per: 2.67%
+time for ORB: 30.00 ms, per: 40.00%
+time for find moving obj: 36.00 ms, per: 48.00%
+  -> time for opticalflow sparse: 35.00 ms, per: 46.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 4.00 ms, per: 7.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 21.00 ms, per: 39.62%
+  -> time for opticalflow sparse: 20.00 ms, per: 37.74%
+  -> time for drawopticalflow: 1.00 ms, per: 1.89%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 99.00 ms
+time for diff and binary image: 8.00 ms, per: 8.08%
+time for wise mul: 2.00 ms, per: 2.02%
+time for ORB: 28.00 ms, per: 28.28%
+time for find moving obj: 61.00 ms, per: 61.62%
+  -> time for opticalflow sparse: 60.00 ms, per: 60.61%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.01%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 3.00 ms, per: 5.66%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 22.00 ms, per: 41.51%
+  -> time for opticalflow sparse: 21.00 ms, per: 39.62%
+  -> time for drawopticalflow: 1.00 ms, per: 1.89%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 7.00 ms, per: 9.59%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 25.00 ms, per: 34.25%
+time for find moving obj: 39.00 ms, per: 53.42%
+  -> time for opticalflow sparse: 38.00 ms, per: 52.05%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 6.00 ms, per: 10.91%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 30.00 ms, per: 54.55%
+time for find moving obj: 18.00 ms, per: 32.73%
+  -> time for opticalflow sparse: 17.00 ms, per: 30.91%
+  -> time for drawopticalflow: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 7.00 ms, per: 10.29%
+time for wise mul: 2.00 ms, per: 2.94%
+time for ORB: 24.00 ms, per: 35.29%
+time for find moving obj: 35.00 ms, per: 51.47%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 60.87%
+time for find moving obj: 15.00 ms, per: 32.61%
+  -> time for opticalflow sparse: 15.00 ms, per: 32.61%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 12.00 ms, per: 17.91%
+time for wise mul: 3.00 ms, per: 4.48%
+time for ORB: 23.00 ms, per: 34.33%
+time for find moving obj: 29.00 ms, per: 43.28%
+  -> time for opticalflow sparse: 28.00 ms, per: 41.79%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 18.00 ms, per: 39.13%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.96%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 8.00 ms, per: 11.27%
+time for wise mul: 3.00 ms, per: 4.23%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 36.00 ms, per: 50.70%
+  -> time for opticalflow sparse: 35.00 ms, per: 49.30%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 53.19%
+time for find moving obj: 19.00 ms, per: 40.43%
+  -> time for opticalflow sparse: 18.00 ms, per: 38.30%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 8.00 ms, per: 11.11%
+time for wise mul: 3.00 ms, per: 4.17%
+time for ORB: 24.00 ms, per: 33.33%
+time for find moving obj: 37.00 ms, per: 51.39%
+  -> time for opticalflow sparse: 36.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.09%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 7.00 ms, per: 10.61%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 23.00 ms, per: 34.85%
+time for find moving obj: 34.00 ms, per: 51.52%
+  -> time for opticalflow sparse: 33.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 7.00 ms, per: 10.29%
+time for wise mul: 2.00 ms, per: 2.94%
+time for ORB: 23.00 ms, per: 33.82%
+time for find moving obj: 36.00 ms, per: 52.94%
+  -> time for opticalflow sparse: 35.00 ms, per: 51.47%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 54.90%
+time for find moving obj: 19.00 ms, per: 37.25%
+  -> time for opticalflow sparse: 18.00 ms, per: 35.29%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 8.00 ms, per: 11.43%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 26.00 ms, per: 37.14%
+time for find moving obj: 34.00 ms, per: 48.57%
+  -> time for opticalflow sparse: 33.00 ms, per: 47.14%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 16.00 ms, per: 37.21%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.88%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 7.00 ms, per: 10.45%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 23.00 ms, per: 34.33%
+time for find moving obj: 35.00 ms, per: 52.24%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 56.00 ms
+time for diff and binary image: 4.00 ms, per: 7.14%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 23.00 ms, per: 41.07%
+  -> time for opticalflow sparse: 23.00 ms, per: 41.07%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 28.00 ms, per: 38.89%
+time for find moving obj: 35.00 ms, per: 48.61%
+  -> time for opticalflow sparse: 34.00 ms, per: 47.22%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 4.00 ms, per: 7.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 22.00 ms, per: 40.74%
+  -> time for opticalflow sparse: 21.00 ms, per: 38.89%
+  -> time for drawopticalflow: 1.00 ms, per: 1.85%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 77.00 ms
+time for diff and binary image: 8.00 ms, per: 10.39%
+time for wise mul: 3.00 ms, per: 3.90%
+time for ORB: 24.00 ms, per: 31.17%
+time for find moving obj: 42.00 ms, per: 54.55%
+  -> time for opticalflow sparse: 41.00 ms, per: 53.25%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.30%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 16.00 ms, per: 37.21%
+  -> time for opticalflow sparse: 16.00 ms, per: 37.21%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 65.00 ms
+time for diff and binary image: 7.00 ms, per: 10.77%
+time for wise mul: 2.00 ms, per: 3.08%
+time for ORB: 24.00 ms, per: 36.92%
+time for find moving obj: 32.00 ms, per: 49.23%
+  -> time for opticalflow sparse: 31.00 ms, per: 47.69%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.54%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 88.00 ms
+time for diff and binary image: 7.00 ms, per: 7.95%
+time for wise mul: 2.00 ms, per: 2.27%
+time for ORB: 24.00 ms, per: 27.27%
+time for find moving obj: 55.00 ms, per: 62.50%
+  -> time for opticalflow sparse: 54.00 ms, per: 61.36%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.14%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 4.00 ms, per: 7.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 21.00 ms, per: 39.62%
+  -> time for opticalflow sparse: 20.00 ms, per: 37.74%
+  -> time for drawopticalflow: 1.00 ms, per: 1.89%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 8.00 ms, per: 9.64%
+time for wise mul: 2.00 ms, per: 2.41%
+time for ORB: 27.00 ms, per: 32.53%
+time for find moving obj: 46.00 ms, per: 55.42%
+  -> time for opticalflow sparse: 45.00 ms, per: 54.22%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 4.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 55.77%
+time for find moving obj: 19.00 ms, per: 36.54%
+  -> time for opticalflow sparse: 19.00 ms, per: 36.54%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 11.00 ms, per: 15.07%
+time for wise mul: 3.00 ms, per: 4.11%
+time for ORB: 24.00 ms, per: 32.88%
+time for find moving obj: 35.00 ms, per: 47.95%
+  -> time for opticalflow sparse: 34.00 ms, per: 46.58%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 57.00 ms
+time for diff and binary image: 5.00 ms, per: 8.77%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 32.00 ms, per: 56.14%
+time for find moving obj: 20.00 ms, per: 35.09%
+  -> time for opticalflow sparse: 20.00 ms, per: 35.09%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 96.00 ms
+time for diff and binary image: 8.00 ms, per: 8.33%
+time for wise mul: 2.00 ms, per: 2.08%
+time for ORB: 24.00 ms, per: 25.00%
+time for find moving obj: 62.00 ms, per: 64.58%
+  -> time for opticalflow sparse: 61.00 ms, per: 63.54%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 52.94%
+time for find moving obj: 20.00 ms, per: 39.22%
+  -> time for opticalflow sparse: 20.00 ms, per: 39.22%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 7.00 ms, per: 10.45%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 27.00 ms, per: 40.30%
+time for find moving obj: 31.00 ms, per: 46.27%
+  -> time for opticalflow sparse: 30.00 ms, per: 44.78%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 60.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+  -> time for opticalflow sparse: 15.00 ms, per: 30.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 76.00 ms
+time for diff and binary image: 7.00 ms, per: 9.21%
+time for wise mul: 2.00 ms, per: 2.63%
+time for ORB: 23.00 ms, per: 30.26%
+time for find moving obj: 44.00 ms, per: 57.89%
+  -> time for opticalflow sparse: 43.00 ms, per: 56.58%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.32%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 4.00 ms, per: 7.27%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 23.00 ms, per: 41.82%
+  -> time for opticalflow sparse: 23.00 ms, per: 41.82%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 76.00 ms
+time for diff and binary image: 11.00 ms, per: 14.47%
+time for wise mul: 3.00 ms, per: 3.95%
+time for ORB: 26.00 ms, per: 34.21%
+time for find moving obj: 36.00 ms, per: 47.37%
+  -> time for opticalflow sparse: 35.00 ms, per: 46.05%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.32%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 77.00 ms
+time for diff and binary image: 8.00 ms, per: 10.39%
+time for wise mul: 2.00 ms, per: 2.60%
+time for ORB: 23.00 ms, per: 29.87%
+time for find moving obj: 44.00 ms, per: 57.14%
+  -> time for opticalflow sparse: 43.00 ms, per: 55.84%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.30%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 52.94%
+time for find moving obj: 20.00 ms, per: 39.22%
+  -> time for opticalflow sparse: 19.00 ms, per: 37.25%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 11.00 ms, per: 13.25%
+time for wise mul: 3.00 ms, per: 3.61%
+time for ORB: 24.00 ms, per: 28.92%
+time for find moving obj: 45.00 ms, per: 54.22%
+  -> time for opticalflow sparse: 44.00 ms, per: 53.01%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 18.00 ms, per: 39.13%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.96%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 8.00 ms, per: 10.67%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 24.00 ms, per: 32.00%
+time for find moving obj: 40.00 ms, per: 53.33%
+  -> time for opticalflow sparse: 39.00 ms, per: 52.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 20.00 ms, per: 40.82%
+  -> time for opticalflow sparse: 19.00 ms, per: 38.78%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 96.00 ms
+time for diff and binary image: 7.00 ms, per: 7.29%
+time for wise mul: 2.00 ms, per: 2.08%
+time for ORB: 24.00 ms, per: 25.00%
+time for find moving obj: 63.00 ms, per: 65.62%
+  -> time for opticalflow sparse: 62.00 ms, per: 64.58%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 2.00 ms, per: 4.65%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 17.00 ms, per: 39.53%
+  -> time for opticalflow sparse: 16.00 ms, per: 37.21%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 6.00 ms, per: 8.96%
+time for wise mul: 2.00 ms, per: 2.99%
+time for ORB: 24.00 ms, per: 35.82%
+time for find moving obj: 35.00 ms, per: 52.24%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 5.00 ms, per: 9.62%
+time for wise mul: 2.00 ms, per: 3.85%
+time for ORB: 30.00 ms, per: 57.69%
+time for find moving obj: 15.00 ms, per: 28.85%
+  -> time for opticalflow sparse: 15.00 ms, per: 28.85%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 63.00 ms
+time for diff and binary image: 7.00 ms, per: 11.11%
+time for wise mul: 2.00 ms, per: 3.17%
+time for ORB: 23.00 ms, per: 36.51%
+time for find moving obj: 31.00 ms, per: 49.21%
+  -> time for opticalflow sparse: 30.00 ms, per: 47.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.59%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 7.00 ms, per: 15.22%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 52.17%
+time for find moving obj: 15.00 ms, per: 32.61%
+  -> time for opticalflow sparse: 14.00 ms, per: 30.43%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 63.00 ms
+time for diff and binary image: 7.00 ms, per: 11.11%
+time for wise mul: 2.00 ms, per: 3.17%
+time for ORB: 23.00 ms, per: 36.51%
+time for find moving obj: 31.00 ms, per: 49.21%
+  -> time for opticalflow sparse: 30.00 ms, per: 47.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.59%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 17.00 ms, per: 38.64%
+  -> time for opticalflow sparse: 17.00 ms, per: 38.64%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 7.00 ms, per: 10.29%
+time for wise mul: 2.00 ms, per: 2.94%
+time for ORB: 24.00 ms, per: 35.29%
+time for find moving obj: 35.00 ms, per: 51.47%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 4.00 ms, per: 9.30%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 15.00 ms, per: 34.88%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.88%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 91.00 ms
+time for diff and binary image: 8.00 ms, per: 8.79%
+time for wise mul: 2.00 ms, per: 2.20%
+time for ORB: 24.00 ms, per: 26.37%
+time for find moving obj: 57.00 ms, per: 62.64%
+  -> time for opticalflow sparse: 56.00 ms, per: 61.54%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.10%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 17.00 ms, per: 35.42%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 61.00 ms
+time for diff and binary image: 8.00 ms, per: 13.11%
+time for wise mul: 2.00 ms, per: 3.28%
+time for ORB: 23.00 ms, per: 37.70%
+time for find moving obj: 28.00 ms, per: 45.90%
+  -> time for opticalflow sparse: 27.00 ms, per: 44.26%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.64%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 53.33%
+time for find moving obj: 18.00 ms, per: 40.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 37.78%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 8.00 ms, per: 10.67%
+time for wise mul: 2.00 ms, per: 2.67%
+time for ORB: 26.00 ms, per: 34.67%
+time for find moving obj: 39.00 ms, per: 52.00%
+  -> time for opticalflow sparse: 38.00 ms, per: 50.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 3.00 ms, per: 5.88%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 60.78%
+time for find moving obj: 17.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 16.00 ms, per: 31.37%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 8.00 ms, per: 9.88%
+time for wise mul: 2.00 ms, per: 2.47%
+time for ORB: 26.00 ms, per: 32.10%
+time for find moving obj: 45.00 ms, per: 55.56%
+  -> time for opticalflow sparse: 44.00 ms, per: 54.32%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 55.56%
+time for find moving obj: 17.00 ms, per: 37.78%
+  -> time for opticalflow sparse: 16.00 ms, per: 35.56%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 11.00 ms, per: 15.71%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 23.00 ms, per: 32.86%
+time for find moving obj: 33.00 ms, per: 47.14%
+  -> time for opticalflow sparse: 32.00 ms, per: 45.71%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 61.00 ms
+time for diff and binary image: 8.00 ms, per: 13.11%
+time for wise mul: 2.00 ms, per: 3.28%
+time for ORB: 23.00 ms, per: 37.70%
+time for find moving obj: 28.00 ms, per: 45.90%
+  -> time for opticalflow sparse: 27.00 ms, per: 44.26%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.64%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 3.00 ms, per: 6.00%
+time for wise mul: 1.00 ms, per: 2.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 8.00 ms, per: 11.11%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 26.00 ms, per: 36.11%
+time for find moving obj: 36.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 35.00 ms, per: 48.61%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 55.10%
+time for find moving obj: 19.00 ms, per: 38.78%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 86.00 ms
+time for diff and binary image: 7.00 ms, per: 8.14%
+time for wise mul: 2.00 ms, per: 2.33%
+time for ORB: 27.00 ms, per: 31.40%
+time for find moving obj: 50.00 ms, per: 58.14%
+  -> time for opticalflow sparse: 49.00 ms, per: 56.98%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.16%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 4.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 51.92%
+time for find moving obj: 21.00 ms, per: 40.38%
+  -> time for opticalflow sparse: 21.00 ms, per: 40.38%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 76.00 ms
+time for diff and binary image: 11.00 ms, per: 14.47%
+time for wise mul: 3.00 ms, per: 3.95%
+time for ORB: 23.00 ms, per: 30.26%
+time for find moving obj: 39.00 ms, per: 51.32%
+  -> time for opticalflow sparse: 38.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.32%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 38.00 ms
+time for diff and binary image: 3.00 ms, per: 7.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 57.89%
+time for find moving obj: 13.00 ms, per: 34.21%
+  -> time for opticalflow sparse: 13.00 ms, per: 34.21%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 6.00 ms, per: 8.00%
+time for wise mul: 2.00 ms, per: 2.67%
+time for ORB: 22.00 ms, per: 29.33%
+time for find moving obj: 45.00 ms, per: 60.00%
+  -> time for opticalflow sparse: 44.00 ms, per: 58.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 3.00 ms, per: 7.50%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 57.50%
+time for find moving obj: 14.00 ms, per: 35.00%
+  -> time for opticalflow sparse: 14.00 ms, per: 35.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 62.00 ms
+time for diff and binary image: 7.00 ms, per: 11.29%
+time for wise mul: 2.00 ms, per: 3.23%
+time for ORB: 23.00 ms, per: 37.10%
+time for find moving obj: 30.00 ms, per: 48.39%
+  -> time for opticalflow sparse: 29.00 ms, per: 46.77%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.61%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 1.00 ms, per: 2.04%
+time for ORB: 29.00 ms, per: 59.18%
+time for find moving obj: 15.00 ms, per: 30.61%
+  -> time for opticalflow sparse: 15.00 ms, per: 30.61%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 82.00 ms
+time for diff and binary image: 7.00 ms, per: 8.54%
+time for wise mul: 2.00 ms, per: 2.44%
+time for ORB: 23.00 ms, per: 28.05%
+time for find moving obj: 50.00 ms, per: 60.98%
+  -> time for opticalflow sparse: 49.00 ms, per: 59.76%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 3.00 ms, per: 7.50%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 57.50%
+time for find moving obj: 14.00 ms, per: 35.00%
+  -> time for opticalflow sparse: 14.00 ms, per: 35.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 59.00 ms
+time for diff and binary image: 6.00 ms, per: 10.17%
+time for wise mul: 2.00 ms, per: 3.39%
+time for ORB: 23.00 ms, per: 38.98%
+time for find moving obj: 28.00 ms, per: 47.46%
+  -> time for opticalflow sparse: 27.00 ms, per: 45.76%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.69%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 5.00 ms, per: 10.64%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 57.45%
+time for find moving obj: 15.00 ms, per: 31.91%
+  -> time for opticalflow sparse: 15.00 ms, per: 31.91%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 12.00 ms, per: 14.46%
+time for wise mul: 3.00 ms, per: 3.61%
+time for ORB: 23.00 ms, per: 27.71%
+time for find moving obj: 45.00 ms, per: 54.22%
+  -> time for opticalflow sparse: 44.00 ms, per: 53.01%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 18.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 18.00 ms, per: 37.50%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 7.00 ms, per: 8.64%
+time for wise mul: 2.00 ms, per: 2.47%
+time for ORB: 25.00 ms, per: 30.86%
+time for find moving obj: 47.00 ms, per: 58.02%
+  -> time for opticalflow sparse: 46.00 ms, per: 56.79%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 11.00 ms, per: 14.86%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 26.00 ms, per: 35.14%
+time for find moving obj: 34.00 ms, per: 45.95%
+  -> time for opticalflow sparse: 33.00 ms, per: 44.59%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 4.00 ms, per: 8.70%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 17.00 ms, per: 36.96%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.78%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 8.00 ms, per: 11.43%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 26.00 ms, per: 37.14%
+time for find moving obj: 33.00 ms, per: 47.14%
+  -> time for opticalflow sparse: 32.00 ms, per: 45.71%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 5.00 ms, per: 11.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 53.33%
+time for find moving obj: 16.00 ms, per: 35.56%
+  -> time for opticalflow sparse: 16.00 ms, per: 35.56%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 11.00 ms, per: 15.28%
+time for wise mul: 3.00 ms, per: 4.17%
+time for ORB: 23.00 ms, per: 31.94%
+time for find moving obj: 35.00 ms, per: 48.61%
+  -> time for opticalflow sparse: 34.00 ms, per: 47.22%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 57.45%
+time for find moving obj: 16.00 ms, per: 34.04%
+  -> time for opticalflow sparse: 15.00 ms, per: 31.91%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 8.00 ms, per: 9.88%
+time for wise mul: 2.00 ms, per: 2.47%
+time for ORB: 23.00 ms, per: 28.40%
+time for find moving obj: 48.00 ms, per: 59.26%
+  -> time for opticalflow sparse: 47.00 ms, per: 58.02%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 4.00 ms, per: 7.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 21.00 ms, per: 39.62%
+  -> time for opticalflow sparse: 21.00 ms, per: 39.62%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 11.00 ms, per: 13.25%
+time for wise mul: 3.00 ms, per: 3.61%
+time for ORB: 24.00 ms, per: 28.92%
+time for find moving obj: 45.00 ms, per: 54.22%
+  -> time for opticalflow sparse: 44.00 ms, per: 53.01%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 4.00 ms, per: 7.27%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 23.00 ms, per: 41.82%
+  -> time for opticalflow sparse: 22.00 ms, per: 40.00%
+  -> time for drawopticalflow: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 91.00 ms
+time for diff and binary image: 7.00 ms, per: 7.69%
+time for wise mul: 2.00 ms, per: 2.20%
+time for ORB: 26.00 ms, per: 28.57%
+time for find moving obj: 56.00 ms, per: 61.54%
+  -> time for opticalflow sparse: 55.00 ms, per: 60.44%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.10%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: -143.00 ms
+time for diff and binary image: 3.00 ms, per: -2.10%
+time for wise mul: 0.00 ms, per: -0.00%
+time for ORB: 23.00 ms, per: -16.08%
+time for find moving obj: -169.00 ms, per: 118.18%
+  -> time for opticalflow sparse: -170.00 ms, per: 118.88%
+  -> time for drawopticalflow: 1.00 ms, per: -0.70%
+  -> time for findobst: 0.00 ms, per: -0.00%
+CUDA: total time for one frame: -76.00 ms
+time for diff and binary image: 7.00 ms, per: -9.21%
+time for wise mul: 2.00 ms, per: -2.63%
+time for ORB: 22.00 ms, per: -28.95%
+time for find moving obj: -107.00 ms, per: 140.79%
+  -> time for opticalflow sparse: -108.00 ms, per: 142.11%
+  -> time for drawopticalflow sparse: 1.00 ms, per: -1.32%
+  -> time for findobst: 0.00 ms, per: -0.00%
+
+SEQ: total time for one frame: 58.00 ms
+time for diff and binary image: 3.00 ms, per: 5.17%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 34.00 ms, per: 58.62%
+time for find moving obj: 21.00 ms, per: 36.21%
+  -> time for opticalflow sparse: 21.00 ms, per: 36.21%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 84.00 ms
+time for diff and binary image: 12.00 ms, per: 14.29%
+time for wise mul: 3.00 ms, per: 3.57%
+time for ORB: 25.00 ms, per: 29.76%
+time for find moving obj: 44.00 ms, per: 52.38%
+  -> time for opticalflow sparse: 43.00 ms, per: 51.19%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.19%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 55.00 ms
+time for diff and binary image: 4.00 ms, per: 7.27%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 22.00 ms, per: 40.00%
+  -> time for opticalflow sparse: 21.00 ms, per: 38.18%
+  -> time for drawopticalflow: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 98.00 ms
+time for diff and binary image: 8.00 ms, per: 8.16%
+time for wise mul: 2.00 ms, per: 2.04%
+time for ORB: 26.00 ms, per: 26.53%
+time for find moving obj: 62.00 ms, per: 63.27%
+  -> time for opticalflow sparse: 61.00 ms, per: 62.24%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.02%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 19.00 ms, per: 38.78%
+  -> time for opticalflow sparse: 19.00 ms, per: 38.78%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 89.00 ms
+time for diff and binary image: 7.00 ms, per: 7.87%
+time for wise mul: 2.00 ms, per: 2.25%
+time for ORB: 24.00 ms, per: 26.97%
+time for find moving obj: 56.00 ms, per: 62.92%
+  -> time for opticalflow sparse: 55.00 ms, per: 61.80%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.12%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 59.57%
+time for find moving obj: 16.00 ms, per: 34.04%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.04%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 11.00 ms, per: 15.07%
+time for wise mul: 3.00 ms, per: 4.11%
+time for ORB: 23.00 ms, per: 31.51%
+time for find moving obj: 36.00 ms, per: 49.32%
+  -> time for opticalflow sparse: 35.00 ms, per: 47.95%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 54.00 ms
+time for diff and binary image: 4.00 ms, per: 7.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 53.70%
+time for find moving obj: 21.00 ms, per: 38.89%
+  -> time for opticalflow sparse: 20.00 ms, per: 37.04%
+  -> time for drawopticalflow: 1.00 ms, per: 1.85%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 88.00 ms
+time for diff and binary image: 8.00 ms, per: 9.09%
+time for wise mul: 2.00 ms, per: 2.27%
+time for ORB: 24.00 ms, per: 27.27%
+time for find moving obj: 54.00 ms, per: 61.36%
+  -> time for opticalflow sparse: 53.00 ms, per: 60.23%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.14%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 63.00 ms
+time for diff and binary image: 7.00 ms, per: 11.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 36.00 ms, per: 57.14%
+time for find moving obj: 20.00 ms, per: 31.75%
+  -> time for opticalflow sparse: 20.00 ms, per: 31.75%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 24.00 ms, per: 29.63%
+time for find moving obj: 43.00 ms, per: 53.09%
+  -> time for opticalflow sparse: 42.00 ms, per: 51.85%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 17.00 ms, per: 38.64%
+  -> time for opticalflow sparse: 17.00 ms, per: 38.64%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 8.00 ms, per: 11.27%
+time for wise mul: 3.00 ms, per: 4.23%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 36.00 ms, per: 50.70%
+  -> time for opticalflow sparse: 35.00 ms, per: 49.30%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 58.14%
+time for find moving obj: 15.00 ms, per: 34.88%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.88%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 8.00 ms, per: 10.81%
+time for wise mul: 2.00 ms, per: 2.70%
+time for ORB: 23.00 ms, per: 31.08%
+time for find moving obj: 41.00 ms, per: 55.41%
+  -> time for opticalflow sparse: 40.00 ms, per: 54.05%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 79.00 ms
+time for diff and binary image: 10.00 ms, per: 12.66%
+time for wise mul: 3.00 ms, per: 3.80%
+time for ORB: 26.00 ms, per: 32.91%
+time for find moving obj: 40.00 ms, per: 50.63%
+  -> time for opticalflow sparse: 39.00 ms, per: 49.37%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 1.00 ms, per: 2.13%
+time for ORB: 27.00 ms, per: 57.45%
+time for find moving obj: 15.00 ms, per: 31.91%
+  -> time for opticalflow sparse: 15.00 ms, per: 31.91%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 8.00 ms, per: 10.67%
+time for wise mul: 2.00 ms, per: 2.67%
+time for ORB: 23.00 ms, per: 30.67%
+time for find moving obj: 42.00 ms, per: 56.00%
+  -> time for opticalflow sparse: 41.00 ms, per: 54.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 2.00 ms, per: 5.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 57.50%
+time for find moving obj: 15.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 14.00 ms, per: 35.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.50%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 10.00 ms, per: 14.49%
+time for wise mul: 3.00 ms, per: 4.35%
+time for ORB: 23.00 ms, per: 33.33%
+time for find moving obj: 33.00 ms, per: 47.83%
+  -> time for opticalflow sparse: 32.00 ms, per: 46.38%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 17.00 ms, per: 38.64%
+  -> time for opticalflow sparse: 17.00 ms, per: 38.64%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 7.00 ms, per: 9.33%
+time for wise mul: 2.00 ms, per: 2.67%
+time for ORB: 24.00 ms, per: 32.00%
+time for find moving obj: 42.00 ms, per: 56.00%
+  -> time for opticalflow sparse: 41.00 ms, per: 54.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 16.00 ms, per: 36.36%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 7.00 ms, per: 10.61%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 23.00 ms, per: 34.85%
+time for find moving obj: 34.00 ms, per: 51.52%
+  -> time for opticalflow sparse: 33.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 41.00 ms
+time for diff and binary image: 3.00 ms, per: 7.32%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 58.54%
+time for find moving obj: 14.00 ms, per: 34.15%
+  -> time for opticalflow sparse: 14.00 ms, per: 34.15%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 6.00 ms, per: 9.38%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 23.00 ms, per: 35.94%
+time for find moving obj: 33.00 ms, per: 51.56%
+  -> time for opticalflow sparse: 32.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 53.00 ms
+time for diff and binary image: 4.00 ms, per: 7.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 21.00 ms, per: 39.62%
+  -> time for opticalflow sparse: 20.00 ms, per: 37.74%
+  -> time for drawopticalflow: 1.00 ms, per: 1.89%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 77.00 ms
+time for diff and binary image: 12.00 ms, per: 15.58%
+time for wise mul: 3.00 ms, per: 3.90%
+time for ORB: 26.00 ms, per: 33.77%
+time for find moving obj: 36.00 ms, per: 46.75%
+  -> time for opticalflow sparse: 35.00 ms, per: 45.45%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.30%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 18.00 ms, per: 38.30%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.17%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 8.00 ms, per: 10.81%
+time for wise mul: 2.00 ms, per: 2.70%
+time for ORB: 23.00 ms, per: 31.08%
+time for find moving obj: 41.00 ms, per: 55.41%
+  -> time for opticalflow sparse: 40.00 ms, per: 54.05%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 1.00 ms, per: 2.13%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.04%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 10.00 ms, per: 13.51%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 26.00 ms, per: 35.14%
+time for find moving obj: 35.00 ms, per: 47.30%
+  -> time for opticalflow sparse: 34.00 ms, per: 45.95%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 5.00 ms, per: 11.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 14.00 ms, per: 31.11%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 11.00 ms, per: 14.67%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 24.00 ms, per: 32.00%
+time for find moving obj: 37.00 ms, per: 49.33%
+  -> time for opticalflow sparse: 36.00 ms, per: 48.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 15.00 ms, per: 35.71%
+  -> time for opticalflow sparse: 15.00 ms, per: 35.71%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 7.00 ms, per: 9.46%
+time for wise mul: 2.00 ms, per: 2.70%
+time for ORB: 22.00 ms, per: 29.73%
+time for find moving obj: 43.00 ms, per: 58.11%
+  -> time for opticalflow sparse: 42.00 ms, per: 56.76%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 54.55%
+time for find moving obj: 17.00 ms, per: 38.64%
+  -> time for opticalflow sparse: 17.00 ms, per: 38.64%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 11.00 ms, per: 15.28%
+time for wise mul: 3.00 ms, per: 4.17%
+time for ORB: 24.00 ms, per: 33.33%
+time for find moving obj: 34.00 ms, per: 47.22%
+  -> time for opticalflow sparse: 33.00 ms, per: 45.83%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 18.00 ms, per: 38.30%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.17%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 11.00 ms, per: 13.25%
+time for wise mul: 3.00 ms, per: 3.61%
+time for ORB: 24.00 ms, per: 28.92%
+time for find moving obj: 45.00 ms, per: 54.22%
+  -> time for opticalflow sparse: 44.00 ms, per: 53.01%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 41.00 ms
+time for diff and binary image: 3.00 ms, per: 7.32%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 56.10%
+time for find moving obj: 15.00 ms, per: 36.59%
+  -> time for opticalflow sparse: 15.00 ms, per: 36.59%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 7.00 ms, per: 9.33%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 24.00 ms, per: 32.00%
+time for find moving obj: 41.00 ms, per: 54.67%
+  -> time for opticalflow sparse: 40.00 ms, per: 53.33%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 52.94%
+time for find moving obj: 20.00 ms, per: 39.22%
+  -> time for opticalflow sparse: 19.00 ms, per: 37.25%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 91.00 ms
+time for diff and binary image: 8.00 ms, per: 8.79%
+time for wise mul: 2.00 ms, per: 2.20%
+time for ORB: 27.00 ms, per: 29.67%
+time for find moving obj: 54.00 ms, per: 59.34%
+  -> time for opticalflow sparse: 53.00 ms, per: 58.24%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.10%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 57.14%
+time for find moving obj: 18.00 ms, per: 36.73%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 24.00 ms, per: 33.33%
+time for find moving obj: 39.00 ms, per: 54.17%
+  -> time for opticalflow sparse: 38.00 ms, per: 52.78%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 3.00 ms, per: 6.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 55.10%
+time for find moving obj: 19.00 ms, per: 38.78%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 86.00 ms
+time for diff and binary image: 11.00 ms, per: 12.79%
+time for wise mul: 3.00 ms, per: 3.49%
+time for ORB: 26.00 ms, per: 30.23%
+time for find moving obj: 46.00 ms, per: 53.49%
+  -> time for opticalflow sparse: 44.00 ms, per: 51.16%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.16%
+  -> time for findobst: 1.00 ms, per: 1.16%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 52.94%
+time for find moving obj: 20.00 ms, per: 39.22%
+  -> time for opticalflow sparse: 19.00 ms, per: 37.25%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 7.00 ms, per: 8.97%
+time for wise mul: 2.00 ms, per: 2.56%
+time for ORB: 27.00 ms, per: 34.62%
+time for find moving obj: 42.00 ms, per: 53.85%
+  -> time for opticalflow sparse: 41.00 ms, per: 52.56%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 17.00 ms, per: 35.42%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 10.00 ms, per: 14.08%
+time for wise mul: 3.00 ms, per: 4.23%
+time for ORB: 23.00 ms, per: 32.39%
+time for find moving obj: 35.00 ms, per: 49.30%
+  -> time for opticalflow sparse: 34.00 ms, per: 47.89%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 1.00 ms, per: 2.08%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 76.00 ms
+time for diff and binary image: 8.00 ms, per: 10.53%
+time for wise mul: 3.00 ms, per: 3.95%
+time for ORB: 26.00 ms, per: 34.21%
+time for find moving obj: 39.00 ms, per: 51.32%
+  -> time for opticalflow sparse: 38.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.32%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 1.00 ms, per: 2.08%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 62.00 ms
+time for diff and binary image: 7.00 ms, per: 11.29%
+time for wise mul: 2.00 ms, per: 3.23%
+time for ORB: 25.00 ms, per: 40.32%
+time for find moving obj: 28.00 ms, per: 45.16%
+  -> time for opticalflow sparse: 27.00 ms, per: 43.55%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.61%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 18.00 ms, per: 38.30%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.17%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 8.00 ms, per: 10.26%
+time for wise mul: 2.00 ms, per: 2.56%
+time for ORB: 26.00 ms, per: 33.33%
+time for find moving obj: 42.00 ms, per: 53.85%
+  -> time for opticalflow sparse: 41.00 ms, per: 52.56%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 61.90%
+time for find moving obj: 13.00 ms, per: 30.95%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 12.00 ms, per: 17.65%
+time for wise mul: 3.00 ms, per: 4.41%
+time for ORB: 22.00 ms, per: 32.35%
+time for find moving obj: 31.00 ms, per: 45.59%
+  -> time for opticalflow sparse: 30.00 ms, per: 44.12%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 19.00 ms, per: 38.78%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 1.00 ms, per: 2.04%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 80.00 ms
+time for diff and binary image: 7.00 ms, per: 8.75%
+time for wise mul: 3.00 ms, per: 3.75%
+time for ORB: 25.00 ms, per: 31.25%
+time for find moving obj: 45.00 ms, per: 56.25%
+  -> time for opticalflow sparse: 44.00 ms, per: 55.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.25%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 60.00%
+time for find moving obj: 14.00 ms, per: 31.11%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 7.00 ms, per: 9.86%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 22.00 ms, per: 30.99%
+time for find moving obj: 40.00 ms, per: 56.34%
+  -> time for opticalflow sparse: 39.00 ms, per: 54.93%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 36.00 ms
+time for diff and binary image: 2.00 ms, per: 5.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 61.11%
+time for find moving obj: 12.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 12.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 10.00 ms, per: 14.29%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 22.00 ms, per: 31.43%
+time for find moving obj: 35.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 34.00 ms, per: 48.57%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 1.00 ms, per: 1.96%
+time for ORB: 28.00 ms, per: 54.90%
+time for find moving obj: 18.00 ms, per: 35.29%
+  -> time for opticalflow sparse: 17.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 6.00 ms, per: 8.00%
+time for wise mul: 2.00 ms, per: 2.67%
+time for ORB: 26.00 ms, per: 34.67%
+time for find moving obj: 41.00 ms, per: 54.67%
+  -> time for opticalflow sparse: 40.00 ms, per: 53.33%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 16.00 ms, per: 36.36%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 11.00 ms, per: 15.07%
+time for wise mul: 3.00 ms, per: 4.11%
+time for ORB: 24.00 ms, per: 32.88%
+time for find moving obj: 35.00 ms, per: 47.95%
+  -> time for opticalflow sparse: 34.00 ms, per: 46.58%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 3.00 ms, per: 7.50%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 62.50%
+time for find moving obj: 12.00 ms, per: 30.00%
+  -> time for opticalflow sparse: 12.00 ms, per: 30.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 23.00 ms, per: 31.94%
+time for find moving obj: 40.00 ms, per: 55.56%
+  -> time for opticalflow sparse: 39.00 ms, per: 54.17%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 60.47%
+time for find moving obj: 14.00 ms, per: 32.56%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.23%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 10.00 ms, per: 13.51%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 23.00 ms, per: 31.08%
+time for find moving obj: 38.00 ms, per: 51.35%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 61.90%
+time for find moving obj: 13.00 ms, per: 30.95%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 54.00 ms
+time for diff and binary image: 6.00 ms, per: 11.11%
+time for wise mul: 2.00 ms, per: 3.70%
+time for ORB: 22.00 ms, per: 40.74%
+time for find moving obj: 24.00 ms, per: 44.44%
+  -> time for opticalflow sparse: 23.00 ms, per: 42.59%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.85%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.09%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 9.00 ms, per: 13.04%
+time for wise mul: 3.00 ms, per: 4.35%
+time for ORB: 26.00 ms, per: 37.68%
+time for find moving obj: 31.00 ms, per: 44.93%
+  -> time for opticalflow sparse: 30.00 ms, per: 43.48%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 3.00 ms, per: 5.77%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 33.00 ms, per: 63.46%
+time for find moving obj: 16.00 ms, per: 30.77%
+  -> time for opticalflow sparse: 15.00 ms, per: 28.85%
+  -> time for drawopticalflow: 1.00 ms, per: 1.92%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 8.00 ms, per: 12.50%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 24.00 ms, per: 37.50%
+time for find moving obj: 30.00 ms, per: 46.88%
+  -> time for opticalflow sparse: 29.00 ms, per: 45.31%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 4.00 ms, per: 9.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 61.90%
+time for find moving obj: 12.00 ms, per: 28.57%
+  -> time for opticalflow sparse: 12.00 ms, per: 28.57%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 80.00 ms
+time for diff and binary image: 11.00 ms, per: 13.75%
+time for wise mul: 3.00 ms, per: 3.75%
+time for ORB: 23.00 ms, per: 28.75%
+time for find moving obj: 43.00 ms, per: 53.75%
+  -> time for opticalflow sparse: 42.00 ms, per: 52.50%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.25%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 39.00 ms
+time for diff and binary image: 3.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 58.97%
+time for find moving obj: 13.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 13.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 58.00 ms
+time for diff and binary image: 7.00 ms, per: 12.07%
+time for wise mul: 2.00 ms, per: 3.45%
+time for ORB: 23.00 ms, per: 39.66%
+time for find moving obj: 26.00 ms, per: 44.83%
+  -> time for opticalflow sparse: 25.00 ms, per: 43.10%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.72%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 4.00 ms, per: 10.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 57.50%
+time for find moving obj: 13.00 ms, per: 32.50%
+  -> time for opticalflow sparse: 13.00 ms, per: 32.50%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 11.00 ms, per: 14.67%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 22.00 ms, per: 29.33%
+time for find moving obj: 39.00 ms, per: 52.00%
+  -> time for opticalflow sparse: 38.00 ms, per: 50.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 55.56%
+time for find moving obj: 16.00 ms, per: 35.56%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 61.00 ms
+time for diff and binary image: 7.00 ms, per: 11.48%
+time for wise mul: 2.00 ms, per: 3.28%
+time for ORB: 25.00 ms, per: 40.98%
+time for find moving obj: 27.00 ms, per: 44.26%
+  -> time for opticalflow sparse: 26.00 ms, per: 42.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.64%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 58.14%
+time for find moving obj: 15.00 ms, per: 34.88%
+  -> time for opticalflow sparse: 14.00 ms, per: 32.56%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 9.00 ms, per: 11.11%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 25.00 ms, per: 30.86%
+time for find moving obj: 44.00 ms, per: 54.32%
+  -> time for opticalflow sparse: 43.00 ms, per: 53.09%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 60.47%
+time for find moving obj: 14.00 ms, per: 32.56%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.23%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 60.00 ms
+time for diff and binary image: 7.00 ms, per: 11.67%
+time for wise mul: 2.00 ms, per: 3.33%
+time for ORB: 25.00 ms, per: 41.67%
+time for find moving obj: 26.00 ms, per: 43.33%
+  -> time for opticalflow sparse: 25.00 ms, per: 41.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.67%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 11.00 ms, per: 13.25%
+time for wise mul: 3.00 ms, per: 3.61%
+time for ORB: 27.00 ms, per: 32.53%
+time for find moving obj: 42.00 ms, per: 50.60%
+  -> time for opticalflow sparse: 41.00 ms, per: 49.40%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 18.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 17.00 ms, per: 35.42%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 11.00 ms, per: 15.07%
+time for wise mul: 3.00 ms, per: 4.11%
+time for ORB: 26.00 ms, per: 35.62%
+time for find moving obj: 33.00 ms, per: 45.21%
+  -> time for opticalflow sparse: 32.00 ms, per: 43.84%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 4.00 ms, per: 8.70%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 58.70%
+time for find moving obj: 15.00 ms, per: 32.61%
+  -> time for opticalflow sparse: 15.00 ms, per: 32.61%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 10.00 ms, per: 14.08%
+time for wise mul: 3.00 ms, per: 4.23%
+time for ORB: 23.00 ms, per: 32.39%
+time for find moving obj: 35.00 ms, per: 49.30%
+  -> time for opticalflow sparse: 34.00 ms, per: 47.89%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 4.00 ms, per: 9.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 59.52%
+time for find moving obj: 13.00 ms, per: 30.95%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 9.00 ms, per: 12.00%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 22.00 ms, per: 29.33%
+time for find moving obj: 41.00 ms, per: 54.67%
+  -> time for opticalflow sparse: 40.00 ms, per: 53.33%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 10.00 ms, per: 13.70%
+time for wise mul: 3.00 ms, per: 4.11%
+time for ORB: 22.00 ms, per: 30.14%
+time for find moving obj: 38.00 ms, per: 52.05%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.68%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 18.00 ms, per: 37.50%
+  -> time for opticalflow sparse: 17.00 ms, per: 35.42%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 60.00 ms
+time for diff and binary image: 8.00 ms, per: 13.33%
+time for wise mul: 2.00 ms, per: 3.33%
+time for ORB: 24.00 ms, per: 40.00%
+time for find moving obj: 26.00 ms, per: 43.33%
+  -> time for opticalflow sparse: 25.00 ms, per: 41.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.67%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 7.00 ms, per: 10.94%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 26.00 ms, per: 40.62%
+time for find moving obj: 29.00 ms, per: 45.31%
+  -> time for opticalflow sparse: 28.00 ms, per: 43.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 39.00 ms
+time for diff and binary image: 3.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 58.97%
+time for find moving obj: 13.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 13.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 65.00 ms
+time for diff and binary image: 10.00 ms, per: 15.38%
+time for wise mul: 3.00 ms, per: 4.62%
+time for ORB: 22.00 ms, per: 33.85%
+time for find moving obj: 30.00 ms, per: 46.15%
+  -> time for opticalflow sparse: 29.00 ms, per: 44.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.54%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 38.00 ms
+time for diff and binary image: 3.00 ms, per: 7.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 60.53%
+time for find moving obj: 12.00 ms, per: 31.58%
+  -> time for opticalflow sparse: 12.00 ms, per: 31.58%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 57.00 ms
+time for diff and binary image: 6.00 ms, per: 10.53%
+time for wise mul: 2.00 ms, per: 3.51%
+time for ORB: 22.00 ms, per: 38.60%
+time for find moving obj: 27.00 ms, per: 47.37%
+  -> time for opticalflow sparse: 26.00 ms, per: 45.61%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.75%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 5.00 ms, per: 11.90%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 54.76%
+time for find moving obj: 14.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 14.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 8.00 ms, per: 9.64%
+time for wise mul: 2.00 ms, per: 2.41%
+time for ORB: 24.00 ms, per: 28.92%
+time for find moving obj: 49.00 ms, per: 59.04%
+  -> time for opticalflow sparse: 48.00 ms, per: 57.83%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 6.00 ms, per: 13.04%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 15.00 ms, per: 32.61%
+  -> time for opticalflow sparse: 15.00 ms, per: 32.61%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 60.00 ms
+time for diff and binary image: 8.00 ms, per: 13.33%
+time for wise mul: 2.00 ms, per: 3.33%
+time for ORB: 22.00 ms, per: 36.67%
+time for find moving obj: 28.00 ms, per: 46.67%
+  -> time for opticalflow sparse: 27.00 ms, per: 45.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.67%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 38.00 ms
+time for diff and binary image: 3.00 ms, per: 7.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 60.53%
+time for find moving obj: 12.00 ms, per: 31.58%
+  -> time for opticalflow sparse: 12.00 ms, per: 31.58%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 7.00 ms, per: 9.86%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 22.00 ms, per: 30.99%
+time for find moving obj: 40.00 ms, per: 56.34%
+  -> time for opticalflow sparse: 39.00 ms, per: 54.93%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.09%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 10.00 ms, per: 14.71%
+time for wise mul: 3.00 ms, per: 4.41%
+time for ORB: 25.00 ms, per: 36.76%
+time for find moving obj: 30.00 ms, per: 44.12%
+  -> time for opticalflow sparse: 29.00 ms, per: 42.65%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 1.00 ms, per: 2.22%
+time for ORB: 25.00 ms, per: 55.56%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 8.00 ms, per: 11.76%
+time for wise mul: 3.00 ms, per: 4.41%
+time for ORB: 22.00 ms, per: 32.35%
+time for find moving obj: 35.00 ms, per: 51.47%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 59.52%
+time for find moving obj: 14.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 14.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 8.00 ms, per: 10.96%
+time for wise mul: 3.00 ms, per: 4.11%
+time for ORB: 24.00 ms, per: 32.88%
+time for find moving obj: 38.00 ms, per: 52.05%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.68%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 5.00 ms, per: 10.42%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 63.00 ms
+time for diff and binary image: 8.00 ms, per: 12.70%
+time for wise mul: 2.00 ms, per: 3.17%
+time for ORB: 25.00 ms, per: 39.68%
+time for find moving obj: 28.00 ms, per: 44.44%
+  -> time for opticalflow sparse: 27.00 ms, per: 42.86%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.59%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 1.00 ms, per: 2.13%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.04%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 62.00 ms
+time for diff and binary image: 7.00 ms, per: 11.29%
+time for wise mul: 2.00 ms, per: 3.23%
+time for ORB: 25.00 ms, per: 40.32%
+time for find moving obj: 28.00 ms, per: 45.16%
+  -> time for opticalflow sparse: 27.00 ms, per: 43.55%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.61%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 55.32%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.04%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 10.00 ms, per: 13.33%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 24.00 ms, per: 32.00%
+time for find moving obj: 38.00 ms, per: 50.67%
+  -> time for opticalflow sparse: 37.00 ms, per: 49.33%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 15.00 ms, per: 35.71%
+  -> time for opticalflow sparse: 15.00 ms, per: 35.71%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 23.00 ms, per: 31.94%
+time for find moving obj: 40.00 ms, per: 55.56%
+  -> time for opticalflow sparse: 39.00 ms, per: 54.17%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 3.00 ms, per: 7.50%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 57.50%
+time for find moving obj: 14.00 ms, per: 35.00%
+  -> time for opticalflow sparse: 14.00 ms, per: 35.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 60.00 ms
+time for diff and binary image: 6.00 ms, per: 10.00%
+time for wise mul: 2.00 ms, per: 3.33%
+time for ORB: 24.00 ms, per: 40.00%
+time for find moving obj: 28.00 ms, per: 46.67%
+  -> time for opticalflow sparse: 27.00 ms, per: 45.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.67%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 4.00 ms, per: 9.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 59.52%
+time for find moving obj: 13.00 ms, per: 30.95%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 22.00 ms, per: 27.16%
+time for find moving obj: 45.00 ms, per: 55.56%
+  -> time for opticalflow sparse: 44.00 ms, per: 54.32%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 59.09%
+time for find moving obj: 15.00 ms, per: 34.09%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.09%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 7.00 ms, per: 10.14%
+time for wise mul: 2.00 ms, per: 2.90%
+time for ORB: 22.00 ms, per: 31.88%
+time for find moving obj: 38.00 ms, per: 55.07%
+  -> time for opticalflow sparse: 37.00 ms, per: 53.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 4.00 ms, per: 8.70%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 56.52%
+time for find moving obj: 16.00 ms, per: 34.78%
+  -> time for opticalflow sparse: 15.00 ms, per: 32.61%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 76.00 ms
+time for diff and binary image: 8.00 ms, per: 10.53%
+time for wise mul: 2.00 ms, per: 2.63%
+time for ORB: 26.00 ms, per: 34.21%
+time for find moving obj: 40.00 ms, per: 52.63%
+  -> time for opticalflow sparse: 39.00 ms, per: 51.32%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.32%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 58.14%
+time for find moving obj: 15.00 ms, per: 34.88%
+  -> time for opticalflow sparse: 14.00 ms, per: 32.56%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 10.00 ms, per: 15.15%
+time for wise mul: 3.00 ms, per: 4.55%
+time for ORB: 26.00 ms, per: 39.39%
+time for find moving obj: 27.00 ms, per: 40.91%
+  -> time for opticalflow sparse: 26.00 ms, per: 39.39%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 7.00 ms, per: 9.72%
+time for wise mul: 2.00 ms, per: 2.78%
+time for ORB: 23.00 ms, per: 31.94%
+time for find moving obj: 40.00 ms, per: 55.56%
+  -> time for opticalflow sparse: 39.00 ms, per: 54.17%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 37.00 ms
+time for diff and binary image: 3.00 ms, per: 8.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 59.46%
+time for find moving obj: 12.00 ms, per: 32.43%
+  -> time for opticalflow sparse: 12.00 ms, per: 32.43%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 65.00 ms
+time for diff and binary image: 10.00 ms, per: 15.38%
+time for wise mul: 3.00 ms, per: 4.62%
+time for ORB: 22.00 ms, per: 33.85%
+time for find moving obj: 30.00 ms, per: 46.15%
+  -> time for opticalflow sparse: 29.00 ms, per: 44.62%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.54%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 5.00 ms, per: 11.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 14.00 ms, per: 31.11%
+  -> time for opticalflow sparse: 13.00 ms, per: 28.89%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 8.00 ms, per: 11.43%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 24.00 ms, per: 34.29%
+time for find moving obj: 35.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 34.00 ms, per: 48.57%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 55.56%
+time for find moving obj: 16.00 ms, per: 35.56%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 57.00 ms
+time for diff and binary image: 7.00 ms, per: 12.28%
+time for wise mul: 2.00 ms, per: 3.51%
+time for ORB: 25.00 ms, per: 43.86%
+time for find moving obj: 23.00 ms, per: 40.35%
+  -> time for opticalflow sparse: 22.00 ms, per: 38.60%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.75%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 15.00 ms, per: 35.71%
+  -> time for opticalflow sparse: 14.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.38%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 72.00 ms
+time for diff and binary image: 11.00 ms, per: 15.28%
+time for wise mul: 3.00 ms, per: 4.17%
+time for ORB: 25.00 ms, per: 34.72%
+time for find moving obj: 33.00 ms, per: 45.83%
+  -> time for opticalflow sparse: 32.00 ms, per: 44.44%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.39%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 5.00 ms, per: 10.87%
+time for wise mul: 1.00 ms, per: 2.17%
+time for ORB: 28.00 ms, per: 60.87%
+time for find moving obj: 12.00 ms, per: 26.09%
+  -> time for opticalflow sparse: 12.00 ms, per: 26.09%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 7.00 ms, per: 10.94%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 22.00 ms, per: 34.38%
+time for find moving obj: 33.00 ms, per: 51.56%
+  -> time for opticalflow sparse: 32.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 16.00 ms, per: 36.36%
+  -> time for opticalflow sparse: 15.00 ms, per: 34.09%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 58.00 ms
+time for diff and binary image: 6.00 ms, per: 10.34%
+time for wise mul: 2.00 ms, per: 3.45%
+time for ORB: 25.00 ms, per: 43.10%
+time for find moving obj: 25.00 ms, per: 43.10%
+  -> time for opticalflow sparse: 24.00 ms, per: 41.38%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.72%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 4.00 ms, per: 9.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 61.90%
+time for find moving obj: 12.00 ms, per: 28.57%
+  -> time for opticalflow sparse: 12.00 ms, per: 28.57%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 11.00 ms, per: 17.19%
+time for wise mul: 3.00 ms, per: 4.69%
+time for ORB: 22.00 ms, per: 34.38%
+time for find moving obj: 28.00 ms, per: 43.75%
+  -> time for opticalflow sparse: 27.00 ms, per: 42.19%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 59.52%
+time for find moving obj: 14.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 1.00 ms, per: 2.38%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 7.00 ms, per: 9.59%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 24.00 ms, per: 32.88%
+time for find moving obj: 40.00 ms, per: 54.79%
+  -> time for opticalflow sparse: 39.00 ms, per: 53.42%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 41.00 ms
+time for diff and binary image: 4.00 ms, per: 9.76%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 58.54%
+time for find moving obj: 13.00 ms, per: 31.71%
+  -> time for opticalflow sparse: 13.00 ms, per: 31.71%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 55.00 ms
+time for diff and binary image: 6.00 ms, per: 10.91%
+time for wise mul: 2.00 ms, per: 3.64%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 22.00 ms, per: 40.00%
+  -> time for opticalflow sparse: 21.00 ms, per: 38.18%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 4.00 ms, per: 9.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 15.00 ms, per: 34.09%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.82%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 10.00 ms, per: 13.33%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 22.00 ms, per: 29.33%
+time for find moving obj: 40.00 ms, per: 53.33%
+  -> time for opticalflow sparse: 39.00 ms, per: 52.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 5.00 ms, per: 11.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 56.82%
+time for find moving obj: 14.00 ms, per: 31.82%
+  -> time for opticalflow sparse: 13.00 ms, per: 29.55%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 56.00 ms
+time for diff and binary image: 7.00 ms, per: 12.50%
+time for wise mul: 2.00 ms, per: 3.57%
+time for ORB: 25.00 ms, per: 44.64%
+time for find moving obj: 22.00 ms, per: 39.29%
+  -> time for opticalflow sparse: 21.00 ms, per: 37.50%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.79%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 4.00 ms, per: 10.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 60.00%
+time for find moving obj: 12.00 ms, per: 30.00%
+  -> time for opticalflow sparse: 11.00 ms, per: 27.50%
+  -> time for drawopticalflow: 1.00 ms, per: 2.50%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 75.00 ms
+time for diff and binary image: 11.00 ms, per: 14.67%
+time for wise mul: 3.00 ms, per: 4.00%
+time for ORB: 24.00 ms, per: 32.00%
+time for find moving obj: 37.00 ms, per: 49.33%
+  -> time for opticalflow sparse: 35.00 ms, per: 46.67%
+  -> time for drawopticalflow sparse: 2.00 ms, per: 2.67%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 3.00 ms, per: 7.50%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 60.00%
+time for find moving obj: 13.00 ms, per: 32.50%
+  -> time for opticalflow sparse: 12.00 ms, per: 30.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.50%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 7.00 ms, per: 10.00%
+time for wise mul: 2.00 ms, per: 2.86%
+time for ORB: 24.00 ms, per: 34.29%
+time for find moving obj: 37.00 ms, per: 52.86%
+  -> time for opticalflow sparse: 36.00 ms, per: 51.43%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 4.00 ms, per: 9.30%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 60.47%
+time for find moving obj: 13.00 ms, per: 30.23%
+  -> time for opticalflow sparse: 12.00 ms, per: 27.91%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 55.00 ms
+time for diff and binary image: 7.00 ms, per: 12.73%
+time for wise mul: 2.00 ms, per: 3.64%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 21.00 ms, per: 38.18%
+  -> time for opticalflow sparse: 20.00 ms, per: 36.36%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 39.00 ms
+time for diff and binary image: 3.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 61.54%
+time for find moving obj: 12.00 ms, per: 30.77%
+  -> time for opticalflow sparse: 12.00 ms, per: 30.77%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 10.00 ms, per: 13.51%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 24.00 ms, per: 32.43%
+time for find moving obj: 37.00 ms, per: 50.00%
+  -> time for opticalflow sparse: 36.00 ms, per: 48.65%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 4.00 ms, per: 9.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 14.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 1.00 ms, per: 2.38%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 57.00 ms
+time for diff and binary image: 7.00 ms, per: 12.28%
+time for wise mul: 2.00 ms, per: 3.51%
+time for ORB: 25.00 ms, per: 43.86%
+time for find moving obj: 23.00 ms, per: 40.35%
+  -> time for opticalflow sparse: 22.00 ms, per: 38.60%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.75%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 4.00 ms, per: 9.30%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 58.14%
+time for find moving obj: 14.00 ms, per: 32.56%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.23%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 11.00 ms, per: 15.49%
+time for wise mul: 3.00 ms, per: 4.23%
+time for ORB: 24.00 ms, per: 33.80%
+time for find moving obj: 33.00 ms, per: 46.48%
+  -> time for opticalflow sparse: 32.00 ms, per: 45.07%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 41.00 ms
+time for diff and binary image: 3.00 ms, per: 7.32%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 58.54%
+time for find moving obj: 14.00 ms, per: 34.15%
+  -> time for opticalflow sparse: 13.00 ms, per: 31.71%
+  -> time for drawopticalflow: 1.00 ms, per: 2.44%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 55.00 ms
+time for diff and binary image: 7.00 ms, per: 12.73%
+time for wise mul: 2.00 ms, per: 3.64%
+time for ORB: 24.00 ms, per: 43.64%
+time for find moving obj: 22.00 ms, per: 40.00%
+  -> time for opticalflow sparse: 21.00 ms, per: 38.18%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.82%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 4.00 ms, per: 8.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 57.45%
+time for find moving obj: 16.00 ms, per: 34.04%
+  -> time for opticalflow sparse: 15.00 ms, per: 31.91%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 10.00 ms, per: 15.15%
+time for wise mul: 3.00 ms, per: 4.55%
+time for ORB: 23.00 ms, per: 34.85%
+time for find moving obj: 30.00 ms, per: 45.45%
+  -> time for opticalflow sparse: 29.00 ms, per: 43.94%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 60.47%
+time for find moving obj: 14.00 ms, per: 32.56%
+  -> time for opticalflow sparse: 14.00 ms, per: 32.56%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 8.00 ms, per: 11.94%
+time for wise mul: 3.00 ms, per: 4.48%
+time for ORB: 21.00 ms, per: 31.34%
+time for find moving obj: 35.00 ms, per: 52.24%
+  -> time for opticalflow sparse: 34.00 ms, per: 50.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 36.00 ms
+time for diff and binary image: 3.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 61.11%
+time for find moving obj: 11.00 ms, per: 30.56%
+  -> time for opticalflow sparse: 11.00 ms, per: 30.56%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 51.00 ms
+time for diff and binary image: 6.00 ms, per: 11.76%
+time for wise mul: 2.00 ms, per: 3.92%
+time for ORB: 21.00 ms, per: 41.18%
+time for find moving obj: 22.00 ms, per: 43.14%
+  -> time for opticalflow sparse: 21.00 ms, per: 41.18%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 4.00 ms, per: 9.30%
+time for wise mul: 1.00 ms, per: 2.33%
+time for ORB: 26.00 ms, per: 60.47%
+time for find moving obj: 12.00 ms, per: 27.91%
+  -> time for opticalflow sparse: 12.00 ms, per: 27.91%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 10.00 ms, per: 15.62%
+time for wise mul: 3.00 ms, per: 4.69%
+time for ORB: 22.00 ms, per: 34.38%
+time for find moving obj: 29.00 ms, per: 45.31%
+  -> time for opticalflow sparse: 28.00 ms, per: 43.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 55.10%
+time for find moving obj: 18.00 ms, per: 36.73%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.73%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 83.00 ms
+time for diff and binary image: 8.00 ms, per: 9.64%
+time for wise mul: 2.00 ms, per: 2.41%
+time for ORB: 29.00 ms, per: 34.94%
+time for find moving obj: 44.00 ms, per: 53.01%
+  -> time for opticalflow sparse: 43.00 ms, per: 51.81%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.20%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 38.00 ms
+time for diff and binary image: 3.00 ms, per: 7.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 60.53%
+time for find moving obj: 12.00 ms, per: 31.58%
+  -> time for opticalflow sparse: 12.00 ms, per: 31.58%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 77.00 ms
+time for diff and binary image: 10.00 ms, per: 12.99%
+time for wise mul: 3.00 ms, per: 3.90%
+time for ORB: 22.00 ms, per: 28.57%
+time for find moving obj: 42.00 ms, per: 54.55%
+  -> time for opticalflow sparse: 41.00 ms, per: 53.25%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.30%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 1.00 ms, per: 2.22%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 8.00 ms, per: 11.43%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 23.00 ms, per: 32.86%
+time for find moving obj: 36.00 ms, per: 51.43%
+  -> time for opticalflow sparse: 35.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 4.00 ms, per: 8.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 60.00%
+time for find moving obj: 14.00 ms, per: 31.11%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 61.00 ms
+time for diff and binary image: 7.00 ms, per: 11.48%
+time for wise mul: 2.00 ms, per: 3.28%
+time for ORB: 23.00 ms, per: 37.70%
+time for find moving obj: 29.00 ms, per: 47.54%
+  -> time for opticalflow sparse: 28.00 ms, per: 45.90%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.64%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 52.00 ms
+time for diff and binary image: 4.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 53.85%
+time for find moving obj: 20.00 ms, per: 38.46%
+  -> time for opticalflow sparse: 20.00 ms, per: 38.46%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 27.00 ms, per: 33.33%
+time for find moving obj: 40.00 ms, per: 49.38%
+  -> time for opticalflow sparse: 39.00 ms, per: 48.15%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 4.00 ms, per: 8.70%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 17.00 ms, per: 36.96%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.78%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 7.00 ms, per: 10.14%
+time for wise mul: 3.00 ms, per: 4.35%
+time for ORB: 27.00 ms, per: 39.13%
+time for find moving obj: 32.00 ms, per: 46.38%
+  -> time for opticalflow sparse: 31.00 ms, per: 44.93%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 39.00 ms
+time for diff and binary image: 2.00 ms, per: 5.13%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 58.97%
+time for find moving obj: 14.00 ms, per: 35.90%
+  -> time for opticalflow sparse: 14.00 ms, per: 35.90%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 8.00 ms, per: 10.81%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 23.00 ms, per: 31.08%
+time for find moving obj: 40.00 ms, per: 54.05%
+  -> time for opticalflow sparse: 39.00 ms, per: 52.70%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 54.35%
+time for find moving obj: 18.00 ms, per: 39.13%
+  -> time for opticalflow sparse: 17.00 ms, per: 36.96%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 8.00 ms, per: 11.27%
+time for wise mul: 2.00 ms, per: 2.82%
+time for ORB: 27.00 ms, per: 38.03%
+time for find moving obj: 34.00 ms, per: 47.89%
+  -> time for opticalflow sparse: 33.00 ms, per: 46.48%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 4.00 ms, per: 9.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 59.09%
+time for find moving obj: 14.00 ms, per: 31.82%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.82%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 82.00 ms
+time for diff and binary image: 11.00 ms, per: 13.41%
+time for wise mul: 3.00 ms, per: 3.66%
+time for ORB: 23.00 ms, per: 28.05%
+time for find moving obj: 45.00 ms, per: 54.88%
+  -> time for opticalflow sparse: 44.00 ms, per: 53.66%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 3.00 ms, per: 6.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 56.00%
+time for find moving obj: 19.00 ms, per: 38.00%
+  -> time for opticalflow sparse: 18.00 ms, per: 36.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 7.00 ms, per: 8.97%
+time for wise mul: 2.00 ms, per: 2.56%
+time for ORB: 26.00 ms, per: 33.33%
+time for find moving obj: 43.00 ms, per: 55.13%
+  -> time for opticalflow sparse: 42.00 ms, per: 53.85%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 15.00 ms, per: 35.71%
+  -> time for opticalflow sparse: 15.00 ms, per: 35.71%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 11.00 ms, per: 14.10%
+time for wise mul: 3.00 ms, per: 3.85%
+time for ORB: 24.00 ms, per: 30.77%
+time for find moving obj: 40.00 ms, per: 51.28%
+  -> time for opticalflow sparse: 39.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 57.14%
+time for find moving obj: 15.00 ms, per: 35.71%
+  -> time for opticalflow sparse: 15.00 ms, per: 35.71%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 7.00 ms, per: 9.59%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 23.00 ms, per: 31.51%
+time for find moving obj: 41.00 ms, per: 56.16%
+  -> time for opticalflow sparse: 40.00 ms, per: 54.79%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 4.00 ms, per: 7.84%
+time for wise mul: 1.00 ms, per: 1.96%
+time for ORB: 29.00 ms, per: 56.86%
+time for find moving obj: 17.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 16.00 ms, per: 31.37%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 7.00 ms, per: 10.94%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 26.00 ms, per: 40.62%
+time for find moving obj: 29.00 ms, per: 45.31%
+  -> time for opticalflow sparse: 28.00 ms, per: 43.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 58.33%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 79.00 ms
+time for diff and binary image: 11.00 ms, per: 13.92%
+time for wise mul: 3.00 ms, per: 3.80%
+time for ORB: 25.00 ms, per: 31.65%
+time for find moving obj: 40.00 ms, per: 50.63%
+  -> time for opticalflow sparse: 39.00 ms, per: 49.37%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 56.52%
+time for find moving obj: 17.00 ms, per: 36.96%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.78%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 65.00 ms
+time for diff and binary image: 8.00 ms, per: 12.31%
+time for wise mul: 2.00 ms, per: 3.08%
+time for ORB: 27.00 ms, per: 41.54%
+time for find moving obj: 28.00 ms, per: 43.08%
+  -> time for opticalflow sparse: 27.00 ms, per: 41.54%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.54%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 7.00 ms, per: 10.61%
+time for wise mul: 2.00 ms, per: 3.03%
+time for ORB: 26.00 ms, per: 39.39%
+time for find moving obj: 31.00 ms, per: 46.97%
+  -> time for opticalflow sparse: 30.00 ms, per: 45.45%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 7.00 ms, per: 14.58%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 15.00 ms, per: 31.25%
+  -> time for opticalflow sparse: 15.00 ms, per: 31.25%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 84.00 ms
+time for diff and binary image: 8.00 ms, per: 9.52%
+time for wise mul: 2.00 ms, per: 2.38%
+time for ORB: 24.00 ms, per: 28.57%
+time for find moving obj: 50.00 ms, per: 59.52%
+  -> time for opticalflow sparse: 49.00 ms, per: 58.33%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.19%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 3.00 ms, per: 7.50%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 60.00%
+time for find moving obj: 13.00 ms, per: 32.50%
+  -> time for opticalflow sparse: 13.00 ms, per: 32.50%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 61.00 ms
+time for diff and binary image: 8.00 ms, per: 13.11%
+time for wise mul: 2.00 ms, per: 3.28%
+time for ORB: 22.00 ms, per: 36.07%
+time for find moving obj: 29.00 ms, per: 47.54%
+  -> time for opticalflow sparse: 28.00 ms, per: 45.90%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.64%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 3.00 ms, per: 6.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 56.52%
+time for find moving obj: 17.00 ms, per: 36.96%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.78%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 73.00 ms
+time for diff and binary image: 7.00 ms, per: 9.59%
+time for wise mul: 2.00 ms, per: 2.74%
+time for ORB: 26.00 ms, per: 35.62%
+time for find moving obj: 38.00 ms, per: 52.05%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.68%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.37%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 60.00%
+time for find moving obj: 15.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 63.00 ms
+time for diff and binary image: 6.00 ms, per: 9.52%
+time for wise mul: 2.00 ms, per: 3.17%
+time for ORB: 23.00 ms, per: 36.51%
+time for find moving obj: 32.00 ms, per: 50.79%
+  -> time for opticalflow sparse: 31.00 ms, per: 49.21%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.59%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 39.00 ms
+time for diff and binary image: 3.00 ms, per: 7.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 58.97%
+time for find moving obj: 13.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 13.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 84.00 ms
+time for diff and binary image: 7.00 ms, per: 8.33%
+time for wise mul: 2.00 ms, per: 2.38%
+time for ORB: 23.00 ms, per: 27.38%
+time for find moving obj: 52.00 ms, per: 61.90%
+  -> time for opticalflow sparse: 51.00 ms, per: 60.71%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.19%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 50.00 ms
+time for diff and binary image: 4.00 ms, per: 8.00%
+time for wise mul: 1.00 ms, per: 2.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+  -> time for opticalflow sparse: 17.00 ms, per: 34.00%
+  -> time for drawopticalflow: 1.00 ms, per: 2.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 8.00 ms, per: 10.26%
+time for wise mul: 2.00 ms, per: 2.56%
+time for ORB: 25.00 ms, per: 32.05%
+time for find moving obj: 43.00 ms, per: 55.13%
+  -> time for opticalflow sparse: 42.00 ms, per: 53.85%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 3.00 ms, per: 6.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 57.45%
+time for find moving obj: 17.00 ms, per: 36.17%
+  -> time for opticalflow sparse: 16.00 ms, per: 34.04%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 9.00 ms, per: 12.16%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 24.00 ms, per: 32.43%
+time for find moving obj: 38.00 ms, per: 51.35%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 16.00 ms, per: 35.56%
+  -> time for opticalflow sparse: 16.00 ms, per: 35.56%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 64.00 ms
+time for diff and binary image: 8.00 ms, per: 12.50%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 25.00 ms, per: 39.06%
+time for find moving obj: 29.00 ms, per: 45.31%
+  -> time for opticalflow sparse: 28.00 ms, per: 43.75%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.56%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 36.00 ms
+time for diff and binary image: 2.00 ms, per: 5.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 61.11%
+time for find moving obj: 12.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 12.00 ms, per: 33.33%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 71.00 ms
+time for diff and binary image: 10.00 ms, per: 14.08%
+time for wise mul: 3.00 ms, per: 4.23%
+time for ORB: 22.00 ms, per: 30.99%
+time for find moving obj: 36.00 ms, per: 50.70%
+  -> time for opticalflow sparse: 35.00 ms, per: 49.30%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.41%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 49.00 ms
+time for diff and binary image: 4.00 ms, per: 8.16%
+time for wise mul: 1.00 ms, per: 2.04%
+time for ORB: 29.00 ms, per: 59.18%
+time for find moving obj: 15.00 ms, per: 30.61%
+  -> time for opticalflow sparse: 15.00 ms, per: 30.61%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 66.00 ms
+time for diff and binary image: 11.00 ms, per: 16.67%
+time for wise mul: 3.00 ms, per: 4.55%
+time for ORB: 23.00 ms, per: 34.85%
+time for find moving obj: 29.00 ms, per: 43.94%
+  -> time for opticalflow sparse: 28.00 ms, per: 42.42%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.52%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 51.00 ms
+time for diff and binary image: 6.00 ms, per: 11.76%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 54.90%
+time for find moving obj: 17.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 16.00 ms, per: 31.37%
+  -> time for drawopticalflow: 1.00 ms, per: 1.96%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 27.00 ms, per: 33.33%
+time for find moving obj: 40.00 ms, per: 49.38%
+  -> time for opticalflow sparse: 39.00 ms, per: 48.15%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 5.00 ms, per: 11.11%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 14.00 ms, per: 31.11%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.11%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 62.00 ms
+time for diff and binary image: 8.00 ms, per: 12.90%
+time for wise mul: 2.00 ms, per: 3.23%
+time for ORB: 26.00 ms, per: 41.94%
+time for find moving obj: 26.00 ms, per: 41.94%
+  -> time for opticalflow sparse: 25.00 ms, per: 40.32%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.61%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 4.00 ms, per: 8.70%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 56.52%
+time for find moving obj: 16.00 ms, per: 34.78%
+  -> time for opticalflow sparse: 15.00 ms, per: 32.61%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 11.00 ms, per: 14.10%
+time for wise mul: 3.00 ms, per: 3.85%
+time for ORB: 26.00 ms, per: 33.33%
+time for find moving obj: 38.00 ms, per: 48.72%
+  -> time for opticalflow sparse: 37.00 ms, per: 47.44%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 46.00 ms
+time for diff and binary image: 4.00 ms, per: 8.70%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 58.70%
+time for find moving obj: 15.00 ms, per: 32.61%
+  -> time for opticalflow sparse: 14.00 ms, per: 30.43%
+  -> time for drawopticalflow: 1.00 ms, per: 2.17%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 60.00 ms
+time for diff and binary image: 8.00 ms, per: 13.33%
+time for wise mul: 2.00 ms, per: 3.33%
+time for ORB: 24.00 ms, per: 40.00%
+time for find moving obj: 26.00 ms, per: 43.33%
+  -> time for opticalflow sparse: 25.00 ms, per: 41.67%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.67%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 45.00 ms
+time for diff and binary image: 3.00 ms, per: 6.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 57.78%
+time for find moving obj: 16.00 ms, per: 35.56%
+  -> time for opticalflow sparse: 15.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.22%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 7.00 ms, per: 8.64%
+time for wise mul: 2.00 ms, per: 2.47%
+time for ORB: 25.00 ms, per: 30.86%
+time for find moving obj: 47.00 ms, per: 58.02%
+  -> time for opticalflow sparse: 46.00 ms, per: 56.79%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 3.00 ms, per: 6.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 59.09%
+time for find moving obj: 15.00 ms, per: 34.09%
+  -> time for opticalflow sparse: 14.00 ms, per: 31.82%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 59.00 ms
+time for diff and binary image: 7.00 ms, per: 11.86%
+time for wise mul: 2.00 ms, per: 3.39%
+time for ORB: 26.00 ms, per: 44.07%
+time for find moving obj: 24.00 ms, per: 40.68%
+  -> time for opticalflow sparse: 23.00 ms, per: 38.98%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.69%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 38.00 ms
+time for diff and binary image: 3.00 ms, per: 7.89%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 60.53%
+time for find moving obj: 12.00 ms, per: 31.58%
+  -> time for opticalflow sparse: 12.00 ms, per: 31.58%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 74.00 ms
+time for diff and binary image: 11.00 ms, per: 14.86%
+time for wise mul: 3.00 ms, per: 4.05%
+time for ORB: 22.00 ms, per: 29.73%
+time for find moving obj: 38.00 ms, per: 51.35%
+  -> time for opticalflow sparse: 37.00 ms, per: 50.00%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.35%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 40.00 ms
+time for diff and binary image: 4.00 ms, per: 10.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 60.00%
+time for find moving obj: 12.00 ms, per: 30.00%
+  -> time for opticalflow sparse: 12.00 ms, per: 30.00%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 11.00 ms, per: 15.71%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 23.00 ms, per: 32.86%
+time for find moving obj: 33.00 ms, per: 47.14%
+  -> time for opticalflow sparse: 32.00 ms, per: 45.71%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 4.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 56.25%
+time for find moving obj: 17.00 ms, per: 35.42%
+  -> time for opticalflow sparse: 16.00 ms, per: 33.33%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 81.00 ms
+time for diff and binary image: 11.00 ms, per: 13.58%
+time for wise mul: 3.00 ms, per: 3.70%
+time for ORB: 26.00 ms, per: 32.10%
+time for find moving obj: 41.00 ms, per: 50.62%
+  -> time for opticalflow sparse: 40.00 ms, per: 49.38%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.23%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 44.00 ms
+time for diff and binary image: 4.00 ms, per: 9.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 59.09%
+time for find moving obj: 14.00 ms, per: 31.82%
+  -> time for opticalflow sparse: 13.00 ms, per: 29.55%
+  -> time for drawopticalflow: 1.00 ms, per: 2.27%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 70.00 ms
+time for diff and binary image: 11.00 ms, per: 15.71%
+time for wise mul: 3.00 ms, per: 4.29%
+time for ORB: 28.00 ms, per: 40.00%
+time for find moving obj: 28.00 ms, per: 40.00%
+  -> time for opticalflow sparse: 27.00 ms, per: 38.57%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.43%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 43.00 ms
+time for diff and binary image: 3.00 ms, per: 6.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 60.47%
+time for find moving obj: 14.00 ms, per: 32.56%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.23%
+  -> time for drawopticalflow: 1.00 ms, per: 2.33%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 69.00 ms
+time for diff and binary image: 7.00 ms, per: 10.14%
+time for wise mul: 2.00 ms, per: 2.90%
+time for ORB: 26.00 ms, per: 37.68%
+time for find moving obj: 34.00 ms, per: 49.28%
+  -> time for opticalflow sparse: 33.00 ms, per: 47.83%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.45%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 42.00 ms
+time for diff and binary image: 3.00 ms, per: 7.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 59.52%
+time for find moving obj: 14.00 ms, per: 33.33%
+  -> time for opticalflow sparse: 13.00 ms, per: 30.95%
+  -> time for drawopticalflow: 1.00 ms, per: 2.38%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 67.00 ms
+time for diff and binary image: 11.00 ms, per: 16.42%
+time for wise mul: 3.00 ms, per: 4.48%
+time for ORB: 25.00 ms, per: 37.31%
+time for find moving obj: 28.00 ms, per: 41.79%
+  -> time for opticalflow sparse: 27.00 ms, per: 40.30%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.49%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 47.00 ms
+time for diff and binary image: 2.00 ms, per: 4.26%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 33.00 ms, per: 70.21%
+time for find moving obj: 12.00 ms, per: 25.53%
+  -> time for opticalflow sparse: 11.00 ms, per: 23.40%
+  -> time for drawopticalflow: 1.00 ms, per: 2.13%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 78.00 ms
+time for diff and binary image: 11.00 ms, per: 14.10%
+time for wise mul: 3.00 ms, per: 3.85%
+time for ORB: 22.00 ms, per: 28.21%
+time for find moving obj: 42.00 ms, per: 53.85%
+  -> time for opticalflow sparse: 41.00 ms, per: 52.56%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.28%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 48.00 ms
+time for diff and binary image: 3.00 ms, per: 6.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 19.00 ms, per: 39.58%
+  -> time for opticalflow sparse: 18.00 ms, per: 37.50%
+  -> time for drawopticalflow: 1.00 ms, per: 2.08%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 84.00 ms
+time for diff and binary image: 6.00 ms, per: 7.14%
+time for wise mul: 2.00 ms, per: 2.38%
+time for ORB: 24.00 ms, per: 28.57%
+time for find moving obj: 52.00 ms, per: 61.90%
+  -> time for opticalflow sparse: 51.00 ms, per: 60.71%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.19%
+  -> time for findobst: 0.00 ms, per: 0.00%
+
+SEQ: total time for one frame: 36.00 ms
+time for diff and binary image: 3.00 ms, per: 8.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 61.11%
+time for find moving obj: 11.00 ms, per: 30.56%
+  -> time for opticalflow sparse: 11.00 ms, per: 30.56%
+  -> time for drawopticalflow: 0.00 ms, per: 0.00%
+  -> time for findobst: 0.00 ms, per: 0.00%
+CUDA: total time for one frame: 68.00 ms
+time for diff and binary image: 10.00 ms, per: 14.71%
+time for wise mul: 3.00 ms, per: 4.41%
+time for ORB: 22.00 ms, per: 32.35%
+time for find moving obj: 33.00 ms, per: 48.53%
+  -> time for opticalflow sparse: 32.00 ms, per: 47.06%
+  -> time for drawopticalflow sparse: 1.00 ms, per: 1.47%
+  -> time for findobst: 0.00 ms, per: 0.00%
+accuracy of cuda version is within the threshold 1%

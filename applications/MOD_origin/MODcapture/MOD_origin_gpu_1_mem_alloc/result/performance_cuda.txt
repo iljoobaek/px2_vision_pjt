@@ -1,0 +1,2 @@
+frameNum	diff			wise			threshold		opt_calc		opt_draw		mod				sum
+700			5.11+-0.15		1.04+-0.51		19.92+-1.49		12.23+-1.14		0.95+-0.08		0.00+-0.00		39.26+-2.62
