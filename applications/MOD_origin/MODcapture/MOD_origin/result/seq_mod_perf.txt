@@ -1,0 +1,2295 @@
+GPU features are supported for this platform!
+Started Initialization
+Started
+time for diff and binary image: 10.00 ms, per: 3.19%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 8.95%
+time for find moving obj: 275.00 ms, per: 87.86%
+total time for one frame: 313.00 ms
+
+time for diff and binary image: 17.00 ms, per: 24.29%
+time for wise mul: 1.00 ms, per: 1.43%
+time for ORB: 28.00 ms, per: 40.00%
+time for find moving obj: 24.00 ms, per: 34.29%
+total time for one frame: 70.00 ms
+
+time for diff and binary image: 9.00 ms, per: 13.64%
+time for wise mul: 1.00 ms, per: 1.52%
+time for ORB: 32.00 ms, per: 48.48%
+time for find moving obj: 24.00 ms, per: 36.36%
+total time for one frame: 66.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.79%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 19.00 ms, per: 33.33%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.95%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 31.00 ms, per: 52.54%
+time for find moving obj: 17.00 ms, per: 28.81%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 27.00 ms, per: 45.00%
+time for find moving obj: 21.00 ms, per: 35.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.86%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 32.14%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.94%
+time for find moving obj: 18.00 ms, per: 33.96%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 18.00 ms, per: 25.35%
+time for wise mul: 1.00 ms, per: 1.41%
+time for ORB: 30.00 ms, per: 42.25%
+time for find moving obj: 22.00 ms, per: 30.99%
+total time for one frame: 71.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 29.00 ms, per: 48.33%
+time for find moving obj: 19.00 ms, per: 31.67%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 18.00 ms, per: 32.73%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.67%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 19.00 ms, per: 31.15%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 48.33%
+time for find moving obj: 22.00 ms, per: 36.67%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 12.00 ms, per: 17.91%
+time for wise mul: 1.00 ms, per: 1.49%
+time for ORB: 33.00 ms, per: 49.25%
+time for find moving obj: 21.00 ms, per: 31.34%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 21.00 ms, per: 35.59%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 11.00 ms, per: 15.94%
+time for wise mul: 1.00 ms, per: 1.45%
+time for ORB: 35.00 ms, per: 50.72%
+time for find moving obj: 22.00 ms, per: 31.88%
+total time for one frame: 69.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 33.33%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.00%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 30.00 ms, per: 50.00%
+time for find moving obj: 20.00 ms, per: 33.33%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 50.82%
+time for find moving obj: 21.00 ms, per: 34.43%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 11.00 ms, per: 17.74%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 28.00 ms, per: 45.16%
+time for find moving obj: 22.00 ms, per: 35.48%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 32.00 ms, per: 50.79%
+time for find moving obj: 22.00 ms, per: 34.92%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 49.09%
+time for find moving obj: 20.00 ms, per: 36.36%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 13.00 ms, per: 20.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 47.69%
+time for find moving obj: 21.00 ms, per: 32.31%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 14.00 ms, per: 21.54%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 27.00 ms, per: 41.54%
+time for find moving obj: 23.00 ms, per: 35.38%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 11.00 ms, per: 16.92%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 33.00 ms, per: 50.77%
+time for find moving obj: 20.00 ms, per: 30.77%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 20.00 ms, per: 34.48%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 46.55%
+time for find moving obj: 22.00 ms, per: 37.93%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.03%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 27.00 ms, per: 44.26%
+time for find moving obj: 22.00 ms, per: 36.07%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 11.00 ms, per: 16.92%
+time for wise mul: 3.00 ms, per: 4.62%
+time for ORB: 28.00 ms, per: 43.08%
+time for find moving obj: 23.00 ms, per: 35.38%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 12.00 ms, per: 17.91%
+time for wise mul: 1.00 ms, per: 1.49%
+time for ORB: 30.00 ms, per: 44.78%
+time for find moving obj: 24.00 ms, per: 35.82%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.04%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 20.00 ms, per: 35.09%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 15.00 ms, per: 23.08%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 29.00 ms, per: 44.62%
+time for find moving obj: 20.00 ms, per: 30.77%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 10.00 ms, per: 15.87%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 44.44%
+time for find moving obj: 25.00 ms, per: 39.68%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 28.00 ms, per: 45.90%
+time for find moving obj: 23.00 ms, per: 37.70%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 46.55%
+time for find moving obj: 22.00 ms, per: 37.93%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 45.76%
+time for find moving obj: 21.00 ms, per: 35.59%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 11.00 ms, per: 15.94%
+time for wise mul: 1.00 ms, per: 1.45%
+time for ORB: 33.00 ms, per: 47.83%
+time for find moving obj: 24.00 ms, per: 34.78%
+total time for one frame: 69.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 51.79%
+time for find moving obj: 19.00 ms, per: 33.93%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 8.00 ms, per: 13.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 45.76%
+time for find moving obj: 24.00 ms, per: 40.68%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 16.00 ms, per: 23.53%
+time for wise mul: 1.00 ms, per: 1.47%
+time for ORB: 30.00 ms, per: 44.12%
+time for find moving obj: 21.00 ms, per: 30.88%
+total time for one frame: 68.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 48.33%
+time for find moving obj: 21.00 ms, per: 35.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 13.00 ms, per: 19.12%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 45.59%
+time for find moving obj: 24.00 ms, per: 35.29%
+total time for one frame: 68.00 ms
+
+time for diff and binary image: 11.00 ms, per: 17.19%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 48.44%
+time for find moving obj: 22.00 ms, per: 34.38%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.18%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 47.27%
+time for find moving obj: 19.00 ms, per: 34.55%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 13.00 ms, per: 19.40%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 46.27%
+time for find moving obj: 23.00 ms, per: 34.33%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 48.33%
+time for find moving obj: 22.00 ms, per: 36.67%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 13.00 ms, per: 17.57%
+time for wise mul: 1.00 ms, per: 1.35%
+time for ORB: 29.00 ms, per: 39.19%
+time for find moving obj: 31.00 ms, per: 41.89%
+total time for one frame: 74.00 ms
+
+time for diff and binary image: 14.00 ms, per: 21.54%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 29.00 ms, per: 44.62%
+time for find moving obj: 21.00 ms, per: 32.31%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 8.00 ms, per: 13.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 47.46%
+time for find moving obj: 23.00 ms, per: 38.98%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 12.90%
+time for wise mul: 2.00 ms, per: 3.23%
+time for ORB: 32.00 ms, per: 51.61%
+time for find moving obj: 20.00 ms, per: 32.26%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.04%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 21.00 ms, per: 36.84%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 8.00 ms, per: 13.79%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 50.00%
+time for find moving obj: 21.00 ms, per: 36.21%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.29%
+time for wise mul: 1.00 ms, per: 1.59%
+time for ORB: 30.00 ms, per: 47.62%
+time for find moving obj: 23.00 ms, per: 36.51%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 32.00 ms, per: 50.79%
+time for find moving obj: 22.00 ms, per: 34.92%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 23.00 ms, per: 37.70%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 47.17%
+time for find moving obj: 20.00 ms, per: 37.74%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 12.00 ms, per: 17.91%
+time for wise mul: 1.00 ms, per: 1.49%
+time for ORB: 33.00 ms, per: 49.25%
+time for find moving obj: 21.00 ms, per: 31.34%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 48.21%
+time for find moving obj: 21.00 ms, per: 37.50%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 8.00 ms, per: 13.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 50.85%
+time for find moving obj: 21.00 ms, per: 35.59%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 48.08%
+time for find moving obj: 19.00 ms, per: 36.54%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 43.55%
+time for find moving obj: 26.00 ms, per: 41.94%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 43.33%
+time for find moving obj: 22.00 ms, per: 36.67%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.13%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 30.00 ms, per: 48.39%
+time for find moving obj: 21.00 ms, per: 33.87%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 23.00 ms, per: 37.70%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 10.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 37.00 ms, per: 52.86%
+time for find moving obj: 23.00 ms, per: 32.86%
+total time for one frame: 70.00 ms
+
+time for diff and binary image: 13.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 28.00 ms, per: 43.08%
+time for find moving obj: 23.00 ms, per: 35.38%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 47.46%
+time for find moving obj: 22.00 ms, per: 37.29%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 13.00 ms, per: 20.31%
+time for wise mul: 2.00 ms, per: 3.12%
+time for ORB: 30.00 ms, per: 46.88%
+time for find moving obj: 19.00 ms, per: 29.69%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 21.00 ms, per: 36.21%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 22.00 ms, per: 40.00%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.39%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 21.00 ms, per: 34.43%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 23.00 ms, per: 37.70%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 17.00 ms, per: 26.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 43.75%
+time for find moving obj: 19.00 ms, per: 29.69%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 27.00 ms, per: 44.26%
+time for find moving obj: 19.00 ms, per: 31.15%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 8.00 ms, per: 13.79%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 50.00%
+time for find moving obj: 21.00 ms, per: 36.21%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.34%
+time for wise mul: 3.00 ms, per: 5.08%
+time for ORB: 26.00 ms, per: 44.07%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 14.00 ms, per: 20.29%
+time for wise mul: 1.00 ms, per: 1.45%
+time for ORB: 34.00 ms, per: 49.28%
+time for find moving obj: 20.00 ms, per: 28.99%
+total time for one frame: 69.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.07%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 48.21%
+time for find moving obj: 20.00 ms, per: 35.71%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 13.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 32.00 ms, per: 49.23%
+time for find moving obj: 19.00 ms, per: 29.23%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 31.00 ms, per: 51.67%
+time for find moving obj: 17.00 ms, per: 28.33%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 45.90%
+time for find moving obj: 24.00 ms, per: 39.34%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 14.00 ms, per: 21.88%
+time for wise mul: 1.00 ms, per: 1.56%
+time for ORB: 29.00 ms, per: 45.31%
+time for find moving obj: 20.00 ms, per: 31.25%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.24%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 19.00 ms, per: 32.76%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 21.00 ms, per: 36.21%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 13.00 ms, per: 18.31%
+time for wise mul: 1.00 ms, per: 1.41%
+time for ORB: 33.00 ms, per: 46.48%
+time for find moving obj: 24.00 ms, per: 33.80%
+total time for one frame: 71.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 19.00 ms, per: 34.55%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 33.00 ms, per: 55.00%
+time for find moving obj: 18.00 ms, per: 30.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.86%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 26.00 ms, per: 46.43%
+time for find moving obj: 19.00 ms, per: 33.93%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 16.00 ms, per: 25.40%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 44.44%
+time for find moving obj: 19.00 ms, per: 30.16%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.25%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 20.00 ms, per: 33.90%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 47.27%
+time for find moving obj: 21.00 ms, per: 38.18%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 28.00 ms, per: 45.90%
+time for find moving obj: 18.00 ms, per: 29.51%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 28.00 ms, per: 45.90%
+time for find moving obj: 18.00 ms, per: 29.51%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 13.85%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 34.00 ms, per: 52.31%
+time for find moving obj: 22.00 ms, per: 33.85%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 9.00 ms, per: 13.04%
+time for wise mul: 1.00 ms, per: 1.45%
+time for ORB: 32.00 ms, per: 46.38%
+time for find moving obj: 27.00 ms, per: 39.13%
+total time for one frame: 69.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.35%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 30.00 ms, per: 48.39%
+time for find moving obj: 19.00 ms, per: 30.65%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.94%
+time for find moving obj: 17.00 ms, per: 32.08%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 17.00 ms, per: 32.08%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.79%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 20.00 ms, per: 35.09%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 48.00%
+time for find moving obj: 18.00 ms, per: 36.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 49.09%
+time for find moving obj: 17.00 ms, per: 30.91%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 42.62%
+time for find moving obj: 21.00 ms, per: 34.43%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 22.00 ms, per: 31.88%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 37.68%
+time for find moving obj: 21.00 ms, per: 30.43%
+total time for one frame: 69.00 ms
+
+time for diff and binary image: 14.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.43%
+time for ORB: 34.00 ms, per: 48.57%
+time for find moving obj: 21.00 ms, per: 30.00%
+total time for one frame: 70.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.30%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 26.00 ms, per: 45.61%
+time for find moving obj: 19.00 ms, per: 33.33%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 13.00 ms, per: 23.21%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 24.00 ms, per: 42.86%
+time for find moving obj: 18.00 ms, per: 32.14%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.86%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 46.43%
+time for find moving obj: 20.00 ms, per: 35.71%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 17.00 ms, per: 25.37%
+time for wise mul: 1.00 ms, per: 1.49%
+time for ORB: 29.00 ms, per: 43.28%
+time for find moving obj: 20.00 ms, per: 29.85%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 14.00 ms, per: 27.45%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 43.14%
+time for find moving obj: 15.00 ms, per: 29.41%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 12.00 ms, per: 22.22%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 24.00 ms, per: 44.44%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 10.00 ms, per: 20.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 46.94%
+time for find moving obj: 16.00 ms, per: 32.65%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 13.00 ms, per: 20.31%
+time for wise mul: 1.00 ms, per: 1.56%
+time for ORB: 28.00 ms, per: 43.75%
+time for find moving obj: 22.00 ms, per: 34.38%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 48.00%
+time for find moving obj: 17.00 ms, per: 34.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.39%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 22.00 ms, per: 36.07%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 21.00 ms, per: 36.21%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 46.67%
+time for find moving obj: 23.00 ms, per: 38.33%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 28.00 ms, per: 46.67%
+time for find moving obj: 20.00 ms, per: 33.33%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.06%
+time for wise mul: 1.00 ms, per: 1.56%
+time for ORB: 31.00 ms, per: 48.44%
+time for find moving obj: 23.00 ms, per: 35.94%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 10.00 ms, per: 19.23%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 46.15%
+time for find moving obj: 18.00 ms, per: 34.62%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 10.00 ms, per: 31.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 68.75%
+time for find moving obj: 0.00 ms, per: 0.00%
+total time for one frame: 32.00 ms
+
+time for diff and binary image: 11.00 ms, per: 16.42%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 43.28%
+time for find moving obj: 27.00 ms, per: 40.30%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 33.00 ms, per: 54.10%
+time for find moving obj: 18.00 ms, per: 29.51%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 33.33%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.81%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 18.00 ms, per: 33.33%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 14.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 45.90%
+time for find moving obj: 24.00 ms, per: 39.34%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 14.00 ms, per: 24.14%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 43.10%
+time for find moving obj: 19.00 ms, per: 32.76%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 47.06%
+time for find moving obj: 19.00 ms, per: 37.25%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.18%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 16.00 ms, per: 29.09%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.35%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 27.00 ms, per: 43.55%
+time for find moving obj: 22.00 ms, per: 35.48%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 48.33%
+time for find moving obj: 21.00 ms, per: 35.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.07%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 48.21%
+time for find moving obj: 20.00 ms, per: 35.71%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 48.21%
+time for find moving obj: 21.00 ms, per: 37.50%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 18.00 ms, per: 32.73%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 18.00 ms, per: 32.73%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.29%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 48.21%
+time for find moving obj: 21.00 ms, per: 37.50%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.54%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 47.37%
+time for find moving obj: 20.00 ms, per: 35.09%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 52.94%
+time for find moving obj: 16.00 ms, per: 31.37%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 48.15%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 48.98%
+time for find moving obj: 17.00 ms, per: 34.69%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.87%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 47.17%
+time for find moving obj: 18.00 ms, per: 33.96%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 18.00 ms, per: 32.73%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 46.55%
+time for find moving obj: 22.00 ms, per: 37.93%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 45.28%
+time for find moving obj: 21.00 ms, per: 39.62%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.30%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 45.61%
+time for find moving obj: 20.00 ms, per: 35.09%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 11.00 ms, per: 22.45%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 46.94%
+time for find moving obj: 15.00 ms, per: 30.61%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 14.00 ms, per: 21.54%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 30.00 ms, per: 46.15%
+time for find moving obj: 20.00 ms, per: 30.77%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 17.00 ms, per: 28.81%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 40.68%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 48.08%
+time for find moving obj: 19.00 ms, per: 36.54%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 14.00 ms, per: 24.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 45.61%
+time for find moving obj: 17.00 ms, per: 29.82%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 27.00 ms, per: 45.00%
+time for find moving obj: 21.00 ms, per: 35.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.05%
+time for wise mul: 1.00 ms, per: 1.59%
+time for ORB: 31.00 ms, per: 49.21%
+time for find moving obj: 19.00 ms, per: 30.16%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 10.00 ms, per: 20.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 14.00 ms, per: 28.57%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 16.00 ms, per: 27.12%
+time for wise mul: 3.00 ms, per: 5.08%
+time for ORB: 25.00 ms, per: 42.37%
+time for find moving obj: 15.00 ms, per: 25.42%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.39%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 32.61%
+total time for one frame: 46.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.81%
+time for wise mul: 2.00 ms, per: 3.70%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 16.00 ms, per: 29.63%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 13.00 ms, per: 22.03%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 30.00 ms, per: 50.85%
+time for find moving obj: 15.00 ms, per: 25.42%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 15.00 ms, per: 30.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 44.00%
+time for find moving obj: 13.00 ms, per: 26.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 12.00 ms, per: 22.22%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 26.00 ms, per: 48.15%
+time for find moving obj: 15.00 ms, per: 27.78%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 13.00 ms, per: 24.53%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 24.00 ms, per: 45.28%
+time for find moving obj: 15.00 ms, per: 28.30%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 54.72%
+time for find moving obj: 15.00 ms, per: 28.30%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 17.00 ms, per: 27.87%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 28.00 ms, per: 45.90%
+time for find moving obj: 15.00 ms, per: 24.59%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 20.00 ms, per: 29.85%
+time for wise mul: 1.00 ms, per: 1.49%
+time for ORB: 29.00 ms, per: 43.28%
+time for find moving obj: 17.00 ms, per: 25.37%
+total time for one frame: 67.00 ms
+
+time for diff and binary image: 14.00 ms, per: 25.45%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 16.00 ms, per: 29.09%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 13.00 ms, per: 24.07%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 26.00 ms, per: 48.15%
+time for find moving obj: 14.00 ms, per: 25.93%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.52%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 15.00 ms, per: 27.78%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 12.00 ms, per: 21.82%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 45.45%
+time for find moving obj: 18.00 ms, per: 32.73%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.81%
+time for wise mul: 2.00 ms, per: 3.70%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 16.00 ms, per: 29.63%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 15.00 ms, per: 26.79%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 25.00 ms, per: 44.64%
+time for find moving obj: 15.00 ms, per: 26.79%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.54%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 30.00 ms, per: 52.63%
+time for find moving obj: 16.00 ms, per: 28.07%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 26.00 ms, per: 47.27%
+time for find moving obj: 17.00 ms, per: 30.91%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.87%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.94%
+time for find moving obj: 16.00 ms, per: 30.19%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 14.00 ms, per: 23.73%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 27.00 ms, per: 45.76%
+time for find moving obj: 17.00 ms, per: 28.81%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.81%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 55.56%
+time for find moving obj: 16.00 ms, per: 29.63%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 20.00 ms, per: 31.25%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 43.75%
+time for find moving obj: 16.00 ms, per: 25.00%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 10.00 ms, per: 21.28%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 48.94%
+time for find moving obj: 14.00 ms, per: 29.79%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.54%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 18.00 ms, per: 31.58%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.86%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 32.14%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.34%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 17.00 ms, per: 28.81%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 30.77%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.37%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 25.00 ms, per: 46.30%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 49.02%
+time for find moving obj: 18.00 ms, per: 35.29%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 13.00 ms, per: 22.41%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 26.00 ms, per: 44.83%
+time for find moving obj: 18.00 ms, per: 31.03%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.07%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 31.00 ms, per: 55.36%
+time for find moving obj: 15.00 ms, per: 26.79%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.54%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 49.12%
+time for find moving obj: 19.00 ms, per: 33.33%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 27.00 ms, per: 44.26%
+time for find moving obj: 19.00 ms, per: 31.15%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.55%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 19.00 ms, per: 34.55%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.67%
+time for wise mul: 2.00 ms, per: 3.28%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 18.00 ms, per: 29.51%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 16.00 ms, per: 32.65%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 52.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.95%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 30.00 ms, per: 50.85%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.79%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 30.00 ms, per: 52.63%
+time for find moving obj: 17.00 ms, per: 29.82%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 13.00 ms, per: 25.00%
+time for wise mul: 3.00 ms, per: 5.77%
+time for ORB: 22.00 ms, per: 42.31%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 15.00 ms, per: 27.78%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 46.30%
+time for find moving obj: 14.00 ms, per: 25.93%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 31.00 ms, per: 56.36%
+time for find moving obj: 14.00 ms, per: 25.45%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 18.18%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 50.00%
+time for find moving obj: 14.00 ms, per: 31.82%
+total time for one frame: 44.00 ms
+
+time for diff and binary image: 17.00 ms, per: 26.56%
+time for wise mul: 3.00 ms, per: 4.69%
+time for ORB: 26.00 ms, per: 40.62%
+time for find moving obj: 18.00 ms, per: 28.12%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 52.00%
+time for find moving obj: 15.00 ms, per: 30.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 16.00 ms, per: 32.65%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 51.06%
+time for find moving obj: 15.00 ms, per: 31.91%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 16.00 ms, per: 32.65%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 12.00 ms, per: 22.22%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 26.00 ms, per: 48.15%
+time for find moving obj: 15.00 ms, per: 27.78%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 14.00 ms, per: 28.57%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.65%
+time for wise mul: 1.00 ms, per: 1.96%
+time for ORB: 25.00 ms, per: 49.02%
+time for find moving obj: 16.00 ms, per: 31.37%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 9.00 ms, per: 19.57%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 52.17%
+time for find moving obj: 13.00 ms, per: 28.26%
+total time for one frame: 46.00 ms
+
+time for diff and binary image: 13.00 ms, per: 24.53%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 26.00 ms, per: 49.06%
+time for find moving obj: 13.00 ms, per: 24.53%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 9.00 ms, per: 19.15%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 53.19%
+time for find moving obj: 13.00 ms, per: 27.66%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 8.00 ms, per: 18.60%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 51.16%
+time for find moving obj: 13.00 ms, per: 30.23%
+total time for one frame: 43.00 ms
+
+time for diff and binary image: 8.00 ms, per: 18.60%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 51.16%
+time for find moving obj: 13.00 ms, per: 30.23%
+total time for one frame: 43.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 16.00 ms, per: 29.09%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.67%
+time for wise mul: 1.00 ms, per: 2.08%
+time for ORB: 25.00 ms, per: 52.08%
+time for find moving obj: 14.00 ms, per: 29.17%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 11.00 ms, per: 23.40%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 48.94%
+time for find moving obj: 13.00 ms, per: 27.66%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 12.00 ms, per: 21.05%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 29.00 ms, per: 50.88%
+time for find moving obj: 15.00 ms, per: 26.32%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 13.00 ms, per: 22.41%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 44.83%
+time for find moving obj: 19.00 ms, per: 32.76%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 10.00 ms, per: 19.23%
+time for wise mul: 2.00 ms, per: 3.85%
+time for ORB: 24.00 ms, per: 46.15%
+time for find moving obj: 16.00 ms, per: 30.77%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 29.00 ms, per: 47.54%
+time for find moving obj: 17.00 ms, per: 27.87%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.97%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 46.55%
+time for find moving obj: 20.00 ms, per: 34.48%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 10.00 ms, per: 15.62%
+time for wise mul: 1.00 ms, per: 1.56%
+time for ORB: 33.00 ms, per: 51.56%
+time for find moving obj: 20.00 ms, per: 31.25%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.09%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 49.06%
+time for find moving obj: 19.00 ms, per: 35.85%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 33.33%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 34.62%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 52.00%
+time for find moving obj: 15.00 ms, per: 30.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 51.72%
+time for find moving obj: 16.00 ms, per: 27.59%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.65%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 16.00 ms, per: 31.37%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 54.55%
+time for find moving obj: 16.00 ms, per: 29.09%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.58%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 27.00 ms, per: 43.55%
+time for find moving obj: 20.00 ms, per: 32.26%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 13.00 ms, per: 20.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 32.00 ms, per: 50.00%
+time for find moving obj: 19.00 ms, per: 29.69%
+total time for one frame: 64.00 ms
+
+time for diff and binary image: 8.00 ms, per: 14.81%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 19.00 ms, per: 35.19%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 30.00 ms, per: 50.85%
+time for find moving obj: 17.00 ms, per: 28.81%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.05%
+time for wise mul: 1.00 ms, per: 1.59%
+time for ORB: 30.00 ms, per: 47.62%
+time for find moving obj: 20.00 ms, per: 31.75%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 11.00 ms, per: 16.92%
+time for wise mul: 1.00 ms, per: 1.54%
+time for ORB: 33.00 ms, per: 50.77%
+time for find moving obj: 20.00 ms, per: 30.77%
+total time for one frame: 65.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.34%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 27.00 ms, per: 45.76%
+time for find moving obj: 19.00 ms, per: 32.20%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 33.33%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 34.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.57%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 47.06%
+time for find moving obj: 16.00 ms, per: 31.37%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 48.94%
+time for find moving obj: 16.00 ms, per: 34.04%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 51.06%
+time for find moving obj: 15.00 ms, per: 31.91%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.58%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 28.00 ms, per: 45.16%
+time for find moving obj: 19.00 ms, per: 30.65%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.86%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 27.00 ms, per: 48.21%
+time for find moving obj: 18.00 ms, per: 32.14%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.58%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 29.00 ms, per: 46.77%
+time for find moving obj: 18.00 ms, per: 29.03%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 30.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 28.33%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 16.00 ms, per: 25.40%
+time for wise mul: 2.00 ms, per: 3.17%
+time for ORB: 28.00 ms, per: 44.44%
+time for find moving obj: 17.00 ms, per: 26.98%
+total time for one frame: 63.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 31.25%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.37%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 27.78%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.97%
+time for wise mul: 2.00 ms, per: 3.45%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 17.00 ms, per: 29.31%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 18.00 ms, per: 24.00%
+time for wise mul: 1.00 ms, per: 1.33%
+time for ORB: 34.00 ms, per: 45.33%
+time for find moving obj: 22.00 ms, per: 29.33%
+total time for one frame: 75.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 14.00 ms, per: 23.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 27.00 ms, per: 45.00%
+time for find moving obj: 18.00 ms, per: 30.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 10.00 ms, per: 12.05%
+time for wise mul: 1.00 ms, per: 1.20%
+time for ORB: 29.00 ms, per: 34.94%
+time for find moving obj: 43.00 ms, per: 51.81%
+total time for one frame: 83.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 53.06%
+time for find moving obj: 15.00 ms, per: 30.61%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 47.27%
+time for find moving obj: 20.00 ms, per: 36.36%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.39%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 32.61%
+total time for one frame: 46.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 2.00 ms, per: 3.39%
+time for ORB: 28.00 ms, per: 47.46%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 48.98%
+time for find moving obj: 16.00 ms, per: 32.65%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.30%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 30.00 ms, per: 52.63%
+time for find moving obj: 15.00 ms, per: 26.32%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 16.00 ms, per: 32.65%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.18%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 17.00 ms, per: 30.91%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.69%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 17.00 ms, per: 29.31%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.03%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 30.00 ms, per: 49.18%
+time for find moving obj: 19.00 ms, per: 31.15%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.18%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 16.00 ms, per: 29.09%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.52%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 48.28%
+time for find moving obj: 21.00 ms, per: 36.21%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 47.17%
+time for find moving obj: 19.00 ms, per: 35.85%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.64%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 18.00 ms, per: 30.51%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 1.00 ms, per: 1.96%
+time for ORB: 27.00 ms, per: 52.94%
+time for find moving obj: 15.00 ms, per: 29.41%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 12.00 ms, per: 23.53%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 47.06%
+time for find moving obj: 15.00 ms, per: 29.41%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 14.00 ms, per: 24.56%
+time for wise mul: 2.00 ms, per: 3.51%
+time for ORB: 26.00 ms, per: 45.61%
+time for find moving obj: 15.00 ms, per: 26.32%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.64%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 30.36%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 14.00 ms, per: 25.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 46.43%
+time for find moving obj: 16.00 ms, per: 28.57%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 13.00 ms, per: 25.00%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 24.00 ms, per: 46.15%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.24%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 30.00 ms, per: 51.72%
+time for find moving obj: 17.00 ms, per: 29.31%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.57%
+time for wise mul: 1.00 ms, per: 1.96%
+time for ORB: 25.00 ms, per: 49.02%
+time for find moving obj: 14.00 ms, per: 27.45%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 8.00 ms, per: 18.18%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 52.27%
+time for find moving obj: 13.00 ms, per: 29.55%
+total time for one frame: 44.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.57%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 14.00 ms, per: 27.45%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 10.00 ms, per: 20.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 52.00%
+time for find moving obj: 14.00 ms, per: 28.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 10.00 ms, per: 21.28%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 53.19%
+time for find moving obj: 12.00 ms, per: 25.53%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 11.00 ms, per: 23.40%
+time for wise mul: 1.00 ms, per: 2.13%
+time for ORB: 22.00 ms, per: 46.81%
+time for find moving obj: 13.00 ms, per: 27.66%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 15.00 ms, per: 30.61%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 15.00 ms, per: 27.27%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.78%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 53.33%
+time for find moving obj: 13.00 ms, per: 28.89%
+total time for one frame: 45.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 31.25%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 16.00 ms, per: 27.59%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 43.10%
+time for find moving obj: 17.00 ms, per: 29.31%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 52.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 14.00 ms, per: 25.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 44.64%
+time for find moving obj: 17.00 ms, per: 30.36%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 15.00 ms, per: 30.61%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 13.00 ms, per: 22.41%
+time for wise mul: 2.00 ms, per: 3.45%
+time for ORB: 29.00 ms, per: 50.00%
+time for find moving obj: 14.00 ms, per: 24.14%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 30.00 ms, per: 54.55%
+time for find moving obj: 13.00 ms, per: 23.64%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 54.00%
+time for find moving obj: 14.00 ms, per: 28.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.78%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 53.33%
+time for find moving obj: 13.00 ms, per: 28.89%
+total time for one frame: 45.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.65%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 16.00 ms, per: 31.37%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 8.00 ms, per: 18.18%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 52.27%
+time for find moving obj: 13.00 ms, per: 29.55%
+total time for one frame: 44.00 ms
+
+time for diff and binary image: 10.00 ms, per: 19.23%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 30.77%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.69%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 29.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 27.59%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 9.00 ms, per: 19.57%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 52.17%
+time for find moving obj: 13.00 ms, per: 28.26%
+total time for one frame: 46.00 ms
+
+time for diff and binary image: 9.00 ms, per: 15.00%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 35.00 ms, per: 58.33%
+time for find moving obj: 15.00 ms, per: 25.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 15.00 ms, per: 25.42%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 27.00 ms, per: 45.76%
+time for find moving obj: 16.00 ms, per: 27.12%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 28.00 ms, per: 53.85%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 55.77%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.18%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 16.00 ms, per: 29.09%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 13.00 ms, per: 24.53%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 49.06%
+time for find moving obj: 14.00 ms, per: 26.42%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.39%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 52.17%
+time for find moving obj: 14.00 ms, per: 30.43%
+total time for one frame: 46.00 ms
+
+time for diff and binary image: 10.00 ms, per: 17.24%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 30.00 ms, per: 51.72%
+time for find moving obj: 17.00 ms, per: 29.31%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 13.00 ms, per: 22.41%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 27.00 ms, per: 46.55%
+time for find moving obj: 17.00 ms, per: 29.31%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 13.00 ms, per: 23.64%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 13.00 ms, per: 23.64%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.75%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 26.00 ms, per: 49.06%
+time for find moving obj: 15.00 ms, per: 28.30%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.15%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 25.00 ms, per: 48.08%
+time for find moving obj: 15.00 ms, per: 28.85%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 14.00 ms, per: 29.17%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.39%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 32.61%
+total time for one frame: 46.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.37%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 28.00 ms, per: 51.85%
+time for find moving obj: 14.00 ms, per: 25.93%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 17.78%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 51.11%
+time for find moving obj: 14.00 ms, per: 31.11%
+total time for one frame: 45.00 ms
+
+time for diff and binary image: 13.00 ms, per: 21.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 46.67%
+time for find moving obj: 19.00 ms, per: 31.67%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 10.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 31.00 ms, per: 51.67%
+time for find moving obj: 19.00 ms, per: 31.67%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 11.00 ms, per: 18.33%
+time for wise mul: 1.00 ms, per: 1.67%
+time for ORB: 30.00 ms, per: 50.00%
+time for find moving obj: 18.00 ms, per: 30.00%
+total time for one frame: 60.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.38%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 51.92%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.65%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 49.02%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 50.94%
+time for find moving obj: 17.00 ms, per: 32.08%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 12.00 ms, per: 19.35%
+time for wise mul: 1.00 ms, per: 1.61%
+time for ORB: 32.00 ms, per: 51.61%
+time for find moving obj: 17.00 ms, per: 27.42%
+total time for one frame: 62.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.36%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 49.09%
+time for find moving obj: 19.00 ms, per: 34.55%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.69%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.98%
+time for find moving obj: 17.00 ms, per: 33.33%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.38%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.64%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 28.57%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 9.00 ms, per: 17.31%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 32.69%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 31.48%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 50.00%
+time for find moving obj: 17.00 ms, per: 34.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 12.00 ms, per: 20.34%
+time for wise mul: 1.00 ms, per: 1.69%
+time for ORB: 29.00 ms, per: 49.15%
+time for find moving obj: 17.00 ms, per: 28.81%
+total time for one frame: 59.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.87%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 27.00 ms, per: 50.94%
+time for find moving obj: 15.00 ms, per: 28.30%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 10.00 ms, per: 18.87%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 26.00 ms, per: 49.06%
+time for find moving obj: 16.00 ms, per: 30.19%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.15%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 26.00 ms, per: 50.00%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.30%
+time for wise mul: 1.00 ms, per: 1.75%
+time for ORB: 29.00 ms, per: 50.88%
+time for find moving obj: 16.00 ms, per: 28.07%
+total time for one frame: 57.00 ms
+
+time for diff and binary image: 8.00 ms, per: 16.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 33.33%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.98%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 16.00 ms, per: 30.19%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 10.00 ms, per: 19.23%
+time for wise mul: 1.00 ms, per: 1.92%
+time for ORB: 27.00 ms, per: 51.92%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 13.00 ms, per: 23.64%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 27.00 ms, per: 49.09%
+time for find moving obj: 14.00 ms, per: 25.45%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 12.00 ms, per: 23.08%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 51.92%
+time for find moving obj: 13.00 ms, per: 25.00%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.37%
+time for wise mul: 2.00 ms, per: 3.70%
+time for ORB: 26.00 ms, per: 48.15%
+time for find moving obj: 15.00 ms, per: 27.78%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 52.08%
+time for find moving obj: 14.00 ms, per: 29.17%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 15.00 ms, per: 30.61%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 14.00 ms, per: 22.95%
+time for wise mul: 1.00 ms, per: 1.64%
+time for ORB: 31.00 ms, per: 50.82%
+time for find moving obj: 15.00 ms, per: 24.59%
+total time for one frame: 61.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.57%
+time for wise mul: 1.00 ms, per: 1.96%
+time for ORB: 25.00 ms, per: 49.02%
+time for find moving obj: 14.00 ms, per: 27.45%
+total time for one frame: 51.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.37%
+time for wise mul: 1.00 ms, per: 1.85%
+time for ORB: 27.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 27.78%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 13.00 ms, per: 22.41%
+time for wise mul: 1.00 ms, per: 1.72%
+time for ORB: 29.00 ms, per: 50.00%
+time for find moving obj: 15.00 ms, per: 25.86%
+total time for one frame: 58.00 ms
+
+time for diff and binary image: 11.00 ms, per: 19.64%
+time for wise mul: 1.00 ms, per: 1.79%
+time for ORB: 28.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 28.57%
+total time for one frame: 56.00 ms
+
+time for diff and binary image: 9.00 ms, per: 19.15%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 53.19%
+time for find moving obj: 13.00 ms, per: 27.66%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 52.08%
+time for find moving obj: 14.00 ms, per: 29.17%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.00%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 50.00%
+time for find moving obj: 16.00 ms, per: 32.00%
+total time for one frame: 50.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 52.83%
+time for find moving obj: 14.00 ms, per: 26.42%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 21.15%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 27.00 ms, per: 51.92%
+time for find moving obj: 14.00 ms, per: 26.92%
+total time for one frame: 52.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 15.00 ms, per: 30.61%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 10.00 ms, per: 20.83%
+time for wise mul: 1.00 ms, per: 2.08%
+time for ORB: 25.00 ms, per: 52.08%
+time for find moving obj: 12.00 ms, per: 25.00%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.75%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 54.17%
+time for find moving obj: 13.00 ms, per: 27.08%
+total time for one frame: 48.00 ms
+
+time for diff and binary image: 9.00 ms, per: 16.67%
+time for wise mul: 2.00 ms, per: 3.70%
+time for ORB: 29.00 ms, per: 53.70%
+time for find moving obj: 14.00 ms, per: 25.93%
+total time for one frame: 54.00 ms
+
+time for diff and binary image: 13.00 ms, per: 24.53%
+time for wise mul: 1.00 ms, per: 1.89%
+time for ORB: 25.00 ms, per: 47.17%
+time for find moving obj: 14.00 ms, per: 26.42%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 11.00 ms, per: 20.00%
+time for wise mul: 1.00 ms, per: 1.82%
+time for ORB: 28.00 ms, per: 50.91%
+time for find moving obj: 15.00 ms, per: 27.27%
+total time for one frame: 55.00 ms
+
+time for diff and binary image: 8.00 ms, per: 15.09%
+time for wise mul: 2.00 ms, per: 3.77%
+time for ORB: 29.00 ms, per: 54.72%
+time for find moving obj: 14.00 ms, per: 26.42%
+total time for one frame: 53.00 ms
+
+time for diff and binary image: 9.00 ms, per: 20.45%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 50.00%
+time for find moving obj: 13.00 ms, per: 29.55%
+total time for one frame: 44.00 ms
+
+time for diff and binary image: 8.00 ms, per: 19.05%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 52.38%
+time for find moving obj: 12.00 ms, per: 28.57%
+total time for one frame: 42.00 ms
+
+time for diff and binary image: 33.00 ms, per: 45.21%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 39.73%
+time for find moving obj: 11.00 ms, per: 15.07%
+total time for one frame: 73.00 ms
+
+time for diff and binary image: 8.00 ms, per: 18.60%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 55.81%
+time for find moving obj: 11.00 ms, per: 25.58%
+total time for one frame: 43.00 ms
+
+time for diff and binary image: 9.00 ms, per: 20.93%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 51.16%
+time for find moving obj: 12.00 ms, per: 27.91%
+total time for one frame: 43.00 ms
+
+time for diff and binary image: 8.00 ms, per: 19.51%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 21.00 ms, per: 51.22%
+time for find moving obj: 12.00 ms, per: 29.27%
+total time for one frame: 41.00 ms
+
+time for diff and binary image: 11.00 ms, per: 23.40%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 51.06%
+time for find moving obj: 12.00 ms, per: 25.53%
+total time for one frame: 47.00 ms
+
+time for diff and binary image: 8.00 ms, per: 19.05%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 22.00 ms, per: 52.38%
+time for find moving obj: 12.00 ms, per: 28.57%
+total time for one frame: 42.00 ms
+
+time for diff and binary image: 9.00 ms, per: 18.37%
+time for wise mul: 1.00 ms, per: 2.04%
+time for ORB: 25.00 ms, per: 51.02%
+time for find moving obj: 14.00 ms, per: 28.57%
+total time for one frame: 49.00 ms
+
+time for diff and binary image: 10.00 ms, per: 21.28%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 23.00 ms, per: 48.94%
+time for find moving obj: 14.00 ms, per: 29.79%
+total time for one frame: 47.00 ms
+

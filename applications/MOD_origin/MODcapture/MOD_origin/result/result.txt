@@ -1,0 +1,258 @@
+Started Initialization
+Started
+The number of blobs detected are 1062
+  -> time for diff & grident calc func: 96.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 91.00 ms
+total time for one frame: 685.00 ms
+time for diff and binary image: 10.00 ms, per: 1.46%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 4.09%
+time for find moving obj: 254.00 ms, per: 37.08%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 393.00 ms, per: 57.37%
+  -> time for findstaticobst func: 215.00 ms, per: 31.39%
+  -> time for calcOpticalFlowPyrLK func: 41.00 ms, per: 5.99%
+  -> time for showorb func: 126.00 ms, per: 18.39%
+
+The number of blobs detected are 1043
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 24.00 ms
+  -> time for extractstaticwindowsrefined func: 47.00 ms
+total time for one frame: 390.00 ms
+time for diff and binary image: 13.00 ms, per: 3.33%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 28.00 ms, per: 7.18%
+time for find moving obj: 23.00 ms, per: 5.90%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 326.00 ms, per: 83.59%
+  -> time for findstaticobst func: 167.00 ms, per: 42.82%
+  -> time for calcOpticalFlowPyrLK func: 37.00 ms, per: 9.49%
+  -> time for showorb func: 119.00 ms, per: 30.51%
+
+The number of blobs detected are 1055
+  -> time for diff & grident calc func: 93.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 42.00 ms
+total time for one frame: 391.00 ms
+time for diff and binary image: 17.00 ms, per: 4.35%
+time for wise mul: 1.00 ms, per: 0.26%
+time for ORB: 28.00 ms, per: 7.16%
+time for find moving obj: 23.00 ms, per: 5.88%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 322.00 ms, per: 82.35%
+  -> time for findstaticobst func: 162.00 ms, per: 41.43%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 9.21%
+  -> time for showorb func: 121.00 ms, per: 30.95%
+
+The number of blobs detected are 1031
+  -> time for diff & grident calc func: 93.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 129.00 ms
+total time for one frame: 471.00 ms
+time for diff and binary image: 22.00 ms, per: 4.67%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 5.31%
+time for find moving obj: 20.00 ms, per: 4.25%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 404.00 ms, per: 85.77%
+  -> time for findstaticobst func: 250.00 ms, per: 53.08%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 7.64%
+  -> time for showorb func: 117.00 ms, per: 24.84%
+
+The number of blobs detected are 1062
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 145.00 ms
+total time for one frame: 496.00 ms
+time for diff and binary image: 15.00 ms, per: 3.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 29.00 ms, per: 5.85%
+time for find moving obj: 26.00 ms, per: 5.24%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 426.00 ms, per: 85.89%
+  -> time for findstaticobst func: 265.00 ms, per: 53.43%
+  -> time for calcOpticalFlowPyrLK func: 39.00 ms, per: 7.86%
+  -> time for showorb func: 119.00 ms, per: 23.99%
+
+The number of blobs detected are 1033
+  -> time for diff & grident calc func: 86.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 250.00 ms
+total time for one frame: 605.00 ms
+time for diff and binary image: 17.00 ms, per: 2.81%
+time for wise mul: 1.00 ms, per: 0.17%
+time for ORB: 26.00 ms, per: 4.30%
+time for find moving obj: 22.00 ms, per: 3.64%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 539.00 ms, per: 89.09%
+  -> time for findstaticobst func: 363.00 ms, per: 60.00%
+  -> time for calcOpticalFlowPyrLK func: 42.00 ms, per: 6.94%
+  -> time for showorb func: 133.00 ms, per: 21.98%
+
+The number of blobs detected are 1062
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 90.00 ms
+total time for one frame: 434.00 ms
+time for diff and binary image: 13.00 ms, per: 3.00%
+time for wise mul: 1.00 ms, per: 0.23%
+time for ORB: 29.00 ms, per: 6.68%
+time for find moving obj: 24.00 ms, per: 5.53%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 367.00 ms, per: 84.56%
+  -> time for findstaticobst func: 211.00 ms, per: 48.62%
+  -> time for calcOpticalFlowPyrLK func: 38.00 ms, per: 8.76%
+  -> time for showorb func: 116.00 ms, per: 26.73%
+
+The number of blobs detected are 1048
+  -> time for diff & grident calc func: 91.00 ms
+  -> time for FindBlobs func: 29.00 ms
+  -> time for extractstaticwindowsrefined func: 21.00 ms
+total time for one frame: 368.00 ms
+time for diff and binary image: 14.00 ms, per: 3.80%
+time for wise mul: 1.00 ms, per: 0.27%
+time for ORB: 31.00 ms, per: 8.42%
+time for find moving obj: 23.00 ms, per: 6.25%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 299.00 ms, per: 81.25%
+  -> time for findstaticobst func: 146.00 ms, per: 39.67%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 9.78%
+  -> time for showorb func: 115.00 ms, per: 31.25%
+
+The number of blobs detected are 1064
+  -> time for diff & grident calc func: 86.00 ms
+  -> time for FindBlobs func: 23.00 ms
+  -> time for extractstaticwindowsrefined func: 21.00 ms
+total time for one frame: 349.00 ms
+time for diff and binary image: 15.00 ms, per: 4.30%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 24.00 ms, per: 6.88%
+time for find moving obj: 19.00 ms, per: 5.44%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 291.00 ms, per: 83.38%
+  -> time for findstaticobst func: 135.00 ms, per: 38.68%
+  -> time for calcOpticalFlowPyrLK func: 40.00 ms, per: 11.46%
+  -> time for showorb func: 114.00 ms, per: 32.66%
+
+The number of blobs detected are 1022
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 22.00 ms
+  -> time for extractstaticwindowsrefined func: 40.00 ms
+total time for one frame: 384.00 ms
+time for diff and binary image: 17.00 ms, per: 4.43%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 30.00 ms, per: 7.81%
+time for find moving obj: 24.00 ms, per: 6.25%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 313.00 ms, per: 81.51%
+  -> time for findstaticobst func: 159.00 ms, per: 41.41%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 9.38%
+  -> time for showorb func: 116.00 ms, per: 30.21%
+
+The number of blobs detected are 1004
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 21.00 ms
+  -> time for extractstaticwindowsrefined func: 42.00 ms
+total time for one frame: 365.00 ms
+time for diff and binary image: 13.00 ms, per: 3.56%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 6.85%
+time for find moving obj: 19.00 ms, per: 5.21%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 308.00 ms, per: 84.38%
+  -> time for findstaticobst func: 159.00 ms, per: 43.56%
+  -> time for calcOpticalFlowPyrLK func: 37.00 ms, per: 10.14%
+  -> time for showorb func: 110.00 ms, per: 30.14%
+
+The number of blobs detected are 1012
+  -> time for diff & grident calc func: 93.00 ms
+  -> time for FindBlobs func: 21.00 ms
+  -> time for extractstaticwindowsrefined func: 16.00 ms
+total time for one frame: 341.00 ms
+time for diff and binary image: 17.00 ms, per: 4.99%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 25.00 ms, per: 7.33%
+time for find moving obj: 18.00 ms, per: 5.28%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 281.00 ms, per: 82.40%
+  -> time for findstaticobst func: 134.00 ms, per: 39.30%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 10.56%
+  -> time for showorb func: 110.00 ms, per: 32.26%
+
+The number of blobs detected are 984
+  -> time for diff & grident calc func: 93.00 ms
+  -> time for FindBlobs func: 20.00 ms
+  -> time for extractstaticwindowsrefined func: 41.00 ms
+total time for one frame: 364.00 ms
+time for diff and binary image: 11.00 ms, per: 3.02%
+time for wise mul: 0.00 ms, per: 0.00%
+time for ORB: 26.00 ms, per: 7.14%
+time for find moving obj: 20.00 ms, per: 5.49%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 307.00 ms, per: 84.34%
+  -> time for findstaticobst func: 159.00 ms, per: 43.68%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 9.89%
+  -> time for showorb func: 110.00 ms, per: 30.22%
+
+The number of blobs detected are 949
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 20.00 ms
+  -> time for extractstaticwindowsrefined func: 31.00 ms
+total time for one frame: 364.00 ms
+time for diff and binary image: 16.00 ms, per: 4.40%
+time for wise mul: 3.00 ms, per: 0.82%
+time for ORB: 28.00 ms, per: 7.69%
+time for find moving obj: 21.00 ms, per: 5.77%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 296.00 ms, per: 81.32%
+  -> time for findstaticobst func: 148.00 ms, per: 40.66%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 9.89%
+  -> time for showorb func: 110.00 ms, per: 30.22%
+
+The number of blobs detected are 962
+  -> time for diff & grident calc func: 94.00 ms
+  -> time for FindBlobs func: 22.00 ms
+  -> time for extractstaticwindowsrefined func: 7.00 ms
+total time for one frame: 341.00 ms
+time for diff and binary image: 16.00 ms, per: 4.69%
+time for wise mul: 3.00 ms, per: 0.88%
+time for ORB: 25.00 ms, per: 7.33%
+time for find moving obj: 23.00 ms, per: 6.74%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 274.00 ms, per: 80.35%
+  -> time for findstaticobst func: 127.00 ms, per: 37.24%
+  -> time for calcOpticalFlowPyrLK func: 36.00 ms, per: 10.56%
+  -> time for showorb func: 110.00 ms, per: 32.26%
+
+The number of blobs detected are 963
+  -> time for diff & grident calc func: 92.00 ms
+  -> time for FindBlobs func: 20.00 ms
+  -> time for extractstaticwindowsrefined func: 0.00 ms
+total time for one frame: 336.00 ms
+time for diff and binary image: 17.00 ms, per: 5.06%
+time for wise mul: 1.00 ms, per: 0.30%
+time for ORB: 30.00 ms, per: 8.93%
+time for find moving obj: 25.00 ms, per: 7.44%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 263.00 ms, per: 78.27%
+  -> time for findstaticobst func: 116.00 ms, per: 34.52%
+  -> time for calcOpticalFlowPyrLK func: 37.00 ms, per: 11.01%
+  -> time for showorb func: 109.00 ms, per: 32.44%
+
+The number of blobs detected are 949
+  -> time for diff & grident calc func: 85.00 ms
+  -> time for FindBlobs func: 20.00 ms
+  -> time for extractstaticwindowsrefined func: 64.00 ms
+total time for one frame: 407.00 ms
+time for diff and binary image: 19.00 ms, per: 4.67%
+time for wise mul: 1.00 ms, per: 0.25%
+time for ORB: 30.00 ms, per: 7.37%
+time for find moving obj: 29.00 ms, per: 7.13%
+  -> time for findobst func: 0.00 ms, per: 0.00%
+time for find static obj: 328.00 ms, per: 80.59%
+  -> time for findstaticobst func: 174.00 ms, per: 42.75%
+  -> time for calcOpticalFlowPyrLK func: 38.00 ms, per: 9.34%
+  -> time for showorb func: 114.00 ms, per: 28.01%
+
+The number of blobs detected are 955
