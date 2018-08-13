@@ -1,0 +1,136 @@
+devel exists
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/devel
+[ 14%] Building CXX object CMakeFiles/MotionObjectDetector.dir/main.cpp.o
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:49:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:147:17: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+         typedef DevMem2D_<unsigned char> DevMem2Db;
+                 ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:149:17: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+         typedef DevMem2D_<float> DevMem2Df;
+                 ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:150:17: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+         typedef DevMem2D_<int> DevMem2Di;
+                 ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:154:32: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+             PtrElemStep_(const DevMem2D_<T>& mem) : PtrStep<T>(mem.data, mem.step)
+                                ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:170:28: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+             PtrStep_(const DevMem2D_<T>& mem) : PtrStep<T>(mem.data, mem.step) {}
+                            ^
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52:0,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:280:65: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+         __CV_GPU_DEPR_BEFORE__ template <typename _Tp> operator DevMem2D_<_Tp>() const __CV_GPU_DEPR_AFTER__;
+                                                                 ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:49:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52:0,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:526:48: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+     template <class T> inline GpuMat::operator DevMem2D_<T>() const
+                                                ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:49:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52:0,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp: In member function ‘cv::gpu::GpuMat::operator cv::gpu::DevMem2D_<T>() const’:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:528:16: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+         return DevMem2D_<T>(rows, cols, (T*)data, step);
+                ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:49:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52:0,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp: In member function ‘cv::gpu::GpuMat::operator cv::gpu::PtrStep_<_Tp>() const’:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:533:41: warning: ‘template<class T> struct cv::gpu::DevMem2D_’ is deprecated [-Wdeprecated-declarations]
+         return PtrStep_<T>(static_cast< DevMem2D_<T> >(*this));
+                                         ^
+In file included from /home/nvidia/opencv-2.4.12/include/opencv2/core/gpumat.hpp:49:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:52,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/home/nvidia/opencv-2.4.12/include/opencv2/core/cuda_devptrs.hpp:138:61: note: declared here
+         template <typename T> struct __CV_GPU_DEPR_BEFORE__ DevMem2D_ : public PtrStepSz<T>
+                                                             ^
+In file included from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:0:
+/home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp: At global scope:
+/home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:2116:10: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<Impl> impl_;
+          ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:48,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^
+In file included from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:0:
+/home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:2432:10: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<Impl> impl_;
+          ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:48,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^
+In file included from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:0:
+/home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:2531:10: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<Impl> impl_;
+          ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from /home/nvidia/opencv-2.4.12/include/opencv2/gpu/gpu.hpp:48,
+                 from /home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:2:
+/usr/include/c++/5/bits/unique_ptr.h:49:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp: In function ‘int main(int, char**)’:
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:134:25: error: invalid conversion from ‘void*’ to ‘unsigned char*’ [-fpermissive]
+     inputBuffer = malloc(4746240);
+                         ^
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:101:15: warning: unused variable ‘MAX_COUNT’ [-Wunused-variable]
+     const int MAX_COUNT = 100;
+               ^
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp: At global scope:
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:99:15: warning: unused parameter ‘argc’ [-Wunused-parameter]
+ int main( int argc, char** argv )
+               ^
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/main.cpp:99:28: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main( int argc, char** argv )
+                            ^
+CMakeFiles/MotionObjectDetector.dir/build.make:62: recipe for target 'CMakeFiles/MotionObjectDetector.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/MotionObjectDetector.dir/main.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/MotionObjectDetector.dir/all' failed
+make[1]: *** [CMakeFiles/MotionObjectDetector.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
+build finished successfully!

@@ -1,0 +1,3 @@
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/quad_image/build/CMakeFiles/edit_cache.dir
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/quad_image/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/drive-t186ref-linux/samples/nvmedia/MODcapture/MOD/quad_image/build/CMakeFiles/quad_image.dir
