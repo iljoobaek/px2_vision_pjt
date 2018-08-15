@@ -1,0 +1,25 @@
+#!/usr/bin/python
+Import( 'baseEnv' )
+import os.path;
+
+sampleTask = baseEnv.Program(
+    target = 'sampleTask',
+    source = [
+    'sampleTask.cc'
+    ],
+    LIBS = [
+    'task',
+    'config',
+    'log',
+    'ruby1.8',
+    'opencv_core',
+    'opencv_highgui',
+    'opencv_imgproc',
+    'opencv_gpu',
+    'opencv_features2d',
+    'opencv_video',
+    'opencv_videostab'
+    #,'egl_nvmimg_consumer.so'
+    ]
+);
+baseEnv.InstallBinary(sampleTask)
